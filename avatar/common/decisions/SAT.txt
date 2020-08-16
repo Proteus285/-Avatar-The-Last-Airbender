@@ -1,0 +1,28 @@
+avatar_reveal = {
+
+	reveal_avatar_aang = {
+
+		allowed = {
+			AND = {
+				TAG = SAT
+				has_global_flag = avatar_aang
+			}
+		}
+
+		available = {
+
+        }
+
+		complete_effect = {
+			every_country = {
+				news_event = news.7
+			}
+		}
+
+		cost = 10
+        fire_only_once = yes
+        ai_will_do = {
+			factor = 100
+		}
+	}
+}

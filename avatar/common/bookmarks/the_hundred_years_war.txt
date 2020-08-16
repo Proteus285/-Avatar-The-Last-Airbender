@@ -1,0 +1,148 @@
+bookmarks = {
+	bookmark = {
+		name = "THE_HUNDRED_YEARS_WAR_NAME"
+		desc = "THE_HUNDRED_YEARS_WAR_DESC"
+		date = 12.4.23.12
+
+	### wiki info to better understand:0 AG began in winter, but with spring coming soon. This satisfies both the solar calendar and the Chinese Lunar Calendar. Sozin's Comet arrived at the end of the eighth month (solar or Chinese) of that year, in order to satisfy the "end of summer" term used by Roku. 
+
+		picture = "GFX_select_date_zosin"
+		default_country = "FIR"
+		default = yes
+		
+		"NWT"={
+			history = "NWT_THE_HUNDRED_YEARS_WAR_DESC"
+			ideology = tribalism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"WAT"={
+			history = "WAT_THE_HUNDRED_YEARS_WAR_DESC"
+			ideology = pacifism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"SAT"={
+			history = "SAT_THE_HUNDRED_YEARS_WAR_DESC"
+			ideology = pacifism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"FIR"={
+			history = "FIR_THE_HUNDRED_YEARS_WAR_DESC"
+			ideology = imperialism
+			ideas={
+				national_prosperity_1
+			}
+			focuses = {
+				FIR_routeofwar
+				FIR_airnomadsgenocide
+				FIR_fireempire
+			}
+			
+		}
+		"EAR"={
+			history = "EAR_THE_HUNDRED_YEARS_WAR_DESC"
+			ideology = monarchism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"NAT"={
+			history = "NAT_THE_HUNDRED_YEARS_WAR_DESC"
+			ideology = pacifism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"EAT"={
+			history = "EAT_THE_HUNDRED_YEARS_WAR_DESC"
+			ideology = pacifism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"SWT"={
+			history = "SWT_THE_HUNDRED_YEARS_WAR_DESC"
+			ideology = tribalism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+
+		"KYI"={
+			minor = yes
+			history = "KYI_THE_HUNDRED_YEARS_WAR_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"POH"={
+			minor = yes
+			history = "EAT_THE_HUNDRED_YEARS_WAR_DESC"
+			ideology = monarchism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"TAK"={
+			minor = yes
+			history = "EAT_THE_HUNDRED_YEARS_WAR_DESC"
+			ideology = monarchism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"OMS"={
+			minor = yes
+			history = "EAT_THE_HUNDRED_YEARS_WAR_DESC"
+			ideology = monarchism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
