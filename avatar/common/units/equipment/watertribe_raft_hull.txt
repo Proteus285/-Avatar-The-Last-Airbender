@@ -7,7 +7,7 @@ equipments = {
 		is_buildable = no
 		type = screen_ship
 		interface_category = interface_category_screen_ships
-		alias = light_cruiser
+		alias = destroyer
 		priority = 1900
 
 		module_slots = {
@@ -247,6 +247,7 @@ equipments = {
 		}
 
 		default_modules = {
+			fixed_ship_artillery_slot = empty
 			fixed_ship_support_slot = empty
 			fixed_ship_crow's_nest_slot = empty
 			fixed_ship_sail_slot = sails_1
@@ -306,16 +307,15 @@ equipments = {
 		}
 	}
 
-	barque_1 = {
+	watertribe_raft_1 = {
 		year = 1922
 		visual_level = 0
-		archetype = barque_hull
+		archetype = watertribe_raft_hull
 		priority = 1900
 		module_slots = inherit
 
 		type = { 
 			screen_ship
-			anti_air
 		}
 		upgrades = {
 			ship_reliability_upgrade
@@ -324,16 +324,16 @@ equipments = {
 			ship_anti_air_upgrade
 		}
 		module_slots = inherit
+		
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			mid_1_custom_slot = ship_torpedo_1
-			mid_2_custom_slot = ship_anti_air_1
-			rear_1_custom_slot = ship_light_medium_battery_1
+			fixed_ship_support_slot = maintenance_crew
+			fixed_ship_crew_slot = ship_waterbender_crew
+			fixed_ship_sail_slot = sail_1
+			fixed_ship_armor_slot = light_armor_plates_1
+			fixed_ship_crow's_nest_slot = crows_nest_1
+			mid_1_custom_slot = ship_archer_5
 		}
+		
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 2
@@ -350,27 +350,28 @@ equipments = {
 		naval_speed = 20
 		reliability = 0.8
 		resources = {
-			#oil = 1
-			steel = 2
+			chromium = 2
+			aluminium = 2
+			tungsten = 1
+			oil = 1
 		}
 	}
 
-	barque_2 = {
+	watertribe_raft_2 = {
 		year = 1936
 		visual_level = 1
-		archetype = barque_hull
+		archetype = watertribe_raft_hull
 		priority = 1900
-		parent = barque_1
+		parent = watertribe_raft_1
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_3
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_2
-			mid_1_custom_slot = ship_torpedo_2
-			mid_2_custom_slot = ship_anti_air_3
-			rear_1_custom_slot = ship_light_medium_battery_2
+			fixed_ship_support_slot = maintenance_crew_2
+			fixed_ship_crew_slot = ship_waterbender_crew
+			fixed_ship_sail_slot = sail_2
+			fixed_ship_armor_slot = light_armor_plates_2
+			fixed_ship_crow's_nest_slot = crows_nest_2
+			front_1_custom_slot = ship_archer_2
+			rear_1_custom_slot = supplies_2
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -395,33 +396,32 @@ equipments = {
 		
 		type = { 
 			screen_ship
-			anti_air
 		}
 		build_cost_ic = 1650
 		resources = {
-			#oil = 1
-			steel = 3
+			chromium = 2
+			aluminium = 3
+			tungsten = 1
+			oil = 1
 		}
 		manpower = 800
 	}
-	barque_3 = {
+	watertribe_raft_3 = {
 		year = 1940
 		visual_level = 1
-		archetype = barque_hull
+		archetype = watertribe_raft_hull
 		priority = 1900
-		parent = barque_2
-		module_slots = inherit
-		
+		parent = watertribe_raft_2
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_3
-			fixed_ship_anti_air_slot = ship_anti_air_3
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_3
-			mid_1_custom_slot = ship_torpedo_3
-			mid_2_custom_slot = ship_anti_air_3
-			rear_1_custom_slot = ship_light_medium_battery_3
+			fixed_ship_support_slot = maintenance_crew_3
+			fixed_ship_crew_slot = ship_waterbender_crew
+			fixed_ship_sail_slot = sail_3
+			fixed_ship_armor_slot = light_armor_plates_3
+			fixed_ship_crow's_nest_slot = crows_nest_3
+			front_1_custom_slot = ship_boarding_3
+			mid_1_custom_slot = ship_archer_3
+			rear_1_custom_slot = supplies_3
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -446,34 +446,34 @@ equipments = {
 		
 		type = { 
 			screen_ship
-			anti_air
 		}
 		build_cost_ic = 1700
 		resources = {
-			#oil = 2
-			steel = 3
+			chromium = 2
+			aluminium = 3
+			tungsten = 2
+			oil = 1
 		}
 		manpower = 960
 	}
 	
-	barque_4 = {
+	watertribe_raft_4 = {
 		year = 1944
 		visual_level = 1
-		archetype = barque_hull
+		archetype = watertribe_raft_hull
 		priority = 1900
-		parent = barque_3
-		module_slots = inherit
-		
+		parent = watertribe_raft_3
 		module_slots = inherit
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_4
-			fixed_ship_anti_air_slot = ship_anti_air_4
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_3
-			mid_1_custom_slot = ship_torpedo_4
-			mid_2_custom_slot = ship_anti_air_4
-			rear_1_custom_slot = ship_light_medium_battery_4
+			fixed_ship_artillery_slot = ship_ballista_4
+			fixed_ship_support_slot = maintenance_crew_4
+			fixed_ship_crew_slot = ship_waterbender_crew
+			fixed_ship_sail_slot = sail_4
+			fixed_ship_armor_slot = light_armor_plates_4
+			fixed_ship_crow's_nest_slot = crows_nest_4
+			front_1_custom_slot = ship_boarding_4
+			mid_1_custom_slot = ship_archer_4
+			rear_1_custom_slot = supplies_4
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -498,13 +498,73 @@ equipments = {
 		
 		type = { 
 			screen_ship
-			anti_air
 		}
 		build_cost_ic = 2000
 		resources = {
-			#oil = 2
-			steel = 4
 			chromium = 1
+			aluminium = 3
+			tungsten = 2
+			iron = 1
+			stone = 1
+			oil = 1
+		}
+		manpower = 1140
+	}
+
+	
+	watertribe_raft_5 = {
+		year = 1944
+		visual_level = 1
+		archetype = watertribe_raft_hull
+		priority = 1900
+		parent = watertribe_raft_4
+		module_slots = inherit
+		
+		default_modules = {
+			fixed_ship_artillery_slot = ship_ballista_4
+			fixed_ship_support_slot = maintenance_crew_4
+			fixed_ship_crew_slot = ship_waterbender_crew
+			fixed_ship_sail_slot = sail_4
+			fixed_ship_engine_slot = steam_engine_4
+			fixed_ship_armor_slot = light_armor_plates_4
+			fixed_ship_crow's_nest_slot = crows_nest_4
+			front_1_custom_slot = ship_boarding_4
+			mid_1_custom_slot = ship_archer_4
+			rear_1_custom_slot = supplies_4
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 2
+		sub_attack = 8
+		
+		anti_air_attack = 0
+		
+		armor_value = 8
+
+		
+		surface_detection = 40
+		sub_detection = 10
+		naval_speed = 30
+		reliability = 0.92
+
+		naval_range = 4500
+		
+		max_strength = 160
+		
+
+		
+		type = { 
+			screen_ship
+		}
+		build_cost_ic = 2000
+		resources = {
+			chromium = 1
+			aluminium = 3
+			tungsten = 2
+			oil = 1
+			stone = 1
+			rubber = 1
+			steel = 2
 		}
 		manpower = 1140
 	}

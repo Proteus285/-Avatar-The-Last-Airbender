@@ -840,7 +840,7 @@ equipment_modules = {
 			convert_cost_ic = 30
 		}
 		build_cost_resources = {
-			iron = 1
+			steel = 1
 		}
 	}
 	bridge_3 = {
@@ -861,7 +861,7 @@ equipment_modules = {
 			convert_cost_ic = 60
 		}
 		build_cost_resources = {
-			iron = 1
+			steel = 2
 		}
 	}
 	bridge_4 = {
@@ -882,7 +882,7 @@ equipment_modules = {
 			convert_cost_ic = 90
 		}
 		build_cost_resources = {
-			iron = 1
+			steel = 2
 		}
 	}
 
@@ -964,7 +964,7 @@ equipment_modules = {
 			convert_cost_ic = 45
 		}
 		build_cost_resources = {
-			oil = 2
+			oil = 3
 		}
 	}
 	storage_room_4 = {
@@ -990,7 +990,7 @@ equipment_modules = {
 			convert_cost_ic = 45
 		}
 		build_cost_resources = {
-			oil = 2
+			oil = 3
 		}
 	}
 
@@ -1064,7 +1064,7 @@ equipment_modules = {
 			convert_cost_ic = 45
 		}
 		build_cost_resources = {
-			oil = 1
+			oil = 2
 		}
 	}
 	supplies_4 = {
@@ -1090,7 +1090,7 @@ equipment_modules = {
 			convert_cost_ic = 45
 		}
 		build_cost_resources = {
-			oil = 1
+			oil = 2
 		}
 	}
 
@@ -1501,7 +1501,7 @@ equipment_modules = {
 			hg_armor_piercing = 36
 		}
 		build_cost_resources = {
-			stone = 2
+			stone = 1
 			rubber = 1
 		}
 		can_convert_from = {
@@ -1531,7 +1531,7 @@ equipment_modules = {
 			hg_armor_piercing = 36
 		}
 		build_cost_resources = {
-			stone = 2
+			stone = 1
 			rubber = 1
 		}
 		can_convert_from = {
@@ -1561,7 +1561,7 @@ equipment_modules = {
 			hg_armor_piercing = 36
 		}
 		build_cost_resources = {
-			stone = 2
+			stone = 1
 			rubber = 1
 		}
 		can_convert_from = {
@@ -1591,7 +1591,7 @@ equipment_modules = {
 			hg_armor_piercing = 36
 		}
 		build_cost_resources = {
-			stone = 3
+			stone = 1
 			rubber = 1
 		}
 		can_convert_from = {
@@ -1621,7 +1621,7 @@ equipment_modules = {
 			hg_armor_piercing = 36
 		}
 		build_cost_resources = {
-			stone = 3
+			stone = 1
 			rubber = 1
 		}
 		can_convert_from = {
