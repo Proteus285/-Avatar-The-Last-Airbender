@@ -452,7 +452,7 @@ equipments = {
 			chromium = 2
 			aluminium = 3
 			tungsten = 2
-			oil = 1
+			oil = 2
 		}
 		manpower = 960
 	}
@@ -506,7 +506,7 @@ equipments = {
 			tungsten = 2
 			iron = 1
 			stone = 1
-			oil = 1
+			oil = 2
 		}
 		manpower = 1140
 	}
@@ -561,9 +561,9 @@ equipments = {
 			chromium = 1
 			aluminium = 3
 			tungsten = 2
-			oil = 1
+			oil = 2
 			stone = 1
-			rubber = 1
+			rubber = 2
 			steel = 2
 		}
 		manpower = 1140

@@ -527,7 +527,7 @@ equipments = {
 			chromium = 2
 			aluminium = 4
 			iron = 1
-			oil = 1
+			oil = 2
 		}
 		type = { 
 			screen_ship
@@ -580,7 +580,7 @@ equipments = {
 			aluminium = 4
 			steel = 2
 			stone = 1
-			oil = 1
+			oil = 2
 		}
 		type = { 
 			screen_ship

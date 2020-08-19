@@ -1,62 +1,75 @@
 equipments = {
 
-	firenation_frigate_hull = {
+	watertribe_warship_hull = {
 
 		is_archetype = yes
 		is_buildable = no
 		type = capital_ship
-		interface_category = interface_category_capital_ships
-		alias = light_cruiser
+		interface_category = interface_category_screen_ships
+		alias = heavy_cruiser
 		priority = 1900
 
 		module_slots = {
-			fixed_ship_engine_slot = {
+			fixed_ship_sail_slot = {
 				required = yes
-				allowed_module_categories = { steam_engine }
+				allowed_module_categories = { sails }
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { light_armor_plates medium_armor_plates }	
+				allowed_module_categories = { medium_armor_plates }	
 			}
-			fixed_ship_storage_slot = {
+			fixed_ship_artillery_slot = {
 				required = no
-				allowed_module_categories = { storage_room }
+				allowed_module_categories = { 
+					ship_ballista
+					ship_catapult
+				}
 			}
-			fixed_ship_storage_2_slot = {
+			fixed_ship_supplies_slot = {
 				required = no
-				allowed_module_categories = { storage_room }
+				allowed_module_categories = { supplies }
 			}
-			fixed_ship_storage_3_slot = {
-				required = no
-				allowed_module_categories = { storage_room }
-			}
-			deck_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_crew
+			fixed_ship_crew_slot = {
+				required = yes
+				allowed_module_categories = { 
+					ship_waterbender_crew
+					ship_archer
 					ship_boarding
 				}
 			}
-			deck_2_custom_slot = deck_1_custom_slot
-			deck_3_custom_slot = deck_1_custom_slot
-			deck_4_custom_slot = deck_1_custom_slot
+			fixed_ship_support_slot = {
+				required = no
+				allowed_module_categories = { mantainance_crew }
+			}
+			fixed_ship_crow's_nest_slot = {
+				required = no
+				allowed_module_categories = { crow's_nest }
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_waterbender_crew
+					ship_archer
+					ship_boarding
+				}
+			}
 		}
 		
 		module_count_limit = {
-			category = ship_boarding
-			count < 3
+			category = ship_waterbender_crew
+			count < 2
 		}
 		
 		default_modules = {
-			fixed_ship_engine_slot = steam_engine_1
-			fixed_ship_armor_slot = empty
-			fixed_ship_storage_slot = empty
-			fixed_ship_storage_2_slot = empty
-			fixed_ship_storage_3_slot = empty
-			deck_1_custom_slot = empty
-			deck_2_custom_slot = empty
-			deck_3_custom_slot = empty
-			deck_4_custom_slot = empty
+			fixed_ship_artillery_slot = ship_ballista_3
+			fixed_ship_sail_slot = sails_2
+			fixed_ship_supplies_slot = empty
+			fixed_ship_crew_slot = ship_waterbender_crew
+			fixed_ship_armor_slot = medium_armor_plates_2
+			fixed_ship_support_slot = empty
+			fixed_ship_crow's_nest_slot = empty
+			bridge_1_custom_slot = empty
+			mid_1_custom_slot = empty
 		}
 		
 		lg_armor_piercing = 0
@@ -78,36 +91,39 @@ equipments = {
 		surface_visibility = 15
 		naval_speed = 20
 		reliability = 0.80
+
+		mines_sweeping = 1
 		
-		naval_range = 100
+		naval_range = 120
 		
 		max_strength = 100		
 		
-		fuel_consumption = 400
-		manpower = 400
+		fuel_consumption = 120 #mp/100*range
+		manpower = 100
 		
 		build_cost_ic = 1200
 		resources = {
-			steel = 1
+			chromium = 1
+			aluminium = 2
 		}
 	}
 
-	firenation_frigate_hull_1 = {
+	watertribe_warship_hull_1 = {
 
 		visual_level = 0
-		archetype = firenation_frigate_hull
+		archetype = watertribe_warship_hull
 		priority = 1900
 		
 		
 		module_slots = inherit
 	}
 
-	firenation_frigate_hull_2 = {
+	watertribe_warship_hull_2 = {
 
 		visual_level = 1
-		archetype = firenation_frigate_hull
+		archetype = watertribe_warship_hull
 		priority = 1900
-		parent = firenation_frigate_hull_1
+		parent = watertribe_warship_hull_2
 		manpower = 800
 		naval_speed = 25
 		reliability = 0.85
@@ -115,61 +131,61 @@ equipments = {
 		naval_range = 3000
 		max_strength = 110
 		resources = {
-			steel = 2
+			chromium = 1
+			aluminium = 3
 		}
 		module_slots = {
-			fixed_ship_engine_slot = {
-				required = yes
-				allowed_module_categories = { steam_engine }
-			}
-			fixed_ship_armor_slot = {
-				required = no
-				allowed_module_categories = { light_armor_plates medium_armor_plates }	
-			}
-			fixed_ship_storage_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			fixed_ship_storage_2_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			fixed_ship_storage_3_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			bridge_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					binoculars
-					maintenance_crew
-				}
+			fixed_ship_sail_slot = inherit
+			fixed_ship_artillery_slot = inherit
+			fixed_ship_armor_slot = inherit
+			fixed_ship_supplies_slot = inherit
+			fixed_ship_crew_slot = inherit
+			fixed_ship_support_slot = inherit
+			fixed_ship_crow's_nest_slot = inherit
+			front_1_custom_slot = inherit
+			rear_1_custom_slot = inherit
+			front_1_custom_slot = {
+				ship_waterbender_crew
+				ship_archer
+				ship_boarding
 			}
 			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_crew
-				}
+				ship_waterbender_crew
+				ship_archer
+				ship_boarding
+				ship_ballista
+				ship_catapult
+				sails
 			}
-			mid_2_custom_slot = mid_1_custom_slot
-		}
-		
-		module_count_limit = {
-			category = ship_boarding
-			count < 2
-		}
-		
-		default_modules = {
+			rear_1_custom_slot = {
+				maintenance_crew
+				mine_layer
+				supplies
+			}
 			
+		}
+
+		default_modules = {
+			fixed_ship_sail_slot = sails_3
+			fixed_ship_supplies_slot = empty
+			fixed_ship_artillery_slot = ship_ballista_4
+			fixed_ship_crew_slot = ship_waterbender_crew
+			fixed_ship_armor_slot = medium_armor_plates_4
+			fixed_ship_support_slot = empty
+			fixed_ship_crow's_nest_slot = empty
+			bridge_1_custom_slot = empty
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
 		}
 	}
 
-	firenation_frigate_hull_3 = {
+	watertribe_warship_hull_3 = {
 
 		visual_level = 1
-		archetype = firenation_frigate_hull
+		archetype = watertribe_warship_hull
 		priority = 1900
-		parent = firenation_frigate_hull_2
+		parent = watertribe_warship_hull_3
 		manpower = 800
 		naval_speed = 25
 		reliability = 0.85
@@ -177,61 +193,75 @@ equipments = {
 		naval_range = 3000
 		max_strength = 110
 		resources = {
-			steel = 2
+			chromium = 1
+			aluminium = 3
+			steel = 1
 		}
 		module_slots = {
 			fixed_ship_engine_slot = {
-				required = yes
-				allowed_module_categories = { steam_engine }
-			}
-			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { light_armor_plates medium_armor_plates }	
-			}
-			fixed_ship_storage_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			fixed_ship_storage_2_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			fixed_ship_storage_3_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			bridge_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					binoculars
-					maintenance_crew
+				allowed_module_categories = { 
+					steam_engine
 				}
 			}
+			fixed_ship_sail_slot = inherit
+			fixed_ship_armor_slot = inherit
+			fixed_ship_supplies_slot = inherit
+			fixed_ship_crew_slot = inherit
+			fixed_ship_support_slot = inherit
+			fixed_ship_crow's_nest_slot = inherit
+			fixed_ship_artillery_slot = {inherit
+			front_1_custom_slot = inherit
 			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_crew
-				}
+				ship_waterbender_crew
+				ship_archer
+				ship_boarding
+				ship_ballista
+				ship_catapult
+				maintenance_crew
+				supplies
+				mine_layer
 			}
-			mid_2_custom_slot = mid_1_custom_slot
-		}
-		
-		module_count_limit = {
-			category = ship_boarding
-			count < 2
-		}
-		
-		default_modules = {
+			mid_2_custom_slot = {
+				ship_waterbender_crew
+				ship_archer
+				ship_boarding
+				ship_ballista
+				ship_catapult
+				maintenance_crew
+				supplies
+				mine_layer
+				sails
+			}
+			mid_3_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = inherit
 			
+		}
+
+		default_modules = {
+			fixed_ship_sail_slot = sails_3
+			fixed_ship_engine_slot = steam_engine_5
+			fixed_ship_artillery_slot = ship_ballista_5
+			fixed_ship_supplies_slot = empty
+			fixed_ship_crew_slot = ship_waterbender_crew
+			fixed_ship_armor_slot = medium_armor_plates_5
+			fixed_ship_support_slot = empty
+			fixed_ship_crow's_nest_slot = empty
+			bridge_1_custom_slot = empty
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			mid_3_custom_slot = empty
+			rear_1_custom_slot = empty
 		}
 	}
 
-	firenation_frigate_hull_4 = {
+	watertribe_warship_hull_4 = {
 
 		visual_level = 1
-		archetype = firenation_frigate_hull
+		archetype = watertribe_warship_hull
 		priority = 1900
-		parent = firenation_frigate_hull_3
+		parent = watertribe_warship_hull_4
 		manpower = 800
 		naval_speed = 25
 		reliability = 0.85
@@ -239,199 +269,77 @@ equipments = {
 		naval_range = 3000
 		max_strength = 110
 		resources = {
+			chromium = 1
+			aluminium = 3
 			steel = 2
 		}
 		module_slots = {
-			fixed_ship_engine_slot = {
-				required = yes
-				allowed_module_categories = { steam_engine }
+			fixed_ship_engine_slot = inherit
+			fixed_ship_sail_slot = inherit
+			fixed_ship_armor_slot = inherit
+			fixed_ship_supplies_slot = inherit
+			fixed_ship_crew_slot = inherit
+			fixed_ship_support_slot = inherit
+			fixed_ship_crow's_nest_slot = inherit
+			fixed_ship_artillery_slot = {inherit
+			front_1_custom_slot = inherit
+			front_2_custom_slot = {
+				ship_waterbender_crew
+				ship_archer
+				ship_boarding
+				sails
 			}
-			fixed_ship_armor_slot = {
-				required = no
-				allowed_module_categories = { light_armor_plates medium_armor_plates }	
+			mid_1_custom_slot = inherit
+			mid_2_custom_slot = inherit
+			mid_3_custom_slot = inherit
+			rear_1_custom_slot = inherit
+			rear_2_custom_slot = {
+				maintenance_crew
+				mine_layer
+				supplies
+				sails
 			}
-			fixed_ship_storage_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			fixed_ship_storage_2_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			fixed_ship_storage_3_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			bridge_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					binoculars
-					maintenance_crew
-				}
-			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_crew
-				}
-			}
-			mid_2_custom_slot = mid_1_custom_slot
-		}
-		
-		module_count_limit = {
-			category = ship_boarding
-			count < 2
-		}
-		
-		default_modules = {
 			
+		}
+
+		default_modules = {
+			fixed_ship_sail_slot = sails_2
+			fixed_ship_artillery_slot = empty
+			fixed_ship_supplies_slot = empty
+			fixed_ship_crew_slot = ship_waterbender_crew
+			fixed_ship_armor_slot = empty
+			fixed_ship_support_slot = empty
+			fixed_ship_crow's_nest_slot = empty
+			front_1_custom_slot = empty
+			front_2_custom_slot= empty
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+			rear_2_custom_slot= empty
 		}
 	}
 
-	firenation_frigate_hull_5 = {
 
-		visual_level = 1
-		archetype = firenation_frigate_hull
-		priority = 1900
-		parent = firenation_frigate_hull_4
-		manpower = 800
-		naval_speed = 25
-		reliability = 0.85
-		build_cost_ic = 1900
-		naval_range = 3000
-		max_strength = 110
-		resources = {
-			steel = 2
-		}
-		module_slots = {
-			fixed_ship_engine_slot = {
-				required = yes
-				allowed_module_categories = { steam_engine }
-			}
-			fixed_ship_armor_slot = {
-				required = no
-				allowed_module_categories = { light_armor_plates medium_armor_plates }	
-			}
-			fixed_ship_storage_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			fixed_ship_storage_2_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			fixed_ship_storage_3_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			bridge_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					binoculars
-					maintenance_crew
-				}
-			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_crew
-				}
-			}
-			mid_2_custom_slot = mid_1_custom_slot
-		}
-		
-		module_count_limit = {
-			category = ship_boarding
-			count < 2
-		}
-		
-		default_modules = {
-			
-		}
-	}
-
-	firenation_frigate_hull_6 = {
-
-		visual_level = 1
-		archetype = firenation_frigate_hull
-		priority = 1900
-		parent = firenation_frigate_hull_5
-		manpower = 800
-		naval_speed = 25
-		reliability = 0.85
-		build_cost_ic = 1900
-		naval_range = 3000
-		max_strength = 110
-		resources = {
-			steel = 2
-		}
-		module_slots = {
-			fixed_ship_engine_slot = {
-				required = yes
-				allowed_module_categories = { steam_engine }
-			}
-			fixed_ship_armor_slot = {
-				required = no
-				allowed_module_categories = { light_armor_plates medium_armor_plates }	
-			}
-			fixed_ship_storage_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			fixed_ship_storage_2_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			fixed_ship_storage_3_slot = {
-				required = no
-				allowed_module_categories = { storage_room ship_boarding }
-			}
-			bridge_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					binoculars
-					maintenance_crew
-				}
-			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_crew
-				}
-			}
-			mid_2_custom_slot = mid_1_custom_slot
-		}
-		
-		module_count_limit = {
-			category = ship_boarding
-			count < 2
-		}
-		
-		default_modules = {
-			
-		}
-	}
-
-	firenation_frigate_1 = {
+	watertribe_warship_1 = {
 
 		visual_level = 0
-		archetype = firenation_frigate_hull
+		archetype = watertribe_warship_hull
 		priority = 1900
 		module_slots = inherit
 
 		type = { 
 			capital_ship
-			anti_air
 		}
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_gun_upgrade
-			ship_anti_air_upgrade
-		}
-		module_slots = inherit
+		
 		default_modules = {
-			
+			fixed_ship_artillery_slot = ship_ballista_3
+			fixed_ship_sail_slot = sails_2
+			fixed_ship_supplies_slot = supplies_2
+			fixed_ship_crew_slot = ship_waterbender_crew
+			fixed_ship_armor_slot = medium_armor_plates_2
+			fixed_ship_support_slot = maintenance_crew_2
+			fixed_ship_crow's_nest_slot = crow's_nest_2
+			mid_1_custom_slot = ship_archer_3
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -449,20 +357,97 @@ equipments = {
 		naval_speed = 20
 		reliability = 0.8
 		resources = {
-			#oil = 1
-			steel = 2
+			chromium = 2
+			aluminium = 6
+			iron = 1
+			stone = 2
+			tungsten = 3
+			steel = 1
+			oil = 3
 		}
 	}
 
-	firenation_frigate_2 = {
+	watertribe_warship_2 = {
 
 		visual_level = 1
-		archetype = firenation_frigate_hull
+		archetype = watertribe_warship_hull
 		priority = 1900
-		parent = light_cruiser_1
+		parent = watertribe_warship_1
 		module_slots = inherit
+		
+		type = { 
+			screen_ship
+		}
+		
 		default_modules = {
-			
+			fixed_ship_artillery_slot = ship_ballista_3
+			fixed_ship_sail_slot = sails_2
+			fixed_ship_supplies_slot = supplies_2
+			fixed_ship_crew_slot = ship_waterbender_crew
+			fixed_ship_armor_slot = medium_armor_plates_2
+			fixed_ship_support_slot = maintenance_crew_2
+			fixed_ship_crow's_nest_slot = crow's_nest_2
+			front_1_custom_slot = ship_boarding
+			mid_1_custom_slot = ship_archer_3
+			rear_1_custom_slot = supplies_2
+		}
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 2
+		sub_attack = 5
+		
+		anti_air_attack = 0
+		
+		armor_value = 6
+
+		
+		surface_detection = 20
+		sub_detection = 5
+		naval_speed = 25
+		reliability = 0.85
+
+		naval_range = 3000
+		
+		max_strength = 120
+
+		build_cost_ic = 1650
+		resources = {
+			chromium = 2
+			aluminium = 7
+			iron = 1
+			stone = 3
+			tungsten = 4
+			steel = 2
+			oil = 4
+		}
+		manpower = 800
+	}
+	watertribe_warship_hull_3 = {
+
+		visual_level = 1
+		archetype = watertribe_warship_hull
+		priority = 1900
+		parent = watertribe_warship_2
+		module_slots = inherit
+		
+		type = { 
+			screen_ship
+		}
+		
+		default_modules = {
+			fixed_ship_artillery_slot = ship_ballista_3
+			fixed_ship_sail_slot = sails_3
+			fixed_ship_supplies_slot = supplies_3
+			fixed_ship_crew_slot = ship_waterbender_crew
+			fixed_ship_armor_slot = medium_armor_plates_4
+			fixed_ship_support_slot = maintenance_crew_3
+			fixed_ship_crow's_nest_slot = crow's_nest_3
+			front_1_custom_slot = ship_boarding
+			mid_1_custom_slot = ship_catapult_4
+			mid_2_custom_slot = sails_3
+			mid_3_custom_slot = ship_catapult_4
+			rear_1_custom_slot = supplies_2
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -482,19 +467,79 @@ equipments = {
 		naval_range = 3000
 		
 		max_strength = 120
-		
 
-		
-		type = { 
-			capital_ship
-			anti_air
-		}
 		build_cost_ic = 1650
 		resources = {
-			#oil = 1
-			steel = 3
+			chromium = 2
+			aluminium = 8
+			iron = 2
+			stone = 3
+			tungsten = 5
+			steel = 4
+			oil = 5
 		}
 		manpower = 800
 	}
 	
+	watertribe_warship_hull_4 = {
+
+		visual_level = 1
+		archetype = watertribe_warship_hull
+		priority = 1900
+		parent = watertribe_warship_3
+		module_slots = inherit
+		
+		type = { 
+			capital_ship
+		}
+		
+		default_modules = {
+			fixed_ship_engine_slot = steam_engine_5
+			fixed_ship_artillery_slot = ship_ballista_4
+			fixed_ship_sail_slot = sails_4
+			fixed_ship_supplies_slot = supplies_4
+			fixed_ship_crew_slot = ship_waterbender_crew
+			fixed_ship_armor_slot = medium_armor_plates_5
+			fixed_ship_support_slot = maintenance_crew_4
+			fixed_ship_crow's_nest_slot = crow's_nest_4
+			front_1_custom_slot = ship_boarding
+			front_2_custom_slot = sails
+			mid_1_custom_slot = ship_catapult_5
+			mid_2_custom_slot = ship_archer_5
+			mid_3_custom_slot = ship_catapult_5
+			rear_1_custom_slot = supplies_2
+			rear_2_custom_slot = sails
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 2
+		sub_attack = 5
+		
+		anti_air_attack = 0
+		
+		armor_value = 6
+
+		
+		surface_detection = 20
+		sub_detection = 5
+		naval_speed = 25
+		reliability = 0.85
+
+		naval_range = 3000
+		
+		max_strength = 120
+
+		build_cost_ic = 1650
+		resources = {
+			chromium = 2
+			aluminium = 8
+			iron = 2
+			stone = 3
+			tungsten = 5
+			steel = 6
+			rubber = 5
+			oil = 5
+		}
+		manpower = 800
+	}
 }
