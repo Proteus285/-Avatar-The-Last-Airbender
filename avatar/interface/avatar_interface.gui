@@ -474,7 +474,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "calendar_container"
-		position = { x = 0 y = 0 }
+		position = { x = -103 y = 0 }
 		Orientation = UPPER_RIGHT
 
 		buttonType ={
