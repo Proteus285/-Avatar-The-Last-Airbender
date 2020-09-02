@@ -1,4 +1,5 @@
 ﻿l_english:
+MENU_ATLA_FUNDINGS:0 "Support the Developers"
 AVATAR_TITLE:0 "Avatar"
 AVATAR_TOOLTIP:0 "§YAvatar§! \nLearn everything about the current Avatar."
 AANG:0 "Aang"
@@ -48,3 +49,6 @@ EVENT_EFFECTS_TOOLTIP_DELAYED:0 "UwU"
 
 DATE_TOOLTIP:0 "§YCalendar§! \nClick to open the Avatar Event Calendar. It´s your source to the knowledge about special §HEvents§! and §HNatural Phenomenas§!. This information can help you to plan an offensive or prevent a disaster!"
 DATE_TOOLTIP_DELAYED:0 "The Time is measured from §HAvatar§! §RRoku´s§! §Hdeath§!. This makes §HAvatar§! §GAang´s§! §Hbirthday§! the year §H0§!."
+
+
+troubeling_signs_tt:0 "If we don´t prepare for whats coming, it might end in a disaster."

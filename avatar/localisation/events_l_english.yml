@@ -13,6 +13,10 @@
  news.5.d:0 "Within a few hours Sozin´s firebender army executed a well prepared plan, with the ultimate goal to destroy all air nomads and with them the new avatar. "
  news.5.a:0 "Very good."
  news.5.b:0 "What a tragedy."
+ news.7.t:0 "The Avatar vanished"
+ news.7.d:0 "We have reports that the Avatar vanished."
+ news.7.a:0 "How?"
+ news.7.b:0 "Thats not good."
 
  #firenation
  firenation.1.t:0 "Success!"

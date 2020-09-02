@@ -91,6 +91,239 @@ technologies = {
 		}
 	}
 
+	tech_combat_pioneers2 = {
+
+		combat_pioneer = {
+			max_organisation = 2
+		}
+		
+		path = {
+			leads_to_tech = tech_combat_pioneers3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 20
+		folder = {
+			name = support_folder
+			position = { x = -6 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+		}
+	}
+
+	tech_combat_pioneers3 = {
+
+		combat_pioneer = {
+			max_organisation = 2
+		}
+		
+		path = {
+			leads_to_tech = tech_combat_pioneers4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 30
+		folder = {
+			name = support_folder
+			position = { x = -6 y = 6 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+		}
+	}
+
+	tech_combat_pioneers4 = {
+
+		combat_pioneer = {
+			max_organisation = 2
+		}
+		
+		path = {
+			leads_to_tech = tech_combat_pioneers5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 40
+		folder = {
+			name = support_folder
+			position = { x = -6 y = 8 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+		}
+	}
+
+	tech_combat_pioneers5 = {
+
+		combat_pioneer = {
+			max_organisation = 2
+		}
+		
+		path = {
+			leads_to_tech = tech_combat_pioneers6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 50
+		folder = {
+			name = support_folder
+			position = { x = -6 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+		}
+	}
+
+	tech_combat_pioneers6 = {
+
+		combat_pioneer = {
+			max_organisation = 2
+		}
+		
+		path = {
+			leads_to_tech = tech_combat_pioneers7
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 60
+		folder = {
+			name = support_folder
+			position = { x = -6 y = 12 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+		}
+	}
+
+	tech_combat_pioneers7 = {
+
+		combat_pioneer = {
+			max_organisation = 2
+		}
+		
+		path = {
+			leads_to_tech = tech_combat_pioneers8
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 70
+		folder = {
+			name = support_folder
+			position = { x = -6 y = 14 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+		}
+	}
+
+	tech_combat_pioneers8 = {
+
+		combat_pioneer = {
+			max_organisation = 2
+		}
+
+		research_cost = 2
+		start_year = 80
+		folder = {
+			name = support_folder
+			position = { x = -6 y = 16 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+		}
+	}
+
 
 	tech_engineers = {
 
@@ -869,7 +1102,7 @@ technologies = {
 	
 	tech_military_police2 = {
 
-		military_police = {
+		infantry_guards = {
 			suppression_factor = 0.1
 			suppression = 0.5
 		}
@@ -900,7 +1133,7 @@ technologies = {
 
 	tech_military_police3 = {
 
-		military_police = {
+		infantry_guards = {
 			suppression_factor = 0.1
 			suppression = 0.5
 		}
@@ -931,7 +1164,7 @@ technologies = {
 
 	tech_military_police4 = {
 
-		military_police = {
+		infantry_guards = {
 			suppression_factor = 0.1
 			suppression = 0.5
 		}
@@ -962,7 +1195,7 @@ technologies = {
 
 	tech_military_police5 = {
 
-		military_police = {
+		infantry_guards = {
 			suppression_factor = 0.1
 			suppression = 0.5
 		}
@@ -993,7 +1226,7 @@ technologies = {
 
 	tech_military_police6 = {
 
-		military_police = {
+		infantry_guards = {
 			suppression_factor = 0.1
 			suppression = 0.5
 		}
@@ -1024,7 +1257,7 @@ technologies = {
 
 	tech_military_police7 = {
 
-		military_police = {
+		infantry_guards = {
 			suppression_factor = 0.1
 			suppression = 0.5
 		}
@@ -1055,7 +1288,7 @@ technologies = {
 
 	tech_military_police8 = {
 
-		military_police = {
+		infantry_guards = {
 			suppression_factor = 0.1
 			suppression = 0.5
 		}

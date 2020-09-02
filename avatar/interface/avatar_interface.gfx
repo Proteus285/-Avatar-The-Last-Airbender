@@ -1,4 +1,14 @@
 spriteTypes = {
+
+
+
+	spriteType = {
+		name = "GFX_fundings"
+		textureFile = "gfx/interface/_00fundings.dds"
+	}
+
+
+
 	spriteType = {
 		name = "GFX_war_exhaustion"
 		texturefile = "gfx/interface/topbar/war_weariness.dds"

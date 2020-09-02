@@ -401,10 +401,6 @@ technologies = {
 			medium_armor_plates_3
 		}
 		path = {
-			leads_to_tech = fire_cruiser_4
-			research_cost_coeff = 1
-		}
-		path = {
 			leads_to_tech = heavy_engine_1
 			research_cost_coeff = 1
 		}
@@ -537,6 +533,10 @@ technologies = {
 
 		enable_equipment_modules = { 
 			heavy_steam_engine_1
+		}
+		path = {
+			leads_to_tech = fire_cruiser_4
+			research_cost_coeff = 1
 		}
 		path = {
 			leads_to_tech = early_fire_battleship
@@ -1122,7 +1122,7 @@ technologies = {
 	ship_binoculars_1 = {
 
 		enable_equipment_modules = { 
-			binoculars_1
+			bridge_1
 		}
 		path = {
 			leads_to_tech = ship_binoculars_2
@@ -1154,7 +1154,7 @@ technologies = {
 	ship_binoculars_2 = {
 
 		enable_equipment_modules = { 
-			binoculars_2
+			bridge_2
 		}
 		path = {
 			leads_to_tech = ship_binoculars_3
@@ -1186,7 +1186,7 @@ technologies = {
 	ship_binoculars_3 = {
 
 		enable_equipment_modules = { 
-			binoculars_3
+			bridge_3
 		}
 		path = {
 			leads_to_tech = ship_binoculars_4
@@ -1218,7 +1218,7 @@ technologies = {
 	ship_binoculars_4 = {
 
 		enable_equipment_modules = { 
-			binoculars_4
+			bridge_4
 		}
 		
 		allow_branch = {

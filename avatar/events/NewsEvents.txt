@@ -310,7 +310,7 @@ news_event = {
 	id = news.7
 	title = news.7.t
 	desc = news.7.d
-	picture = GFX_avatar_news_event_004
+	picture = GFX_avatar_news_event_005
 	is_triggered_only = yes
 
 	immediate = {
@@ -334,6 +334,41 @@ news_event = {
 	}
 	option = {
 		name = news.7.b
+		trigger = { 
+			NOT = {
+				TAG = FIR
+			}
+		}
+	}
+}
+
+news_event = {
+	id = news.8
+	title = news.8.t
+	desc = news.8.d
+	picture = GFX_avatar_news_event_005
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = news.8.a
+		ai_chance = { 
+			factor = 100
+		}
+		trigger = { 
+			TAG = FIR
+		}
+
+	}
+	option = {
+		name = news.8.b
 		trigger = { 
 			NOT = {
 				TAG = FIR

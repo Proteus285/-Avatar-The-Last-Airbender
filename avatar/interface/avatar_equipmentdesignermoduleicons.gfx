@@ -45,12 +45,47 @@ spriteTypes = {
 ######## Crew icons
 
 	spriteType = {
-		name = "GFX_EMI_ship_default_crew"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_default_crew.dds"
+		name = "GFX_EMI_supplies"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_supplies.dds"
+	}
+
+######## Crew icons
+
+	spriteType = {
+		name = "GFX_EMI_maintenance_crew"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_maintenance_crew.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_maintenance_crew_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_first_maintenance_crew.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_ship_crew"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_crew.dds"
 	}
 	spriteType = {
 		name = "GFX_EMI_ship_firebender_crew"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_firebender_crew.dds"
+	}
+
+######## Weapon Icons
+
+	spriteType = {
+		name = "GFX_EMI_ship_trebuchet"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_trebuchet.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_ship_trebuchet_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_basic_trebuchet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_catapult"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_catapult.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_ship_catapult_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_basic_catapult.dds"
 	}
 	
 	

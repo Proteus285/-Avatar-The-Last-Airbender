@@ -200,6 +200,10 @@ technologies = {
 			trebuchet_equipment_1
 		}
 
+		enable_equipment_modules = { 
+			ship_trebuchet_1
+		}
+
 		enable_subunits = {
 			trebuchet
 		}

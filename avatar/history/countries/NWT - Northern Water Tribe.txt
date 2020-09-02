@@ -1,6 +1,18 @@
+
+
+ ## #####  ##  ###  #####       #   ##
+#     #   #  # #  #   #        ##  #  #
+ #    #   #### ###    #       # #    #
+  #   #   #  # #  #   #         #   #
+##    #   #  # #  #   #         #  ####
+
+
 capital = 17
 
 OOB = "NWT_12"
+
+set_country_flag = WAT_navy
+set_country_flag = water_nation 
 
 set_technology = {
 	basic_armor = 1
@@ -20,7 +32,6 @@ set_technology = {
 }
 
 set_research_slots = 1
-set_country_flag = water_nation 
 
 set_convoys = 60
 

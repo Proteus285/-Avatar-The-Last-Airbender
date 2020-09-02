@@ -16,26 +16,23 @@ equipments = {
 			}
 			fixed_ship_armor_slot = {
 				required = no
-				allowed_module_categories = { light_armor_plates medium_armor_plates }	
+				allowed_module_categories = { light_armor_plates medium_armor_plates heavy_armor_plates }	
 			}
-			fixed_ship_storage_slot = {
-				required = no
-				allowed_module_categories = { storage_room }
-			}
-			fixed_ship_storage_2_slot = {
-				required = no
-				allowed_module_categories = { storage_room }
-			}
-			bridge_1_custom_slot = {
+			fixed_ship_bridge_slot = {
 				required = no
 				allowed_module_categories = {
-					binoculars
-					maintenance_crew
+					bridge
 				}
 			}
+			fixed_ship_storage_1_slot = {
+				required = no
+				allowed_module_categories = { storage_room maintenance_crew }
+			}
+			fixed_ship_storage_2_slot = fixed_ship_storage_1_slot
 			deck_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
+					ship_trebuchet
 					ship_catapult
 					ship_ballista
 					ship_crew
@@ -45,18 +42,18 @@ equipments = {
 		}
 		
 		module_count_limit = {
-			category = ship_radar
+			category = ship_trebuchet
 			count < 2
 		}
 		
 		module_count_limit = {
-			category = ship_sonar
+			category = maintenance_crew
 			count < 2
 		}
 		
 		default_modules = {
 			fixed_ship_engine_slot = steam_engine_1
-			fixed_ship_storage_slot = empty
+			fixed_ship_storage_1_slot = empty
 			fixed_ship_storage_2_slot = empty
 			fixed_ship_armor_slot = empty
 			bridge_1_custom_slot = empty

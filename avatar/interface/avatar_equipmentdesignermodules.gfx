@@ -61,6 +61,16 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/firenation_cruiser/module_blueprint_cruiser_catapult@highlight.dds"
 	}
 
+	spriteType = {
+		name = "GFX_SM_fire_cruiser_trebuchet"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/firenation_cruiser/module_blueprint_cruiser_trebuchet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_fire_cruiser_bridge"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/firenation_cruiser/module_blueprint_cruiser_bridge.dds"
+	}
+
 
 }
 	

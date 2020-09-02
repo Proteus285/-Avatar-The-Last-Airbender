@@ -57,31 +57,25 @@ guiTypes = {
 	#	
 	#}	
 	
-	### MAIN MENU PANEL (upperright)
-	#containerWindowType = {
-	#	name ="mainmenu_panel_upperright"
-	#	position = { x=0 y =-1 }
-	#	show_position = { x=-256 y =-1 }
-	#	animation_type = decelerated
-	#	animation_time = 1000					
-	#	size = { width = 256 height = 768}
-	#	Orientation = upper_right
+	### MAIN MENU PANEL (lowerleft)
+	containerWindowType = {
+		name ="mainmenu_panel_upperright"
+		position = { x=0 y =600 }
+		show_position = { x=0 y =1 }
+		animation_type = decelerated
+		animation_time = 4000					
+		size = { width = 256 height = 768}
+		Orientation = lower_left
 
-	#	iconType =
-	#	{
-	#		name ="frontend_dev_logo"
-	#		spriteType = "GFX_frontend_dev_logo"
-	#		position = { x= 15 y = 15 }
-	#	}
-		
-	#	iconType =
-	#	{
-	#		name ="pdx_int_logo"
-	#		spriteType = "GFX_pdx_int_logo"
-	#		position = { x= 135 y = 15 }
-	#	}		
-		
-	#}		
+		ButtonType = {
+			name = "atla_fundings"
+			position = { x = 0 y = -297 }
+			quadTextureSprite ="GFX_fundings"
+			clicksound = time_up
+			pdx_tooltip = "MENU_ATLA_FUNDINGS"
+			web_link = "https://liberapay.com/HoI4-Avatar-Mod"
+		}
+	}		
 
 	### SINGLE PLAYER MENU
 	containerWindowType = {

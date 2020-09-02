@@ -5,11 +5,3 @@ war_weariness = {
 		check_variable = { war_exhaustion_variable > 0 }
 	}
 }
-
-avatar_reveal = {
-	icon = generic_propaganda
-
-	visible = {
-		
-	}
-}
