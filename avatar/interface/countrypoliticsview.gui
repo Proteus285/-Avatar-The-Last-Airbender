@@ -384,6 +384,26 @@ guiTypes = {
 				alwaystransparent = yes
 			}			
 		}
+
+		containerWindowType = {
+			name = "legitimacy_container"
+			position = { x = 179 y = 48 }
+			size = { width = 330 height = 50 }
+			clipping = no
+						
+			background = {
+				name = "Background"		
+				spriteType ="GFX_legitimacy_bg"
+			}
+			
+			buttonType = {
+				name = "increase_legitimacy"
+				position = { x = 0 y = 12 }
+				spriteType = "GFX_FIR_low_legitimacy"
+				clicksound = click_default
+			}		
+		}
+
 		containerWindowType = {
 			name = "national_spirit"
 			position = { x = 81 y = 153 }
@@ -974,19 +994,19 @@ guiTypes = {
 
 		iconType = {
 			name = "leading_pol_party_bg"
-			position = { x = 60 y = 5 }
+			position = { x = 60 y = 1 }
 			spriteType = "GFX_leading_pol_party_bg"
 		}		
 		
 		iconType = {
 			name = "color_block_bg"
-			position = { x = 60 y = 2 }
+			position = { x = 60 y = -2 }
 			spriteType = "GFX_pol_party_colour_bg"
 		}
 		
 		iconType = {
 			name = "color_block"
-			position = { x = 64 y = 6 }
+			position = { x = 64 y = 2 }
 			spriteType = "GFX_pol_party_colour"
 		}
 		
@@ -1001,7 +1021,7 @@ guiTypes = {
 			
 		instantTextboxType = {
 			name = "name"
-			position = { x = 82 y = 4 }
+			position = { x = 82 y = 0 }
 			font = "hoi_16mbs"
 			text = "party name"
 			fixedsize = yes

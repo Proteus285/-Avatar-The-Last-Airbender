@@ -402,6 +402,7 @@ guiTypes = {
 			position = { x=-93 y=14 }
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_default
+			shortcut = "d"
 		}
 
 		iconType ={
@@ -623,7 +624,7 @@ guiTypes = {
 			buttonType = {
 				name = "decisionview_button"
 				quadTextureSprite ="GFX_topbar_decisionview_button"
-				position = { x= -104 y = 0 }
+				position = { x= -105 y = 0 }
 				Orientation = "UPPER_LEFT"
 				clicksound = click_close
 				oversound = ui_menu_over
@@ -633,21 +634,21 @@ guiTypes = {
 			iconType = {
 				name ="decision_view_alert_glow"
 				spriteType = "GFX_decisions_glow"	
-				position = { x =-104 y = 1 }
+				position = { x =-105 y = 1 }
 				alwaystransparent = yes
 			}
 
 			iconType = {
 				name = "decisionview_amount_timeout_bg"
 				spriteType = "GFX_topbar_alert_bg"
-				position = { x = -99 y = 4}
+				position = { x = -100 y = 4}
 				alwaystransparent = yes
 				frame = 2
 			}
 	
 			instantTextBoxType = {
 				name ="decisionview_amount_timeout_items"
-				position = { x= -101 y = 4 }
+				position = { x= -102 y = 4 }
 				font = "hoi_16mbs"
 				text = "999"
 				format = center
@@ -659,14 +660,14 @@ guiTypes = {
 			iconType = {
 				name = "decisionview_amount_to_take_bg"
 				spriteType = "GFX_topbar_alert_bg"
-				position = { x = -99 y = 20}
+				position = { x = -100 y = 20}
 				alwaystransparent = yes
 				frame = 1
 			}
 
 			instantTextBoxType = {
 				name ="decisionview_amount_to_take_items"
-				position = { x= -101 y = 20 }
+				position = { x= -102 y = 20 }
 				font = "hoi_16mbs"
 				text = "999"
 				format = center
@@ -742,7 +743,7 @@ guiTypes = {
 				buttonType = {
 					name = "diplomacy_button"
 					quadTextureSprite ="GFX_topbar_diplomacy"
-					position = { x= 6 y = 0 }
+					position = { x= 7 y = 0 }
 					Orientation = "UPPER_LEFT"
 					shortcut = "e"
 					clicksound = click_close
@@ -751,7 +752,7 @@ guiTypes = {
 				
 				buttonType = {
 					name = "trade_button"
-					position = { x= 62 y = 0 }
+					position = { x= 63 y = 0 }
 					quadTextureSprite ="GFX_topbar_trade_button"
 					Orientation = "UPPER_LEFT"
 					shortcut = "r"
@@ -761,7 +762,7 @@ guiTypes = {
 
 				buttonType = {
 					name = "construction_button"
-					position = { x = 118 y = 0 }
+					position = { x = 119 y = 0 }
 					quadTextureSprite ="GFX_construction_button"
 					Orientation = "UPPER_LEFT"
 					shortcut = "t"
@@ -771,7 +772,7 @@ guiTypes = {
 				
 				buttonType = {
 					name = "production_button"
-					position = { x = 173 y = 0 }
+					position = { x = 175 y = 0 }
 					quadTextureSprite ="GFX_topbar_production"
 					Orientation = "UPPER_LEFT"
 					shortcut = "y"
@@ -781,7 +782,7 @@ guiTypes = {
 				
 				buttonType = {
 					name = "deployment_button"
-					position = { x = 228 y = 0 }
+					position = { x = 231 y = 0 }
 					quadTextureSprite ="GFX_deployment_button"
 					Orientation = "UPPER_LEFT"
 					shortcut = "u"
@@ -791,7 +792,7 @@ guiTypes = {
 				
 				buttonType = {
 					name = "logistics_button"
-					position = { x = 284 y = 0 }
+					position = { x = 287 y = 0 }
 					quadTextureSprite ="GFX_ledger_button"
 					Orientation = "UPPER_LEFT"
 					shortcut = "i"
@@ -812,7 +813,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "navy_button"
-				position = { x = -389 y = 0 }
+				position = { x = -388 y = 0 }
 				quadTextureSprite ="GFX_topbar_navy"
 				Orientation = "UPPER_right"
 				shortcut = "p"
@@ -822,7 +823,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "air_button"
-				position = { x = -333 y = 0 }
+				position = { x = -332 y = 0 }
 				quadTextureSprite ="GFX_topbar_airforce"
 				Orientation = "UPPER_right"
 				shortcut = "l"

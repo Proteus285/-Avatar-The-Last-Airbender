@@ -2611,7 +2611,7 @@ guiTypes = {
 		iconType = {
 			name = "prod_line_glow"
 			position = { x = 315 y = 31 }
-			spriteType = "GFX_prod_line_glow"
+			spriteType = "GFX_prod_line_glow2"
 			alwaystransparent = yes
 		}
 		

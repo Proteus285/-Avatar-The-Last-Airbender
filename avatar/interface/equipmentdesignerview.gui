@@ -812,9 +812,9 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "production_resources"
-			position = { x= 590 y= 501 }
+			position = { x= 580 y= 501 }
 			font = "hoi_18mbs"
-			maxWidth = 100
+			maxWidth = 200
 			maxHeight = 25
 			pdx_tooltip = "EQUIPMENT_DESIGNER_PRODUCTION_RESOURCE_DESC"
 			format = left

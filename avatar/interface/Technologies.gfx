@@ -7,82 +7,154 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_basic_spear_1_medium"
-		texturefile = "gfx/interface/technologies/spear_equipment_0.dds"
+		texturefile = "gfx/interface/technologies/melee/spear_equipment_0.dds"
 	}
 	SpriteType = {
+		name = "GFX_FIR_basic_spear_1_medium"
+		texturefile = "gfx/interface/technologies/melee/FIR_spear_equipment_0.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_spear_2_medium"
-		texturefile = "gfx/interface/technologies/spear_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/melee/spear_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_spear_3_medium"
-		texturefile = "gfx/interface/technologies/spear_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/melee/spear_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_spear_4_medium"
-		texturefile = "gfx/interface/technologies/spear_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/melee/spear_equipment_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_spear_5_medium"
-		texturefile = "gfx/interface/technologies/spear_equipment_4.dds"
+		texturefile = "gfx/interface/technologies/melee/spear_equipment_4.dds"
 	}
 	SpriteType = {
 		name = "GFX_spear_6_medium"
-		texturefile = "gfx/interface/technologies/spear_equipment_5.dds"
+		texturefile = "gfx/interface/technologies/melee/spear_equipment_5.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_basic_polearm_1_medium"
-		texturefile = "gfx/interface/technologies/pike_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/melee/pike_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_polearm_2_medium"
-		texturefile = "gfx/interface/technologies/pike_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/melee/pike_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_polearm_3_medium"
-		texturefile = "gfx/interface/technologies/pike_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/melee/pike_equipment_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_polearm_4_medium"
-		texturefile = "gfx/interface/technologies/pike_equipment_4.dds"
+		texturefile = "gfx/interface/technologies/melee/pike_equipment_4.dds"
 	}
 	SpriteType = {
 		name = "GFX_polearm_5_medium"
-		texturefile = "gfx/interface/technologies/pike_equipment_5.dds"
+		texturefile = "gfx/interface/technologies/melee/pike_equipment_5.dds"
 	}
 	SpriteType = {
 		name = "GFX_polearm_6_medium"
-		texturefile = "gfx/interface/technologies/pike_equipment_6.dds"
+		texturefile = "gfx/interface/technologies/melee/pike_equipment_6.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_basic_sword_1_medium"
-		texturefile = "gfx/interface/technologies/sword_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/melee/sword_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_sword_2_medium"
-		texturefile = "gfx/interface/technologies/sword_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/melee/sword_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_sword_3_medium"
-		texturefile = "gfx/interface/technologies/sword_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/melee/sword_equipment_3.dds"
 	}
 	SpriteType = {
 		name = "GFX_sword_4_medium"
-		texturefile = "gfx/interface/technologies/sword_equipment_4.dds"
+		texturefile = "gfx/interface/technologies/melee/sword_equipment_4.dds"
 	}
 	SpriteType = {
 		name = "GFX_sword_5_medium"
-		texturefile = "gfx/interface/technologies/sword_equipment_5.dds"
+		texturefile = "gfx/interface/technologies/melee/sword_equipment_5.dds"
 	}
 	SpriteType = {
 		name = "GFX_sword_6_medium"
-		texturefile = "gfx/interface/technologies/sword_equipment_6.dds"
+		texturefile = "gfx/interface/technologies/melee/sword_equipment_6.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_basic_armor_medium"
-		texturefile = "gfx/interface/technologies/light_armor_1.dds"
+		texturefile = "gfx/interface/technologies/melee/infantry_armor_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_basic_armor_medium"
+		texturefile = "gfx/interface/technologies/melee/FIR_infantry_armor_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_armor_1_medium"
+		texturefile = "gfx/interface/technologies/melee/infantry_armor_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_heavy_armor_1_medium"
+		texturefile = "gfx/interface/technologies/melee/FIR_infantry_armor_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_armor_2_medium"
+		texturefile = "gfx/interface/technologies/melee/infantry_armor_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_heavy_armor_2_medium"
+		texturefile = "gfx/interface/technologies/melee/FIR_infantry_armor_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_armor_3_medium"
+		texturefile = "gfx/interface/technologies/melee/infantry_armor_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_heavy_armor_3_medium"
+		texturefile = "gfx/interface/technologies/melee/FIR_infantry_armor_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_armor_4_medium"
+		texturefile = "gfx/interface/technologies/melee/infantry_armor_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_heavy_armor_4_medium"
+		texturefile = "gfx/interface/technologies/melee/FIR_infantry_armor_5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_armor_5_medium"
+		texturefile = "gfx/interface/technologies/melee/infantry_armor_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_heavy_armor_5_medium"
+		texturefile = "gfx/interface/technologies/melee/FIR_infantry_armor_6.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_armor_6_medium"
+		texturefile = "gfx/interface/technologies/melee/infantry_armor_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_heavy_armor_6_medium"
+		texturefile = "gfx/interface/technologies/melee/FIR_infantry_armor_7.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_armor_7_medium"
+		texturefile = "gfx/interface/technologies/melee/infantry_armor_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIR_heavy_armor_7_medium"
+		texturefile = "gfx/interface/technologies/melee/FIR_infantry_armor_8.dds"
 	}
 
 	SpriteType = {
@@ -239,68 +311,55 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_the_four_elements_medium"
-		texturefile = "gfx/interface/technologies/the_four_elements.dds"
-		alwaystransparent = yes
+		texturefile = "gfx/interface/technologies/doctrines/the_four_elements.dds"
 	}
 	SpriteType = {
 		name = "GFX_power_medium"
-		texturefile = "gfx/interface/technologies/power.dds"
-		alwaystransparent = yes
+		texturefile = "gfx/interface/technologies/doctrines/power.dds"
 	}
 	SpriteType = {
 		name = "GFX_desire_and_will_medium"
-		texturefile = "gfx/interface/technologies/desire_and_will.dds"
-		alwaystransparent = yes
+		texturefile = "gfx/interface/technologies/doctrines/desire_and_will.dds"
 	}
 	SpriteType = {
 		name = "GFX_energy_and_drive_medium"
-		texturefile = "gfx/interface/technologies/energy_and_drive.dds"
-		alwaystransparent = yes
+		texturefile = "gfx/interface/technologies/doctrines/energy_and_drive.dds"
 	}
 	SpriteType = {
 		name = "GFX_substance_medium"
-		texturefile = "gfx/interface/technologies/substance.dds"
-		alwaystransparent = yes
+		texturefile = "gfx/interface/technologies/doctrines/substance.dds"
 	}
 	SpriteType = {
 		name = "GFX_persistence_medium"
-		texturefile = "gfx/interface/technologies/persistence.dds"
-		alwaystransparent = yes
+		texturefile = "gfx/interface/technologies/doctrines/persistence.dds"
 	}
 	SpriteType = {
 		name = "GFX_endurance_medium"
-		texturefile = "gfx/interface/technologies/endurance.dds"
-		alwaystransparent = yes
+		texturefile = "gfx/interface/technologies/doctrines/endurance.dds"
 	}
 	SpriteType = {
 		name = "GFX_change_medium"
-		texturefile = "gfx/interface/technologies/change.dds"
-		alwaystransparent = yes
+		texturefile = "gfx/interface/technologies/doctrines/change.dds"
 	}
 	SpriteType = {
 		name = "GFX_adaptation_medium"
-		texturefile = "gfx/interface/technologies/adaptation.dds"
-		alwaystransparent = yes
+		texturefile = "gfx/interface/technologies/doctrines/adaptation.dds"
 	}
 	SpriteType = {
 		name = "GFX_communal_unity_medium"
-		texturefile = "gfx/interface/technologies/communal_unity.dds"
-		alwaystransparent = yes
+		texturefile = "gfx/interface/technologies/doctrines/communal_unity.dds"
 	}
 	SpriteType = {
 		name = "GFX_freedom_medium"
-		texturefile = "gfx/interface/technologies/freedom.dds"
-		alwaystransparent = yes
+		texturefile = "gfx/interface/technologies/doctrines/freedom.dds"
 	}
 	SpriteType = {
 		name = "GFX_peace_medium"
-		texturefile = "gfx/interface/technologies/peace.dds"
-		alwaystransparent = yes
+		texturefile = "gfx/interface/technologies/doctrines/peace.dds"
 	}
 	SpriteType = {
 		name = "GFX_detachment_medium"
-		texturefile = "gfx/interface/technologies/detachment.dds"
-		alwaystransparent = yes
+		texturefile = "gfx/interface/technologies/doctrines/detachment.dds"
 	}
 
 
@@ -309,7 +368,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_reform_0_medium"
 		texturefile = "gfx/interface/technologies/society/leaving_the_lion_turtles.dds"
-		alwaystransparent = yes
 	}
 
 
@@ -318,37 +376,30 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_infrastructure_1_medium"
 		texturefile = "gfx/interface/technologies/construction/infrastructure_1.dds"
-		alwaystransparent = yes
 	}
 	SpriteType = {
 		name = "GFX_infrastructure_2_medium"
 		texturefile = "gfx/interface/technologies/construction/infrastructure_2.dds"
-		alwaystransparent = yes
 	}
 	SpriteType = {
 		name = "GFX_infrastructure_3_medium"
 		texturefile = "gfx/interface/technologies/construction/infrastructure_3.dds"
-		alwaystransparent = yes
 	}
 	SpriteType = {
 		name = "GFX_infrastructure_4_medium"
 		texturefile = "gfx/interface/technologies/construction/infrastructure_4.dds"
-		alwaystransparent = yes
 	}
 	SpriteType = {
 		name = "GFX_infrastructure_5_medium"
 		texturefile = "gfx/interface/technologies/construction/infrastructure_5.dds"
-		alwaystransparent = yes
 	}
 	SpriteType = {
 		name = "GFX_granary_1_medium"
 		texturefile = "gfx/interface/technologies/construction/granary_1.dds"
-		alwaystransparent = yes
 	}
 	SpriteType = {
 		name = "GFX_farm_and_lumber_medium"
 		texturefile = "gfx/interface/technologies/construction/farm_and_lumber.dds"
-		alwaystransparent = yes
 	}
 
 
@@ -357,32 +408,50 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_basic_construction_medium"
 		texturefile = "gfx/interface/technologies/industry/engineering.dds"
-		alwaystransparent = yes
 	}
 	SpriteType = {
 		name = "GFX_construction_l1_medium"
 		texturefile = "gfx/interface/technologies/industry/packed_clay.dds"
-		alwaystransparent = yes
 	}
 	SpriteType = {
 		name = "GFX_construction_l2_medium"
 		texturefile = "gfx/interface/technologies/industry/rudimentary_brickmaking.dds"
-		alwaystransparent = yes
 	}
 	SpriteType = {
 		name = "GFX_construction_r1_medium"
 		texturefile = "gfx/interface/technologies/industry/timber_frame.dds"
-		alwaystransparent = yes
 	}
 	SpriteType = {
 		name = "GFX_basic_production_medium"
 		texturefile = "gfx/interface/technologies/industry/hand_tool_production.dds"
-		alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_naval_1_medium"
+		texturefile = "gfx/interface/technologies/industry/early_ships.dds"
+	}
+	SpriteType = {
+		name = "GFX_production_1_medium"
+		texturefile = "gfx/interface/technologies/industry/copper_casting.dds"
 	}
 	SpriteType = {
 		name = "GFX_basic_gathering_medium"
 		texturefile = "gfx/interface/technologies/industry/logging_axes.dds"
-		alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_wood_1_medium"
+		texturefile = "gfx/interface/technologies/industry/bronze_axes.dds"
+	}
+	SpriteType = {
+		name = "GFX_wood_2_medium"
+		texturefile = "gfx/interface/technologies/industry/iron_axes.dds"
+	}
+	SpriteType = {
+		name = "GFX_wood_3_medium"
+		texturefile = "gfx/interface/technologies/industry/saws.dds"
+	}
+	SpriteType = {
+		name = "GFX_wood_4_medium"
+		texturefile = "gfx/interface/technologies/industry/timber_stands.dds"
 	}
 
 

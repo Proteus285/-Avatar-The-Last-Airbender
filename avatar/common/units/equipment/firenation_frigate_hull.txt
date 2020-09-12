@@ -4,8 +4,8 @@ equipments = {
 
 		is_archetype = yes
 		is_buildable = no
-		type = capital_ship
-		interface_category = interface_category_capital_ships
+		type = screen_ship
+		interface_category = interface_category_screen_ships
 		alias = light_cruiser
 		priority = 1900
 
@@ -420,7 +420,7 @@ equipments = {
 		module_slots = inherit
 
 		type = { 
-			capital_ship
+			screen_ship
 			anti_air
 		}
 		upgrades = {
@@ -486,7 +486,7 @@ equipments = {
 
 		
 		type = { 
-			capital_ship
+			screen_ship
 			anti_air
 		}
 		build_cost_ic = 1650

@@ -5,6 +5,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_fundings"
 		textureFile = "gfx/interface/_00fundings.dds"
+		noOfFrames = 2
 	}
 
 	spriteType = {
@@ -140,5 +141,20 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_suki"
 		textureFile = "gfx/leaders/KYI/Portrait_Kyoshi_Suki2.dds"
+	}
+
+	################## legitimacy ######################
+
+	spriteType = {
+		name = "GFX_legitimacy_bg"
+		texturefile = "gfx/interface/legitimacy/legitimacy_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_FIR_low_legitimacy"
+		texturefile = "gfx/interface/legitimacy/FIR_low_legitimacy.dds"
+	}
+	spriteType = {
+		name = "GFX_FIR_high_legitimacy"
+		texturefile = "gfx/interface/legitimacy/FIR_high_legitimacy.dds"
 	}
 }

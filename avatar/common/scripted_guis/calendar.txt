@@ -26,6 +26,15 @@ scripted_gui = {
 					subtract_from_temp_variable = { show = show_calendar_effects }
 					set_variable = { show_calendar_effects = show }
 				}
+
+				if = {
+					limit = {
+						check_variable = { show_avatar > 0.0 }
+					}
+					set_temp_variable = { show = 1 }
+					subtract_from_temp_variable = { show = show_avatar }
+					set_variable = { show_avatar = show }
+				}
 			}
 		}
 	}

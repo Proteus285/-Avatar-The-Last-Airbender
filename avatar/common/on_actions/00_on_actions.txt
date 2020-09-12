@@ -1,5 +1,13 @@
 on_actions = {
 
+	on_startup = {
+		effect = {
+			every_country = {
+				set_variable = { atla_legitimacy = 3 }
+			}
+		}
+	}
+
 
 	# From is owner country
 	on_army_leader_daily = {
