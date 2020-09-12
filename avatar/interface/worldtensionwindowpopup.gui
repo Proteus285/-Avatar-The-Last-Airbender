@@ -9,6 +9,9 @@ guiTypes = {
 		hide_animation_type = accelerated
 		animation_time = 300
 		Orientation = UPPER_RIGHT
+		fade_time = 200
+		fade_type = linear
+		click_to_front = yes
 		
 		background = {
 			name = "Background"
@@ -50,7 +53,6 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			clicksound = click_default
 			position = { x = 40 y = 87 }
-			text = DATE_NAME
 			pdx_tooltip = SORT_BY_DATE
 		}
 		
@@ -60,7 +62,6 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			clicksound = click_default
 			position = { x = 149 y = 87 }
-			text = country
 			pdx_tooltip = SORT_BY_COUNTRY
 		}
 		
@@ -70,7 +71,6 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			clicksound = click_default
 			position = { x = 258 y = 87 }
-			text = WORLD_TENSION_NAME
 			pdx_tooltip = SORT_BY_TENSION
 		}
 		
@@ -80,7 +80,6 @@ guiTypes = {
 			buttonFont = "hoi_16mbs"
 			clicksound = click_default
 			position = { x = 385 y = 87 }
-			text = WORLD_TENSION_WARS
 			pdx_tooltip = SHOW_WARS
 		}
 		
