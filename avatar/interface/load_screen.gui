@@ -13,19 +13,19 @@ guiTypes = {
 		fullScreen = yes
 		Orientation = "UPPER_LEFT"
 		
-		#iconType = {
-		#	name ="bg_clausewitz_logo"
-		#	spriteType = "GFX_clausewitz_logo"
-		#	position = { x= 23 y = -152 }
-		#	Orientation = "LOWER_LEFT"
-		#}		
+		iconType = {
+			name ="bg_clausewitz_logo"
+			spriteType = "GFX_clausewitz_logo"
+			position = { x= 23 y = -152 }
+			Orientation = "LOWER_LEFT"
+		}		
 		
-		#iconType = {
-		#	name ="bg_pdx_int_logo"
-		#	spriteType = "GFX_frontend_dev_logo_s"
-		#	position = { x= -130 y = -158 }
-		#	Orientation = "LOWER_RIGHT"
-		#}	
+		iconType = {
+			name ="bg_pdx_int_logo"
+			spriteType = "GFX_frontend_dev_logo_s"
+			position = { x= -130 y = -158 }
+			Orientation = "LOWER_RIGHT"
+		}	
 				
 		windowType = {
 			name = "status"
@@ -37,17 +37,17 @@ guiTypes = {
 			horizontalBorder = "0"
 			verticalBorder = ""
 			fullScreen = no
-			Orientation = "CENTER_UP"
+			Orientation = "CENTER"
 			
 			iconType = {
 				name ="bg_load_screen2"
 				spriteType = "GFX_loadingstatus_bg"
-				position = { x= -700 y = 0 }
+				position = { x= -224 y = -400 }
 			}
 			
 			instantTextBoxType = {
 				name = "text"
-				position = { x = -400 y = 13 }
+				position = { x = -400 y = -4513 }
 				textureFile = ""
 				font = "loadscreen_header"
 				borderSize = {x = 0 y = 0}
@@ -61,7 +61,7 @@ guiTypes = {
 			iconType = {
 				name = "progressbar"
 				spriteType = "GFX_loadingstatus_progress"
-				position = { x=-600 y=262 }
+				position = { x=-600 y=-150 }
 			}
 		}
 		
@@ -81,12 +81,12 @@ guiTypes = {
 			iconType = {
 				name ="bg_load_screen"
 				spriteType = "GFX_loadingtip_bg"
-				position = { x= -700 y = -147 }
+				position = { x= -700 y = -167 }
 			}		
 
 			instantTextBoxType = {
 				name = "text"
-				position = { x = -450 y = -157 }
+				position = { x = -450 y = -190 }
 				textureFile = ""
 				font = "loadscreen_tip"
 				borderSize = {x = 0 y = 0}

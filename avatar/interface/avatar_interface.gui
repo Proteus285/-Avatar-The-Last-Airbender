@@ -513,14 +513,14 @@ guiTypes = {
 		iconType ={
 			name ="calendar_header_bg"
 			spriteType = "GFX_header_mirrored_bg"
-			position = { x= 5 y = 07 }
+			position = { x= 5 y = 7 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name = "cbg"
 			spriteType = "GFX_calendar_background"
-			position = { x = 16 y = 48 }
+			position = { x = 16 y = 188 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -544,7 +544,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "calendar_list_button"
-			position = {x=58 y=103}
+			position = {x=58 y=63}
 			spriteType = "GFX_calendar_event_list"
 			scale = 0.75
 
@@ -554,7 +554,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "event_list"
-			position = {x=56 y=202}
+			position = {x=56 y=162}
 			font = "hoi_18mbs"
 			text = "EVENT_LIST"
 			maxWidth = 120
@@ -567,7 +567,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "calendar_effects_button"
-			position = {x=338 y=103}
+			position = {x=338 y=63}
 			spriteType = "GFX_calendar_effect_list"
 			scale = 0.7
 
@@ -577,7 +577,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "event_effects"
-			position = {x=364 y=202}
+			position = {x=364 y=162}
 			font = "hoi_18mbs"
 			text = "EVENT_EFFECTS"
 			maxWidth = 80
