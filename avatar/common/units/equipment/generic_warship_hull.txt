@@ -1,12 +1,12 @@
 equipments = {
 
-	junk_hull = {
+	warship_hull = {
 
 		is_archetype = yes
 		is_buildable = no
 		type = capital_ship
 		interface_category = interface_category_screen_ships
-		alias = light_cruiser
+		alias = heavy_cruiser
 		priority = 1900
 
 		module_slots = {
@@ -24,6 +24,13 @@ equipments = {
 					maintenance_crew
 				}
 			}
+			fixed_ship_artillery_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_catapult
+					ship_ballista
+				}
+			}
 			fixed_ship_mast_slot = {
 				required = no
 				allowed_module_categories = { crows_nest }
@@ -36,16 +43,29 @@ equipments = {
 				required = no
 				allowed_module_categories = { storage_room }
 			}
+			
+			deck_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_catapult
+					ship_earthbender_crew
+					ship_archers
+					ship_ballista
+					mine_layer
+					ship_boarding
+				}
+			}
 			aftercastle_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_boarding
-					ship_eartbender_crew
-					ship_airbender_crew
 					ship_archers
+					storage_room
+					bridge
 					maintenance_crew
+					ship_boarding
 				}
 			}
+			
 		}
 		
 		module_count_limit = {
@@ -97,11 +117,11 @@ equipments = {
 		build_cost_ic = 1200
 		resources = {
 			chromium = 1
-			aluminium = 2
+			aluminium = 3
 		}
 	}
 
-	junk_hull_1 = {
+	warship_1 = {
 
 		visual_level = 0
 		archetype = junk_hull
@@ -111,12 +131,12 @@ equipments = {
 		module_slots = inherit
 	}
 
-	junk_hull_2 = {
+	warship_2 = {
 
 		visual_level = 1
-		archetype = junk_hull
+		archetype = warship_hull
 		priority = 1900
-		parent = junk_hull_1
+		parent = warship_1
 		manpower = 800
 		naval_speed = 25
 		reliability = 0.85
@@ -124,26 +144,37 @@ equipments = {
 		naval_range = 3000
 		max_strength = 110
 		resources = {
-			chromium = 1
-			aluminium = 2
+			aluminium = 3
+			steel = 1
 		}
 		module_slots = {
 			fixed_ship_armor_slot = inherit
 			fixed_ship_crew_slot = inherit
 			fixed_ship_artillery_slot = inherit
 			fixed_ship_mast_slot = inherit
-			fixed_ship_storage_slot = inherit
 			fixed_ship_sails_slot = inherit
-			aftercastle_custom_slot = inherit
+			fixed_ship_storage_slot = inherit
+			
+			forecastle_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_archers
+					storage_room
+					bridge
+					maintenance_crew
+					ship_boarding
+				}
+			}
 			deck_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
+					ship_catapult
+					ship_firebender_crew
+					ship_ballista
 					mine_layer
-					ship_archers
-					sails
-					crows_nest
 				}
 			}
+			aftercastle_custom_slot = inherit
 		}
 
 		default_modules = {
@@ -161,12 +192,12 @@ equipments = {
 		}
 	}
 
-	junk_hull_3 = {
+	warship_3 = {
 
 		visual_level = 1
-		archetype = junk_hull
+		archetype = warship_hull
 		priority = 1900
-		parent = junk_hull_2
+		parent = warship_2
 		manpower = 800
 		naval_speed = 25
 		reliability = 0.85
@@ -174,36 +205,24 @@ equipments = {
 		naval_range = 3000
 		max_strength = 110
 		resources = {
-			chromium = 1
 			aluminium = 3
+			steel = 2
 		}
+		
 		module_slots = {
 			fixed_ship_armor_slot = inherit
 			fixed_ship_crew_slot = inherit
-			fixed_ship_artillery_slot = {
-				required = no
-				allowed_module_categories = { 
-					ship_ballista
-					ship_catapult
-				}
-			}
+			fixed_ship_artillery_slot = inherit
 			fixed_ship_mast_slot = inherit
-			fixed_ship_storage_slot = inherit
 			fixed_ship_sails_slot = inherit
-			deck_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					mine_layer
-					ship_archers
-					sails
-					crows_nest
-					ship_ballista
-					ship_catapult
-				}
-			}
-			aftercastle_custom_slot = inherit
+			fixed_ship_storage_slot = inherit
+			
+			forecastle_custom_slot = inherit
+			deck_1_custom_slot = inherit
+			deck_2_custom_slot = deck_1_custom_slot
+			aftercastle_custom_slot = forecastle_custom_slot
 		}
-	
+
 		default_modules = {
 			fixed_ship_sail_slot = sails_3
 			fixed_ship_engine_slot = steam_engine_5
@@ -222,67 +241,12 @@ equipments = {
 		}
 	}
 
-	junk_hull_4 = {
+	warship_hull_4 = {
 
 		visual_level = 1
-		archetype = junk_hull
+		archetype = warship_hull
 		priority = 1900
-		parent = junk_hull_3
-		manpower = 800
-		naval_speed = 25
-		reliability = 0.85
-		build_cost_ic = 1900
-		naval_range = 3000
-		max_strength = 110
-		resources = {
-			chromium = 1
-			aluminium = 3
-			steel = 1
-		}
-		module_slots = {
-			fixed_ship_armor_slot = inherit
-			fixed_ship_crew_slot = inherit
-			fixed_ship_artillery_slot = inherit
-			fixed_ship_mast_slot = inherit
-			fixed_ship_storage_slot = inherit
-			fixed_ship_sails_slot = inherit
-			forecastle_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_boarding
-					ship_eartbender_crew
-					ship_airbender_crew
-					ship_archers
-					maintenance_crew
-				}
-			}
-			deck_1_custom_slot = inherit
-			aftercastle_custom_slot = forecastle_custom_slot
-		}
-
-		default_modules = {
-			fixed_ship_sail_slot = sails_2
-			fixed_ship_artillery_slot = empty
-			fixed_ship_supplies_slot = empty
-			fixed_ship_crew_slot = ship_earthbender_crew
-			fixed_ship_armor_slot = empty
-			fixed_ship_support_slot = empty
-			fixed_ship_crow's_nest_slot = empty
-			front_1_custom_slot = empty
-			front_2_custom_slot= empty
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = empty
-			rear_2_custom_slot= empty
-		}
-	}
-
-	junk_hull_5 = {
-
-		visual_level = 1
-		archetype = junk_hull
-		priority = 1900
-		parent = junk_hull_4
+		parent = warship_hull_4
 		manpower = 800
 		naval_speed = 25
 		reliability = 0.85
@@ -291,15 +255,15 @@ equipments = {
 		max_strength = 110
 		resources = {
 			aluminium = 3
-			steel = 2
+			steel = 3
 		}
 		module_slots = {
 			fixed_ship_armor_slot = inherit
 			fixed_ship_crew_slot = inherit
 			fixed_ship_artillery_slot = inherit
 			fixed_ship_mast_slot = inherit
-			fixed_ship_storage_slot = inherit
 			fixed_ship_sails_slot = inherit
+			fixed_ship_storage_slot = inherit
 			forecastle_custom_slot = inherit
 			deck_1_custom_slot = {
 				required = no
@@ -308,11 +272,16 @@ equipments = {
 					ship_ballista
 					mine_layer
 					ship_archers
+				}
+			}
+			deck_2_custom_slot = deck_1_custom_slot
+			mast_custom_slot = {
+				required = no
+				allowed_module_categories = {
 					sails
 					crows_nest
 				}
 			}
-			deck_2_custom_slot = deck_1_custom_slot
 			aftercastle_custom_slot = forecastle_custom_slot
 		}
 
@@ -333,10 +302,11 @@ equipments = {
 		}
 	}
 
-	junk_ship_1 = {
+
+	warship_ship_1 = {
 
 		visual_level = 0
-		archetype = junk_hull
+		archetype = warship_hull
 		priority = 1900
 		module_slots = inherit
 
@@ -380,12 +350,12 @@ equipments = {
 		}
 	}
 
-	junk_ship_2 = {
+	warship_2 = {
 
 		visual_level = 1
-		archetype = junk_hull
+		archetype = warship_hull
 		priority = 1900
-		parent = junk_ship_1
+		parent = warship_1
 		module_slots = inherit
 		
 		type = { 
@@ -437,12 +407,12 @@ equipments = {
 		manpower = 800
 	}
 	
-	junk_ship_3 = {
+	warship_3 = {
 
 		visual_level = 1
-		archetype = junk_hull
+		archetype = warship_hull
 		priority = 1900
-		parent = junk_ship_2
+		parent = warship_2
 		module_slots = inherit
 		
 		type = { 
@@ -495,12 +465,12 @@ equipments = {
 		manpower = 800
 	}
 	
-	junk_ship_4 = {
+	warship_4 = {
 
 		visual_level = 1
-		archetype = junk_hull
+		archetype = warship_hull
 		priority = 1900
-		parent = junk_ship_3
+		parent = warship_3
 		module_slots = inherit
 		
 		type = { 
@@ -556,67 +526,4 @@ equipments = {
 		}
 		manpower = 800
 	}
-	
-	junk_ship_5 = {
-
-		visual_level = 1
-		archetype = junk_hull
-		priority = 1900
-		parent = junk_ship_3
-		module_slots = inherit
-		
-		type = { 
-			capital_ship
-		}
-		
-		default_modules = {
-			fixed_ship_engine_slot = steam_engine_5
-			fixed_ship_artillery_slot = ship_ballista_4
-			fixed_ship_sail_slot = sails_4
-			fixed_ship_supplies_slot = supplies_4
-			fixed_ship_crew_slot = ship_earthbender_crew
-			fixed_ship_armor_slot = medium_armor_plates_5
-			fixed_ship_support_slot = maintenance_crew_4
-			fixed_ship_crow's_nest_slot = crow's_nest_4
-			front_1_custom_slot = ship_boarding
-			front_2_custom_slot = sails
-			mid_1_custom_slot = ship_catapult_5
-			mid_2_custom_slot = ship_archer_5
-			mid_3_custom_slot = ship_catapult_5
-			rear_1_custom_slot = supplies_2
-			rear_2_custom_slot = sails
-		}
-		lg_armor_piercing = 0
-		lg_attack = 0
-		torpedo_attack = 2
-		sub_attack = 5
-		
-		anti_air_attack = 0
-		
-		armor_value = 6
-
-		
-		surface_detection = 20
-		sub_detection = 5
-		naval_speed = 25
-		reliability = 0.85
-
-		naval_range = 3000
-		
-		max_strength = 120
-
-		build_cost_ic = 1650
-		resources = {
-			chromium = 2
-			aluminium = 8
-			iron = 2
-			stone = 3
-			tungsten = 5
-			steel = 6
-			rubber = 5
-			oil = 5
-		}
-		manpower = 800
-	}
-
 }

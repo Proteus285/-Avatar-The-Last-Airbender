@@ -10,46 +10,57 @@ equipments = {
 		priority = 1900
 
 		module_slots = {
-			fixed_ship_sail_slot = {
-				required = yes
-				allowed_module_categories = { sails }
-			}
 			fixed_ship_armor_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = { medium_armor_plates }	
-			}
-			fixed_ship_artillery_slot = {
-				required = no
-				allowed_module_categories = { 
-					ship_ballista
-					ship_catapult
-				}
-			}
-			fixed_ship_supplies_slot = {
-				required = no
-				allowed_module_categories = { supplies }
 			}
 			fixed_ship_crew_slot = {
 				required = yes
-				allowed_module_categories = { 
+				allowed_module_categories = {
+					ship_boarding
 					ship_waterbender_crew
-					ship_archer
+					ship_archers
+					maintenance_crew
+				}
+			}
+			fixed_ship_artillery_slot = {
+				required = yes
+				allowed_module_categories = {
+					ship_catapult
+					ship_ballista
+				}
+			}
+			fixed_ship_mast_slot = {
+				required = no
+				allowed_module_categories = { crows_nest }
+			}
+			fixed_ship_sails_slot = {
+				required = yes
+				allowed_module_categories = { sails }
+			}
+			fixed_ship_storage_slot = {
+				required = no
+				allowed_module_categories = { storage_room }
+			}
+			
+			deck_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_catapult
+					ship_waterbender_crew
+					ship_archers
+					ship_ballista
+					mine_layer
 					ship_boarding
 				}
 			}
-			fixed_ship_support_slot = {
-				required = no
-				allowed_module_categories = { mantainance_crew }
-			}
-			fixed_ship_crow's_nest_slot = {
-				required = no
-				allowed_module_categories = { crow's_nest }
-			}
-			mid_1_custom_slot = {
+			aftercastle_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_waterbender_crew
-					ship_archer
+					ship_archers
+					storage_room
+					bridge
+					maintenance_crew
 					ship_boarding
 				}
 			}
@@ -135,34 +146,33 @@ equipments = {
 			aluminium = 3
 		}
 		module_slots = {
-			fixed_ship_sail_slot = inherit
-			fixed_ship_artillery_slot = inherit
 			fixed_ship_armor_slot = inherit
-			fixed_ship_supplies_slot = inherit
 			fixed_ship_crew_slot = inherit
-			fixed_ship_support_slot = inherit
-			fixed_ship_crow's_nest_slot = inherit
-			front_1_custom_slot = inherit
-			rear_1_custom_slot = inherit
-			front_1_custom_slot = {
-				ship_waterbender_crew
-				ship_archer
-				ship_boarding
-			}
-			mid_1_custom_slot = {
-				ship_waterbender_crew
-				ship_archer
-				ship_boarding
-				ship_ballista
-				ship_catapult
-				sails
-			}
-			rear_1_custom_slot = {
-				maintenance_crew
-				mine_layer
-				supplies
-			}
+			fixed_ship_artillery_slot = inherit
+			fixed_ship_mast_slot = inherit
+			fixed_ship_sails_slot = inherit
+			fixed_ship_storage_slot = inherit
 			
+			forecastle_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_archers
+					storage_room
+					bridge
+					maintenance_crew
+					ship_boarding
+				}
+			}
+			deck_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_catapult
+					ship_waterbender_crew
+					ship_ballista
+					mine_layer
+				}
+			}
+			aftercastle_custom_slot = inherit
 		}
 
 		default_modules = {
@@ -198,44 +208,17 @@ equipments = {
 			steel = 1
 		}
 		module_slots = {
-			fixed_ship_engine_slot = {
-				required = no
-				allowed_module_categories = { 
-					steam_engine
-				}
-			}
-			fixed_ship_sail_slot = inherit
 			fixed_ship_armor_slot = inherit
-			fixed_ship_supplies_slot = inherit
 			fixed_ship_crew_slot = inherit
-			fixed_ship_support_slot = inherit
-			fixed_ship_crow's_nest_slot = inherit
-			fixed_ship_artillery_slot = {inherit
-			front_1_custom_slot = inherit
-			mid_1_custom_slot = {
-				ship_waterbender_crew
-				ship_archer
-				ship_boarding
-				ship_ballista
-				ship_catapult
-				maintenance_crew
-				supplies
-				mine_layer
-			}
-			mid_2_custom_slot = {
-				ship_waterbender_crew
-				ship_archer
-				ship_boarding
-				ship_ballista
-				ship_catapult
-				maintenance_crew
-				supplies
-				mine_layer
-				sails
-			}
-			mid_3_custom_slot = mid_1_custom_slot
-			rear_1_custom_slot = inherit
+			fixed_ship_artillery_slot = inherit
+			fixed_ship_mast_slot = inherit
+			fixed_ship_sails_slot = inherit
+			fixed_ship_storage_slot = inherit
 			
+			forecastle_custom_slot = inherit
+			deck_1_custom_slot = inherit
+			deck_2_custom_slot = deck_1_custom_slot
+			aftercastle_custom_slot = forecastle_custom_slot
 		}
 
 		default_modules = {
@@ -274,32 +257,31 @@ equipments = {
 			steel = 2
 		}
 		module_slots = {
-			fixed_ship_engine_slot = inherit
-			fixed_ship_sail_slot = inherit
 			fixed_ship_armor_slot = inherit
-			fixed_ship_supplies_slot = inherit
 			fixed_ship_crew_slot = inherit
-			fixed_ship_support_slot = inherit
-			fixed_ship_crow's_nest_slot = inherit
-			fixed_ship_artillery_slot = {inherit
-			front_1_custom_slot = inherit
-			front_2_custom_slot = {
-				ship_waterbender_crew
-				ship_archer
-				ship_boarding
-				sails
+			fixed_ship_artillery_slot = inherit
+			fixed_ship_mast_slot = inherit
+			fixed_ship_sails_slot = inherit
+			fixed_ship_storage_slot = inherit
+			forecastle_custom_slot = inherit
+			deck_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_catapult
+					ship_ballista
+					mine_layer
+					ship_archers
+				}
 			}
-			mid_1_custom_slot = inherit
-			mid_2_custom_slot = inherit
-			mid_3_custom_slot = inherit
-			rear_1_custom_slot = inherit
-			rear_2_custom_slot = {
-				maintenance_crew
-				mine_layer
-				supplies
-				sails
+			deck_2_custom_slot = deck_1_custom_slot
+			mast_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					sails
+					crows_nest
+				}
 			}
-			
+			aftercastle_custom_slot = forecastle_custom_slot
 		}
 
 		default_modules = {
