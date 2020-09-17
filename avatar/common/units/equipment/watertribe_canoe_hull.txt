@@ -188,7 +188,6 @@ equipments = {
 		build_cost_ic = 250
 		resources = {
 			aluminium = 1
-			chromium = 1
 		}
 		type = { 
 			screen_ship
@@ -240,7 +239,7 @@ equipments = {
 		
 		build_cost_ic = 250
 		resources = {
-			aluminium = 2
+			aluminium = 1
 		}
 		type = { 
 			screen_ship
@@ -256,7 +255,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_armor_slot = {
 				required = yes
-				allowed_module_categories = { light_armor_plates }	
+				allowed_module_categories = { light_hull_reinforcement }	
 			}
 			fixed_ship_crew_slot = inherit
 			fixed_ship_oars_slot = inherit
@@ -269,7 +268,7 @@ equipments = {
 			count < 2
 		}
 		default_modules = {
-			fixed_ship_armor_slot = light_armor_plates_1
+			fixed_ship_armor_slot = light_hull_reinforcement_1
 			fixed_ship_crew_slot = ship_boarding_3
 			fixed_ship_oars_slot = oars_3
 			fixed_ship_storage_slot = supplies_3
@@ -289,8 +288,7 @@ equipments = {
 		
 		build_cost_ic = 250
 		resources = {
-			aluminium = 2
-			steel = 1
+			aluminium = 1
 		}
 		type = { 
 			screen_ship
@@ -499,7 +497,7 @@ equipments = {
 		module_slots = inherit
 		
 		default_modules = {
-			fixed_ship_armor_slot = light_armor_plates_1
+			fixed_ship_armor_slot = light_hull_reinforcement_1
 			fixed_ship_crew_slot = ship_boarding_3
 			fixed_ship_oars_slot = oars_3
 			fixed_ship_storage_slot = supplies_3

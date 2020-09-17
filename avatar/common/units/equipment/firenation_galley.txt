@@ -82,6 +82,7 @@ equipments = {
 		build_cost_ic = 220
 		resources = {
 			aluminium = 1
+			tungsten = 1
 		}
 		
 		manpower = 200
@@ -135,7 +136,7 @@ equipments = {
 		build_cost_ic = 250
 		resources = {
 			aluminium = 1
-			chromium = 1
+			tungsten = 1
 		}
 		type = { 
 			screen_ship
@@ -191,7 +192,8 @@ equipments = {
 		
 		build_cost_ic = 250
 		resources = {
-			aluminium = 2
+			aluminium = 1
+			tungsten = 1
 		}
 		type = { 
 			screen_ship
@@ -240,7 +242,8 @@ equipments = {
 		
 		build_cost_ic = 250
 		resources = {
-			aluminium = 3
+			aluminium = 1
+			tungsten = 1
 		}
 		type = { 
 			screen_ship

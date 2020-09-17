@@ -80,6 +80,7 @@ equipments = {
 		build_cost_ic = 1200
 		resources = {
 			aluminium = 1
+			tungsten = 1
 		}
 	}
 
@@ -106,8 +107,8 @@ equipments = {
 		naval_range = 3000
 		max_strength = 110
 		resources = {
-			chromium = 1
 			aluminium = 1
+			tungsten = 1
 		}
 		module_slots = {
 			fixed_ship_crew_slot = inherit
@@ -157,12 +158,13 @@ equipments = {
 		naval_range = 3000
 		max_strength = 110
 		resources = {
-			aluminium = 2
+			aluminium = 1
+			tungsten = 1
 		}
 		module_slots = {
 			fixed_ship_armor_slot = {
 				required = yes
-				allowed_module_categories = { light_armor_plates }	
+				allowed_module_categories = { light_hull_reinforcement }	
 			}
 			fixed_ship_crew_slot = inherit
 			fixed_ship_mast_slot = inherit
@@ -179,7 +181,7 @@ equipments = {
 			count < 2
 		}
 		default_modules = {
-			fixed_ship_armor_slot = light_armor_plates_1
+			fixed_ship_armor_slot = light_hull_reinforcement_1
 			fixed_ship_crew_slot = ship_boarding_2
 			fixed_ship_mast_slot = crows_nest_2
 			fixed_ship_sails_slot = sails_2
@@ -201,7 +203,8 @@ equipments = {
 		naval_range = 3000
 		max_strength = 110
 		resources = {
-			aluminium = 3
+			aluminium = 1
+			tungsten = 1
 		}
 		module_slots = {
 			fixed_ship_armor_slot = inherit
@@ -239,7 +242,7 @@ equipments = {
 			count < 2
 		}
 		default_modules = {
-			fixed_ship_armor_slot = light_armor_plates_2
+			fixed_ship_armor_slot = light_hull_reinforcement_2
 			fixed_ship_crew_slot = ship_boarding_2
 			fixed_ship_mast_slot = crows_nest_2
 			fixed_ship_sails_slot = sails_2
@@ -262,8 +265,8 @@ equipments = {
 		naval_range = 3000
 		max_strength = 110
 		resources = {
-			aluminium = 2
-			steel = 1
+			aluminium = 1
+			tungsten = 1
 		}
 		module_slots = {
 			fixed_ship_armor_slot = inherit
@@ -300,7 +303,7 @@ equipments = {
 			count < 2
 		}
 		default_modules = {
-			fixed_ship_armor_slot = light_armor_plates_3
+			fixed_ship_armor_slot = light_hull_reinforcement_3
 			fixed_ship_crew_slot = ship_boarding_3
 			fixed_ship_artillery_slot = ship_ballista_1
 			fixed_ship_mast_slot = crows_nest_3
@@ -325,7 +328,7 @@ equipments = {
 		max_strength = 110
 		resources = {
 			aluminium = 1
-			steel = 2
+			tungsten = 1
 		}
 		module_slots = {
 			fixed_ship_armor_slot = inherit
@@ -356,7 +359,7 @@ equipments = {
 			count < 2
 		}
 		default_modules = {
-			fixed_ship_armor_slot = light_armor_plates_3
+			fixed_ship_armor_slot = light_hull_reinforcement_3
 			fixed_ship_crew_slot = ship_boarding_3
 			fixed_ship_artillery_slot = ship_ballista_2
 			fixed_ship_mast_slot = crows_nest_3
@@ -471,7 +474,7 @@ equipments = {
 		}
 		
 		default_modules = {
-			fixed_ship_armor_slot = light_armor_plates_1
+			fixed_ship_armor_slot = light_hull_reinforcement_1
 			fixed_ship_crew_slot = ship_boarding_2
 			fixed_ship_mast_slot = crows_nest_2
 			fixed_ship_sails_slot = sails_2
@@ -521,7 +524,7 @@ equipments = {
 		}
 		
 		default_modules = {
-			fixed_ship_armor_slot = light_armor_plates_2
+			fixed_ship_armor_slot = light_hull_reinforcement_2
 			fixed_ship_crew_slot = ship_boarding_2
 			fixed_ship_mast_slot = crows_nest_2
 			fixed_ship_sails_slot = sails_2
@@ -573,7 +576,7 @@ equipments = {
 		}
 		
 		default_modules = {
-			fixed_ship_armor_slot = light_armor_plates_3
+			fixed_ship_armor_slot = light_hull_reinforcement_3
 			fixed_ship_crew_slot = ship_boarding_3
 			fixed_ship_artillery_slot = ship_ballista_1
 			fixed_ship_mast_slot = crows_nest_3
@@ -628,7 +631,7 @@ equipments = {
 		}
 		
 		default_modules = {
-			fixed_ship_armor_slot = light_armor_plates_3
+			fixed_ship_armor_slot = light_hull_reinforcement_3
 			fixed_ship_crew_slot = ship_boarding_3
 			fixed_ship_artillery_slot = ship_ballista_2
 			fixed_ship_mast_slot = crows_nest_3

@@ -1540,7 +1540,7 @@ equipment_modules = {
 			hg_armor_piercing = 36
 		}
 		build_cost_resources = {
-			stone = 1
+			rubber = 1
 		}
 		can_convert_from = {
 			module_category = ship_trebuchet
@@ -1695,7 +1695,7 @@ equipment_modules = {
 			build_cost_ic = 550
 		}
 		build_cost_resources = {
-			iron = 1
+			steel = 1
 		}
 		multiply_stats = {
 			anti_air_attack = 0.1
@@ -1786,7 +1786,7 @@ equipment_modules = {
 			naval_speed = -0.01			
 		}
 		build_cost_resources = {
-			iron = 1
+			aluminium = 1
 		}
 	}
 	
@@ -1803,7 +1803,7 @@ equipment_modules = {
 			naval_speed = -0.01			
 		}
 		build_cost_resources = {
-			iron = 1
+			steel = 1
 		}
 	}
 	
@@ -1960,7 +1960,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			aluminium = 1
-			chromium = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 6
@@ -1979,7 +1979,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			aluminium = 1
-			chromium = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 9
@@ -1997,7 +1997,8 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			aluminium = 2
+			aluminium = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 12
@@ -2015,7 +2016,8 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			aluminium = 2
+			aluminium = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 15
@@ -2034,7 +2036,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			aluminium = 1
-			iron = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 18
@@ -2053,7 +2055,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			aluminium = 1
-			iron = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 21
@@ -2073,8 +2075,7 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			aluminium = 1
-			steel = 1
+			steel = 2
 		}
 		add_stats = {
 			armor_value = 10
@@ -2093,8 +2094,7 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			aluminium = 1
-			steel = 1
+			steel = 2
 		}
 		add_stats = {
 			armor_value = 15
@@ -2174,6 +2174,239 @@ equipment_modules = {
 		}
 		add_stats = {
 			armor_value = 30
+			surface_visibility = 10
+		}
+		dismantle_cost_ic = 5500
+	}
+	super_heavy_armor_plates_3 = {
+		category = super_heavy_armor_plates
+		gfx = ship_armor_thick_1
+		
+		multiply_stats = {
+			build_cost_ic = 0.60
+			naval_speed = -0.2
+			max_strength = 0.05
+		}
+		build_cost_resources = {
+			steel = 3
+		}
+		add_stats = {
+			armor_value = 30
+			surface_visibility = 10
+		}
+		dismantle_cost_ic = 5500
+	}
+	
+	light_hull_reinforcement_1 = {
+		category = light_hull_reinforcement
+		gfx = ship_armor_thin_1
+		
+		multiply_stats = {
+			build_cost_ic = 0.1
+			naval_speed = -0.05
+		}
+		dismantle_cost_ic = 2500
+		build_cost_resources = {
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 4
+		}
+	}
+	light_hull_reinforcement_2 = {
+		category = light_hull_reinforcement
+		gfx = ship_armor_thin_2
+		
+		multiply_stats = {
+			build_cost_ic = 0.15
+			naval_speed = -0.075
+			max_strength = 0.05
+		}
+		dismantle_cost_ic = 3000
+		build_cost_resources = {
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 6
+		}
+	}
+	light_hull_reinforcement_3 = {
+		category = light_hull_reinforcement
+		gfx = ship_armor_thin_3
+		
+		multiply_stats = {
+			build_cost_ic = 0.2
+			naval_speed = -0.1
+			max_strength = 0.1
+		}
+		dismantle_cost_ic = 3500
+		build_cost_resources = {
+			aluminium = 1
+		}
+		add_stats = {
+			armor_value = 8
+		}
+	}
+	light_hull_reinforcement_4 = {
+		category = light_hull_reinforcement
+		gfx = ship_armor_thin_4
+		
+		multiply_stats = {
+			build_cost_ic = 0.25
+			naval_speed = -0.125
+			max_strength = 0.15
+		}
+		dismantle_cost_ic = 4000
+		build_cost_resources = {
+			aluminium = 1
+		}
+		add_stats = {
+			armor_value = 10
+		}
+	}
+	light_hull_reinforcement_5 = {
+		category = light_hull_reinforcement
+		gfx = ship_armor_thin_4
+		
+		multiply_stats = {
+			build_cost_ic = 0.30
+			naval_speed = -0.150
+			max_strength = 0.15
+		}
+		dismantle_cost_ic = 4500
+		build_cost_resources = {
+			steel = 1
+		}
+		add_stats = {
+			armor_value = 12
+		}
+	}
+	light_hull_reinforcement_6 = {
+		category = light_hull_reinforcement
+		gfx = ship_armor_thin_4
+		
+		multiply_stats = {
+			build_cost_ic = 0.35
+			naval_speed = -0.175
+			max_strength = 0.15
+		}
+		dismantle_cost_ic = 5000
+		build_cost_resources = {
+			steel = 1
+		}
+		add_stats = {
+			armor_value = 14
+		}
+	}
+
+	heavy_hull_reinforcement_1 = {
+		category = heavy_hull_reinforcement
+		gfx = ship_armor_thick_1
+		
+		multiply_stats = {
+			build_cost_ic = 0.2
+			naval_speed = -0.2
+			max_strength = 0.05
+		}
+		build_cost_resources = {
+			chromium = 2
+		}
+		add_stats = {
+			armor_value = 6
+			surface_visibility = 10
+		}
+		dismantle_cost_ic = 5500
+	}
+	heavy_hull_reinforcement_2 = {
+		category = heavy_hull_reinforcement
+		gfx = ship_armor_thick_1
+		
+		multiply_stats = {
+			build_cost_ic = 0.25
+			naval_speed = -0.2
+			max_strength = 0.05
+		}
+		build_cost_resources = {
+			chromium = 2
+		}
+		add_stats = {
+			armor_value = 9
+			surface_visibility = 10
+		}
+		dismantle_cost_ic = 5500
+	}
+	heavy_hull_reinforcement_3 = {
+		category = heavy_hull_reinforcement
+		gfx = ship_armor_thick_1
+		
+		multiply_stats = {
+			build_cost_ic = 0.2
+			naval_speed = -0.2
+			max_strength = 0.05
+		}
+		build_cost_resources = {
+			aluminium = 1
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 12
+			surface_visibility = 10
+		}
+		dismantle_cost_ic = 5500
+	}
+	heavy_hull_reinforcement_4 = {
+		category = heavy_hull_reinforcement
+		gfx = ship_armor_thick_1
+		
+		multiply_stats = {
+			build_cost_ic = 0.3
+			naval_speed = -0.2
+			max_strength = 0.05
+		}
+		build_cost_resources = {
+			aluminium = 1
+			chromium = 1
+		}
+		add_stats = {
+			armor_value = 15
+			surface_visibility = 10
+		}
+		dismantle_cost_ic = 5500
+	}
+	heavy_hull_reinforcement_5 = {
+		category = heavy_hull_reinforcement
+		gfx = ship_armor_thick_1
+		
+		multiply_stats = {
+			build_cost_ic = 0.35
+			naval_speed = -0.2
+			max_strength = 0.05
+		}
+		build_cost_resources = {
+			aluminium = 1
+			steel = 1
+		}
+		add_stats = {
+			armor_value = 18
+			surface_visibility = 10
+		}
+		dismantle_cost_ic = 5500
+	}
+	heavy_hull_reinforcement_6 = {
+		category = heavy_hull_reinforcement
+		gfx = ship_armor_thick_1
+		
+		multiply_stats = {
+			build_cost_ic = 0.4
+			naval_speed = -0.2
+			max_strength = 0.05
+		}
+		build_cost_resources = {
+			aluminium = 1
+			steel = 1
+		}
+		add_stats = {
+			armor_value = 21
 			surface_visibility = 10
 		}
 		dismantle_cost_ic = 5500
