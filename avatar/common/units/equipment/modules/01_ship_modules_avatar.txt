@@ -1959,6 +1959,7 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
+			aluminium = 1
 			chromium = 1
 		}
 		add_stats = {
@@ -1977,6 +1978,7 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
+			aluminium = 1
 			chromium = 1
 		}
 		add_stats = {
@@ -1995,7 +1997,7 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			aluminium = 1
+			aluminium = 2
 		}
 		add_stats = {
 			armor_value = 12
@@ -2013,7 +2015,7 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			aluminium = 1
+			aluminium = 2
 		}
 		add_stats = {
 			armor_value = 15
@@ -2031,7 +2033,8 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			steel = 1
+			aluminium = 1
+			iron = 1
 		}
 		add_stats = {
 			armor_value = 18
@@ -2049,7 +2052,8 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			steel = 1
+			aluminium = 1
+			iron = 1
 		}
 		add_stats = {
 			armor_value = 21
@@ -2069,8 +2073,8 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			chromium = 1
 			aluminium = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 10
@@ -2090,7 +2094,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			aluminium = 1
-			iron = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 15
@@ -2147,6 +2151,7 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
+			aluminium = 1
 			steel = 2
 		}
 		add_stats = {
@@ -2165,7 +2170,7 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			steel = 2
+			steel = 3
 		}
 		add_stats = {
 			armor_value = 30

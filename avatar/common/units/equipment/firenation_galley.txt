@@ -45,9 +45,10 @@ equipments = {
 		}
 		
 		default_modules = {
-			fixed_ship_crew_slot = empty
-			fixed_ship_oar_slot = oars_1
-			rear_1_custom_slot = empty
+			fixed_ship_crew_slot = ship_boarding_1
+			fixed_ship_mast_slot = crows_nest_1
+			fixed_ship_oars_slot = oars_1
+			fixed_ship_storage_slot = storage_room_1
 		}
 		
 		lg_armor_piercing = 0
@@ -114,10 +115,11 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_ship_crew_slot = empty
+			fixed_ship_crew_slot = ship_boarding_1
+			fixed_ship_mast_slot = crows_nest_1
 			fixed_ship_oars_slot = oars_1
-			rear_1_custom_slot = empty
-			rear_2_custom_slot = empty
+			fixed_sails_slot = sails_1
+			fixed_ship_storage_slot = storage_room_1
 		}
 		
 		sub_visibility = 20
@@ -169,11 +171,12 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_ship_crew_slot = empty
-			fixed_ship_oar_slot = oars_1
-			rear_1_custom_slot = empty
-			rear_2_custom_slot = empty
-			fixed_ship_armor_slot = empty
+			fixed_ship_crew_slot = ship_boarding_2
+			fixed_ship_mast_slot = crows_nest_2
+			fixed_ship_oars_slot = oars_2
+			fixed_sails_slot = sails_2
+			fixed_ship_storage_slot = storage_room_2
+			aftercastle_custom_slot = maintenance_crew_2
 		}
 		
 		sub_visibility = 20
@@ -216,12 +219,13 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_ship_crew_slot = empty
-			fixed_ship_oar_slot = oars_1
-			rear_1_custom_slot = empty
-			rear_2_custom_slot = empty
-			fixed_ship_armor_slot = empty
-			fixed_ship_crow's_nest_slot = empty
+			fixed_ship_armor_slot = light_armor_plates_2
+			fixed_ship_crew_slot = ship_boarding_2
+			fixed_ship_mast_slot = crows_nest_2
+			fixed_ship_oars_slot = oars_2
+			fixed_sails_slot = sails_2
+			fixed_ship_storage_slot = storage_room_2
+			aftercastle_custom_slot = maintenance_crew_2
 		}
 		
 		sub_visibility = 20
@@ -253,9 +257,10 @@ equipments = {
 		module_slots = inherit
 		
 		default_modules = {
-			fixed_ship_crew_slot = ship_firebender_crew
-			fixed_ship_oar_slot = oars_1
-			rear_1_custom_slot = ship_archer_1
+			fixed_ship_crew_slot = ship_boarding_1
+			fixed_ship_mast_slot = crows_nest_1
+			fixed_ship_oars_slot = oars_1
+			fixed_ship_storage_slot = storage_room_1
 		}
 
 		lg_armor_piercing = 0
@@ -302,10 +307,11 @@ equipments = {
 		module_slots = inherit
 		
 		default_modules = {
-			fixed_ship_crew_slot = ship_firebender_crew
-			fixed_ship_oar_slot = oars_2
-			rear_1_custom_slot = ship_archer_2
-			rear_2_custom_slot = ship_boarding_2
+			fixed_ship_crew_slot = ship_boarding_1
+			fixed_ship_mast_slot = crows_nest_1
+			fixed_ship_oars_slot = oars_1
+			fixed_sails_slot = sails_1
+			fixed_ship_storage_slot = storage_room_1
 		}
 		
 		lg_armor_piercing = 0
@@ -350,11 +356,12 @@ equipments = {
 		module_slots = inherit
 		
 		default_modules = {
-			fixed_ship_crew_slot = ship_earthbender_crew
-			fixed_ship_oar_slot = oars_3
-			fixed_ship_crow's_nest_slot = crows_nest_3
-			rear_1_custom_slot = ship_archer_3
-			rear_2_custom_slot = ship_boarding_3
+			fixed_ship_crew_slot = ship_boarding_2
+			fixed_ship_mast_slot = crows_nest_2
+			fixed_ship_oars_slot = oars_2
+			fixed_sails_slot = sails_2
+			fixed_ship_storage_slot = storage_room_2
+			aftercastle_custom_slot = maintenance_crew_2
 		}
 		
 		lg_armor_piercing = 0
@@ -399,12 +406,13 @@ equipments = {
 		module_slots = inherit
 		
 		default_modules = {
-			fixed_ship_crew_slot = ship_earthbender_crew
-			fixed_ship_oar_slot = oars_4
-			fixed_ship_armor_slot = light_armor_plates_4
-			fixed_ship_crow's_nest_slot = crows_nest_4
-			rear_1_custom_slot = ship_archer_4
-			rear_2_custom_slot = ship_boarding_4
+			fixed_ship_armor_slot = light_armor_plates_2
+			fixed_ship_crew_slot = ship_boarding_2
+			fixed_ship_mast_slot = crows_nest_2
+			fixed_ship_oars_slot = oars_2
+			fixed_sails_slot = sails_2
+			fixed_ship_storage_slot = storage_room_2
+			aftercastle_custom_slot = maintenance_crew_2
 		}
 		
 		lg_armor_piercing = 0
