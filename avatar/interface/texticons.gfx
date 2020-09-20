@@ -233,6 +233,17 @@ spriteTypes = {
 		noOfFrames = 2		
 	}
 
+	spriteType = {
+		name = "GFX_unit_firenation_cruiser_icon_small"
+		texturefile = "gfx/texticons/ship_firenation_cruiser_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_unit_firenation_heavy_cruiser_icon_small"
+		texturefile = "gfx/texticons/ship_firenation_heavy_cruiser_icon_small.dds"
+		legacy_lazy_load = no
+	}
+
 
 
 

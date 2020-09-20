@@ -457,9 +457,9 @@ NResistance = {
 NProduction = {
 	MAX_EQUIPMENT_RESOURCES_NEED = 6, 	-- Max number of different strategic resources an equipment can be dependent on.
 	MAX_CIV_FACTORIES_PER_LINE = 10,	-- 15 #Max number of factories that can be assigned a single production line.
-	DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 10,
-	CONVOY_MAX_NAV_FACTORIES_PER_LINE = 10,
-	CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 10,
+	DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 20,
+	CONVOY_MAX_NAV_FACTORIES_PER_LINE = 20,
+	CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 20,
 	MAX_MIL_FACTORIES_PER_LINE = 150,
 	EFFICIENCY_LOSS_PER_UNUSED_DAY = 1,		-- Daily loss of efficiency for unused factory slots ( efficiency is tracked per factory slot in the production line )
 	RESOURCE_PENALTY_WARNING_CRITICAL_RATIO =  0.8, -- Switch to red progress bar if penalty is over threshold 
@@ -1527,8 +1527,8 @@ NNavy = {
 	DEPTH_CHARGE_STAT_FOR_SHIP_TO_BE_SUB_HUNTER = 15,					-- amount of depth charge required for a ship to be considred a sub hunter and so good for convoy escort
 	SUB_DETECTION_STAT_FOR_SHIP_TO_BE_SUB_HUNTER = 2,					-- amount of sub detection required for a ship to be considered a sub hunter
 	
-	HEAVY_GUN_ATTACK_TO_SHORE_BOMBARDMENT							= 0.1,  -- heavy gun attack value is divided by this value * 100 and added to shore bombardment modifier 
-	LIGHT_GUN_ATTACK_TO_SHORE_BOMBARDMENT							= 0.05, -- light gun attack value is divided by this value * 100 and added to shore bombardment modifier 
+	HEAVY_GUN_ATTACK_TO_SHORE_BOMBARDMENT							= 0.05,  -- heavy gun attack value is divided by this value * 100 and added to shore bombardment modifier 
+	LIGHT_GUN_ATTACK_TO_SHORE_BOMBARDMENT							= 0.15, -- light gun attack value is divided by this value * 100 and added to shore bombardment modifier 
 
 	GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy
 		90.0,	-- big guns

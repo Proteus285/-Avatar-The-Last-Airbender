@@ -18,7 +18,7 @@ sub_units = {
 	}
 
 	firenation_cruiser = {
-		sprite = heavy_cruiser
+		sprite = firenation_cruiser
 		map_icon_category = ship
 		priority = 3
 		active = yes
@@ -36,7 +36,7 @@ sub_units = {
 	}
 
 	firenation_heavy_cruiser = {
-		sprite = heavy_cruiser
+		sprite = firenation_heavy_cruiser
 		map_icon_category = ship
 		priority = 6
 		active = yes

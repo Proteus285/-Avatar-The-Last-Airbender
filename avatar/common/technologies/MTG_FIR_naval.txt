@@ -310,6 +310,9 @@ technologies = {
 		firenation_cruiser = {
 			max_organisation = 5			
 		}
+		firenation_heavy_cruiser = {
+			max_organisation = 5			
+		}
 		
 		allow_branch = {
 			has_dlc = "Man the Guns"
