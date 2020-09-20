@@ -66,18 +66,6 @@ equipments = {
 			category = ship_firebender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_armor_slot = super_heavy_armor_plates_1
-			fixed_ship_crew_slot = ship_boarding_1
-			fixed_ship_artillery_slot = ship_trebuchet_1
-			fixed_ship_bridge_slot = lookout_1
-			fixed_ship_storage_slot = storage_room_1
-			fixed_ship_crew_2_slot = ship_archers_1
-			fixed_ship_engine_slot = heavy_steam_engine_1
-			deck_1_custom_slot = ship_catapult_1
-			deck_2_custom_slot = ship_ballista_1
-			bridge_1_custom_slot = maintenance_crew_1
-		}
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -156,19 +144,6 @@ equipments = {
 			category = ship_firebender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_armor_slot = super_heavy_armor_plates_2
-			fixed_ship_crew_slot = ship_boarding_2
-			fixed_ship_artillery_slot = ship_trebuchet_2
-			fixed_ship_bridge_slot = lookout_2
-			fixed_ship_storage_slot = storage_room_2
-			fixed_ship_crew_2_slot = ship_archers_2
-			fixed_ship_engine_slot = heavy_steam_engine_2
-			deck_1_custom_slot = ship_catapult_2
-			deck_2_custom_slot = ship_ballista_2
-			bridge_1_custom_slot = maintenance_crew_2
-			bridge_2_custom_slot = storage_room_1
-		}
 	}
 
 	firenation_battleship_hull_3 = {
@@ -205,20 +180,6 @@ equipments = {
 			category = ship_firebender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_armor_slot = super_heavy_armor_plates_3
-			fixed_ship_crew_slot = ship_boarding_3
-			fixed_ship_artillery_slot = ship_trebuchet_3
-			fixed_ship_bridge_slot = lookout_3
-			fixed_ship_storage_slot = storage_room_3
-			fixed_ship_crew_2_slot = ship_archers_3
-			fixed_ship_engine_slot = heavy_steam_engine_3
-			deck_1_custom_slot = ship_catapult_3
-			deck_2_custom_slot = ship_ballista_3
-			bridge_1_custom_slot = maintenance_crew_3
-			bridge_2_custom_slot = storage_room_2
-			deck_3_custom_slot = ship_ballista_1
-		}
 	}
 
 	firenation_battleship_hull_4 = {
@@ -254,21 +215,6 @@ equipments = {
 		module_count_limit = {
 			category = ship_firebender_crew
 			count < 2
-		}
-		default_modules = {
-			fixed_ship_armor_slot = super_heavy_armor_plates_3
-			fixed_ship_crew_slot = ship_boarding_3
-			fixed_ship_artillery_slot = ship_trebuchet_3
-			fixed_ship_bridge_slot = lookout_3
-			fixed_ship_storage_slot = storage_room_3
-			fixed_ship_crew_2_slot = ship_archers_3
-			fixed_ship_engine_slot = heavy_steam_engine_3
-			deck_1_custom_slot = ship_catapult_3
-			deck_2_custom_slot = ship_ballista_3
-			bridge_1_custom_slot = maintenance_crew_3
-			bridge_2_custom_slot = storage_room_2
-			bridge_3_custom_slot = ship_boarding_1
-			deck_3_custom_slot = ship_ballista_2
 		}
 	}
 
@@ -347,20 +293,6 @@ equipments = {
 			category = ship_firebender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_armor_slot = super_heavy_armor_plates_2
-			fixed_ship_crew_slot = ship_boarding_2
-			fixed_ship_artillery_slot = ship_trebuchet_2
-			fixed_ship_bridge_slot = lookout_2
-			fixed_ship_storage_slot = storage_room_2
-			fixed_ship_crew_2_slot = ship_boarding_2
-			fixed_ship_engine_slot = heavy_steam_engine_2
-			deck_1_custom_slot = ship_catapult_2
-			deck_2_custom_slot = ship_catapult_2
-			bridge_1_custom_slot = maintenance_crew_2
-			bridge_2_custom_slot = storage_room_2
-			deck_3_custom_slot = ship_ballista_2
-		}
 	}
 	
 	empire_class_hull_2 = {
@@ -396,74 +328,6 @@ equipments = {
 		module_count_limit = {
 			category = ship_firebender_crew
 			count < 2
-		}
-		default_modules = {
-			fixed_ship_armor_slot = super_heavy_armor_plates_3
-			fixed_ship_crew_slot = ship_boarding_3
-			fixed_ship_artillery_slot = ship_trebuchet_3
-			fixed_ship_bridge_slot = lookout_3
-			fixed_ship_storage_slot = storage_room_3
-			fixed_ship_crew_2_slot = ship_boarding_3
-			fixed_ship_engine_slot = heavy_steam_engine_3
-			deck_1_custom_slot = ship_catapult_3
-			deck_2_custom_slot = ship_catapult_3
-			bridge_1_custom_slot = maintenance_crew_3
-			bridge_2_custom_slot = storage_room_3
-			bridge_3_custom_slot = ship_boarding_3
-			deck_3_custom_slot = ship_ballista_3
-		}
-	}
-
-	empire_class_hull_3 = {
-
-		visual_level = 1
-		archetype = firenation_battleship_hull
-		priority = 1900
-		parent = empire_class_hull_1
-		manpower = 800
-		naval_speed = 25
-		reliability = 0.85
-		build_cost_ic = 1900
-		naval_range = 3000
-		max_strength = 110
-		resources = {
-			steel = 4
-		}
-		module_slots = {
-			fixed_ship_armor_slot = inherit
-			fixed_ship_crew_slot = inherit
-			fixed_ship_artillery_slot = inherit
-			fixed_ship_bridge_slot = inherit
-			fixed_ship_storage_slot = inherit
-			fixed_ship_crew_2_slot = inherit
-			fixed_ship_engine_slot = inherit
-			deck_1_custom_slot = inherit
-			deck_2_custom_slot = deck_1_custom_slot
-			bridge_1_custom_slot = inherit
-			bridge_2_custom_slot = bridge_1_custom_slot
-			bridge_3_custom_slot = bridge_1_custom_slot
-			deck_3_custom_slot = deck_3_custom_slot
-			deck_4_custom_slot = deck_1_custom_slot
-		}
-		module_count_limit = {
-			category = ship_firebender_crew
-			count < 2
-		}
-		default_modules = {
-			fixed_ship_armor_slot = super_heavy_armor_plates_4
-			fixed_ship_crew_slot = ship_boarding_4
-			fixed_ship_artillery_slot = ship_trebuchet_4
-			fixed_ship_bridge_slot = lookout_4
-			fixed_ship_storage_slot = storage_room_4
-			fixed_ship_crew_2_slot = ship_boarding_4
-			fixed_ship_engine_slot = heavy_steam_engine_4
-			deck_1_custom_slot = ship_ballista_4
-			deck_2_custom_slot = ship_catapult_4
-			bridge_1_custom_slot = maintenance_crew_4
-			bridge_2_custom_slot = storage_room_4
-			bridge_3_custom_slot = ship_boarding_4
-			deck_3_custom_slot = ship_catapult_4
-			deck_4_custom_slot = ship_ballista_4
 		}
 	}
 
@@ -576,7 +440,7 @@ equipments = {
 		visual_level = 1
 		archetype = firenation_battleship_hull
 		priority = 1900
-		parent = firenation_battleship_1
+		parent = firenation_battleship_2
 		module_slots = inherit
 		default_modules = {
 			fixed_ship_armor_slot = super_heavy_armor_plates_3
@@ -630,7 +494,7 @@ equipments = {
 		visual_level = 1
 		archetype = firenation_battleship_hull
 		priority = 1900
-		parent = firenation_battleship_1
+		parent = firenation_battleship_3
 		module_slots = inherit
 		default_modules = {
 			fixed_ship_armor_slot = super_heavy_armor_plates_3
@@ -739,7 +603,7 @@ equipments = {
 		visual_level = 1
 		archetype = firenation_battleship_hull
 		priority = 1900
-		parent = firenation_battleship_1
+		parent = firenation_battleship_2
 		module_slots = inherit
 		default_modules = {
 			fixed_ship_armor_slot = super_heavy_armor_plates_3
@@ -755,62 +619,6 @@ equipments = {
 			bridge_2_custom_slot = storage_room_3
 			bridge_3_custom_slot = ship_boarding_3
 			deck_3_custom_slot = ship_ballista_3
-		}
-		lg_armor_piercing = 0
-		lg_attack = 0
-		torpedo_attack = 2
-		sub_attack = 5
-		
-		anti_air_attack = 0
-		
-		armor_value = 6
-
-		
-		surface_detection = 20
-		sub_detection = 5
-		naval_speed = 25
-		reliability = 0.85
-
-		naval_range = 3000
-		
-		max_strength = 120
-		
-
-		
-		type = { 
-			capital_ship
-			anti_air
-		}
-		build_cost_ic = 1650
-		resources = {
-			#oil = 1
-			steel = 3
-		}
-		manpower = 800
-	}
-	
-	firenation_empire_class_3 = {
-
-		visual_level = 1
-		archetype = firenation_battleship_hull
-		priority = 1900
-		parent = firenation_battleship_1
-		module_slots = inherit
-		default_modules = {
-			fixed_ship_armor_slot = super_heavy_armor_plates_4
-			fixed_ship_crew_slot = ship_boarding_4
-			fixed_ship_artillery_slot = ship_trebuchet_4
-			fixed_ship_bridge_slot = lookout_4
-			fixed_ship_storage_slot = storage_room_4
-			fixed_ship_crew_2_slot = ship_boarding_4
-			fixed_ship_engine_slot = heavy_steam_engine_4
-			deck_1_custom_slot = ship_ballista_4
-			deck_2_custom_slot = ship_catapult_4
-			bridge_1_custom_slot = maintenance_crew_4
-			bridge_2_custom_slot = storage_room_4
-			bridge_3_custom_slot = ship_boarding_4
-			deck_3_custom_slot = ship_catapult_4
-			deck_4_custom_slot = ship_ballista_4
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0

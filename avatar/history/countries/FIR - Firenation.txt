@@ -68,6 +68,9 @@ set_technology = {
 	port_2 = 1
 
 
+	fire_sails_1 = 1
+	early_fire_galley = 1
+	early_fire_yacht = 1
 	light_engine_1 = 1
 	early_fire_cruiser = 1
 	early_fire_frigate = 1
@@ -76,6 +79,12 @@ set_technology = {
 	ship_storage_1 = 1
 	ship_binoculars_1 = 1
 	early_convoy = 1
+
+	naval_archers_1 = 1
+	naval_ballista_1 = 1
+	naval_catapult_1 = 1
+	naval_firebender_1 = 1
+	naval_trebuchet_1 = 1
 }
 
 
@@ -83,6 +92,10 @@ set_research_slots = 3
 set_convoys = 140
 set_stability = 1 
 set_war_support = 0.6
+
+army_experience = 80
+navy_experience = 100
+air_experience = 0
 
 
 set_politics = {

@@ -75,16 +75,6 @@ equipments = {
 			category = ship_airbender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_armor_slot = heavy_hull_reinforcement_1
-			fixed_ship_crew_slot = ship_boarding_1
-			fixed_ship_artillery_slot = ship_ballista_1
-			fixed_ship_mast_slot = crows_nest_1
-			fixed_ship_sails_slot = sails_1
-			fixed_ship_storage_slot = supplies_1
-			deck_1_custom_slot = ship_archers_1
-			aftercastle_custom_slot = maintenance_crew_1
-		}
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -122,22 +112,22 @@ equipments = {
 		}
 	}
 
-	warship_1 = {
+	warship_hull_1 = {
 
 		visual_level = 0
-		archetype = junk_hull
+		archetype = warship_hull
 		priority = 1900
 		
 		
 		module_slots = inherit
 	}
 
-	warship_2 = {
+	warship_hull_2 = {
 
 		visual_level = 1
 		archetype = warship_hull
 		priority = 1900
-		parent = warship_1
+		parent = warship_hull_1
 		manpower = 800
 		naval_speed = 25
 		reliability = 0.85
@@ -184,25 +174,14 @@ equipments = {
 			category = ship_airbender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_armor_slot = heavy_hull_reinforcement_2
-			fixed_ship_crew_slot = ship_archers_2
-			fixed_ship_artillery_slot = ship_ballista_2
-			fixed_ship_mast_slot = crows_nest_2
-			fixed_ship_sails_slot = sails_2
-			fixed_ship_storage_slot = supplies_2
-			forecastle_custom_slot = ship_boarding_2
-			deck_1_custom_slot = ship_catapult_1
-			aftercastle_custom_slot = maintenance_crew_2
-		}
 	}
 
-	warship_3 = {
+	warship_hull_3 = {
 
 		visual_level = 1
 		archetype = warship_hull
 		priority = 1900
-		parent = warship_2
+		parent = warship_hull_2
 		manpower = 800
 		naval_speed = 25
 		reliability = 0.85
@@ -235,18 +214,6 @@ equipments = {
 			category = ship_airbender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_armor_slot = heavy_hull_reinforcement_3
-			fixed_ship_crew_slot = ship_archers_3
-			fixed_ship_artillery_slot = ship_ballista_3
-			fixed_ship_mast_slot = crows_nest_3
-			fixed_ship_sails_slot = sails_3
-			fixed_ship_storage_slot = supplies_3
-			forecastle_custom_slot = ship_boarding_3
-			deck_1_custom_slot = ship_catapult_3
-			deck_2_custom_slot = ship_catapult_2
-			aftercastle_custom_slot = maintenance_crew_3
-		}
 	}
 
 	warship_hull_4 = {
@@ -254,7 +221,7 @@ equipments = {
 		visual_level = 1
 		archetype = warship_hull
 		priority = 1900
-		parent = warship_hull_4
+		parent = warship_hull_3
 		manpower = 800
 		naval_speed = 25
 		reliability = 0.85
@@ -301,23 +268,10 @@ equipments = {
 			category = ship_airbender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_armor_slot = heavy_hull_reinforcement_4
-			fixed_ship_crew_slot = ship_archers_4
-			fixed_ship_artillery_slot = ship_ballista_4
-			fixed_ship_mast_slot = crows_nest_4
-			fixed_ship_sails_slot = sails_4
-			fixed_ship_storage_slot = supplies_4
-			forecastle_custom_slot = ship_boarding_4
-			deck_1_custom_slot = ship_catapult_4
-			mast_custom_slot = sails_4
-			deck_2_custom_slot = ship_catapult_4
-			aftercastle_custom_slot = maintenance_crew_4
-		}
 	}
 
 
-	warship_ship_1 = {
+	warship_1 = {
 
 		visual_level = 0
 		archetype = warship_hull

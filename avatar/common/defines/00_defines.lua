@@ -1,7 +1,7 @@
 NDefines = {
 
 NGame = {
-	START_DATE = "12.1.1.1",
+	START_DATE = "12.4.23.12",
 	END_DATE = "120.1.1.1",
 	MAP_SCALE_PIXEL_TO_KM = 0.214,					-- Yes, we did the math / 1200:5600
 	SAVE_VERSION = 6,
@@ -790,7 +790,7 @@ NMilitary = {
 	COMBAT_STACKING_START = 8,						-- at what nr of divisions stacking penalty starts
 	COMBAT_STACKING_EXTRA = 4,                      -- extra stacking from directions
 	COMBAT_STACKING_PENALTY = -0.02,                -- how much stackign penalty per division
-	COMBAT_OVER_WIDTH_PENALTY = -2,					-- over combat width penalty per %.
+	COMBAT_OVER_WIDTH_PENALTY = -1,					-- over combat width penalty per %.
 	COMBAT_OVER_WIDTH_PENALTY_MAX = -0.33,			-- over combat width max (when you cant join no more).
 	RETREAT_SPEED_FACTOR = 0.25,                    -- speed bonus when retreating
 	WITHDRAWING_SPEED_FACTOR = 0.15,				-- speed bonus when withdrawing

@@ -47,13 +47,6 @@ equipments = {
 			category = ship_waterbender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_crew_slot = boarding_crew_1
-			fixed_ship_mast_slot = crows_nest_1
-			fixed_ship_sails_slot = sails_1
-			fixed_ship_storage_slot = supplies_1
-			deck_1_custom_slot = ship_archers_1
-		}
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -132,14 +125,6 @@ equipments = {
 			category = ship_waterbender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_armor_slot = light_hull_reinforcement_1
-			fixed_ship_crew_slot = boarding_crew_1
-			fixed_ship_mast_slot = crows_nest_1
-			fixed_ship_sails_slot = sails_1
-			fixed_ship_storage_slot = supplies_1
-			deck_1_custom_slot = ship_archers_1
-		}
 	}
 
 	watertribe_cutter_hull_3 = {
@@ -170,15 +155,6 @@ equipments = {
 		module_count_limit = {
 			category = ship_waterbender_crew
 			count < 2
-		}
-		default_modules = {
-			fixed_ship_armor_slot = light_hull_reinforcement_2
-			fixed_ship_crew_slot = boarding_crew_2
-			fixed_ship_mast_slot = crows_nest_2
-			fixed_ship_sails_slot = sails_2
-			fixed_ship_storage_slot = supplies_2
-			deck_1_custom_slot = ship_archers_2
-			deck_2_custom_slot = maintenance_crew_1
 		}
 	}
 
@@ -227,16 +203,6 @@ equipments = {
 		module_count_limit = {
 			category = ship_waterbender_crew
 			count < 2
-		}
-		default_modules = {
-			fixed_ship_armor_slot = light_hull_reinforcement_2
-			fixed_ship_crew_slot = boarding_crew_2
-			fixed_ship_mast_slot = crows_nest_2
-			fixed_ship_sails_slot = sails_2
-			fixed_ship_storage_slot = supplies_2
-			deck_1_custom_slot = ship_archers_2
-			deck_2_custom_slot = mine_layer_1
-			aftercastle_custom_slot =  maintenance_crew_2
 		}
 	}
 
@@ -287,17 +253,6 @@ equipments = {
 			category = ship_waterbender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_armor_slot = light_hull_reinforcement_3
-			fixed_ship_artillery_slot = ship_ballista_1
-			fixed_ship_crew_slot = boarding_crew_3
-			fixed_ship_mast_slot = crows_nest_3
-			fixed_ship_sails_slot = sails_3
-			fixed_ship_storage_slot = supplies_3
-			deck_1_custom_slot = ship_archers_3
-			deck_2_custom_slot = mine_layer_2
-			aftercastle_custom_slot =  maintenance_crew_3
-		}
 	}
 	
 	watertribe_cutter_hull_6 = {
@@ -337,18 +292,6 @@ equipments = {
 		module_count_limit = {
 			category = ship_waterbender_crew
 			count < 2
-		}
-		default_modules = {
-			fixed_ship_armor_slot = light_hull_reinforcement_3
-			fixed_ship_artillery_slot = ship_ballista_2
-			fixed_ship_crew_slot = boarding_crew_3
-			fixed_ship_mast_slot = crows_nest_3
-			fixed_ship_sails_slot = sails_3
-			fixed_ship_storage_slot = supplies_3
-			deck_1_custom_slot = ship_archers_3
-			mast_1_custom_slot = sails_3
-			deck_2_custom_slot = mine_layer_3
-			aftercastle_custom_slot =  maintenance_crew_3
 		}
 	}
 

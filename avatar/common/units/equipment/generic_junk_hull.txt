@@ -55,14 +55,6 @@ equipments = {
 			category = ship_airbender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_armor_slot = heavy_hull_reinforcement_1
-			fixed_ship_crew_slot = ship_boarding_1
-			fixed_ship_mast_slot = crows_nest_1
-			fixed_ship_sails_slot = sails_1
-			fixed_ship_storage_slot = supplies_1
-			aftercastle_custom_slot = ship_archers_1
-		}
 		
 		lg_armor_piercing = 0
 		lg_attack = 0
@@ -154,15 +146,6 @@ equipments = {
 			category = ship_airbender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_armor_slot = heavy_hull_reinforcement_1
-			fixed_ship_crew_slot = ship_boarding_1
-			fixed_ship_mast_slot = crows_nest_1
-			fixed_ship_sails_slot = sails_1
-			fixed_ship_storage_slot = supplies_1
-			deck_1_custom_slot = ship_archers_1
-			aftercastle_custom_slot = maintenance_crew_1
-		}
 	}
 
 	junk_hull_3 = {
@@ -215,16 +198,6 @@ equipments = {
 			category = ship_airbender_crew
 			count < 2
 		}
-		default_modules = {
-			fixed_ship_armor_slot = heavy_hull_reinforcement_2
-			fixed_ship_artillery_slot = ship_ballista_1
-			fixed_ship_crew_slot = ship_boarding_2
-			fixed_ship_mast_slot = crows_nest_2
-			fixed_ship_sails_slot = sails_2
-			fixed_ship_storage_slot = supplies_2
-			deck_1_custom_slot = ship_archers_2
-			aftercastle_custom_slot = maintenance_crew_2
-		}
 	}
 
 	junk_hull_4 = {
@@ -270,17 +243,6 @@ equipments = {
 		module_count_limit = {
 			category = ship_airbender_crew
 			count < 2
-		}
-		default_modules = {
-			fixed_ship_armor_slot = heavy_hull_reinforcement_2
-			fixed_ship_artillery_slot = ship_ballista_1
-			fixed_ship_crew_slot = ship_boarding_2
-			fixed_ship_mast_slot = crows_nest_2
-			fixed_ship_sails_slot = sails_2
-			fixed_ship_storage_slot = supplies_2
-			forecastle_custom_slot = ship_boarding_2
-			deck_1_custom_slot = ship_archers_2
-			aftercastle_custom_slot = maintenance_crew_2
 		}
 	}
 
@@ -330,18 +292,6 @@ equipments = {
 		module_count_limit = {
 			category = ship_airbender_crew
 			count < 2
-		}
-		default_modules = {
-			fixed_ship_armor_slot = heavy_hull_reinforcement_3
-			fixed_ship_artillery_slot = ship_ballista_3
-			fixed_ship_crew_slot = ship_archers_3
-			fixed_ship_mast_slot = crows_nest_3
-			fixed_ship_sails_slot = sails_3
-			fixed_ship_storage_slot = supplies_3
-			forecastle_custom_slot = ship_boarding_3
-			deck_1_custom_slot = mine_layer_2
-			deck_2_custom_slot = ship_catapult_2
-			aftercastle_custom_slot = maintenance_crew_3
 		}
 	}
 

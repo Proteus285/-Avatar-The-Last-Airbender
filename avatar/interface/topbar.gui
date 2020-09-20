@@ -595,8 +595,8 @@ guiTypes = {
 
 		buttonType = {
 			name = "achievements_button"
-			position = { x = 1031 y = 62 }
-			quadTextureSprite ="GFX_achievements_button"
+			position = { x = -276 y = 38 }
+			quadTextureSprite ="GFX_topbar_achievments"
 			buttonText = ""
 			buttonFont = "Main_14_black"
 			clicksound = click_ok

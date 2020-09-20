@@ -5,13 +5,11 @@ technologies = {
 		enable_equipments = {
 			firebender_equipment_1
 		}
-
 		enable_subunits = {
 			firebender
 		}
-
-		enable_equipment_modules = { 
-			ship_firebender_crew
+		sub_technologies = {
+			naval_firebender_1
 		}
 
 		path = {
@@ -33,6 +31,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0
+		}
+	}
+
+	naval_firebender_1 = {
+
+		enable_equipment_modules = { 
+			ship_firebender_crew_1
+		}
+		
+		research_cost = 0.2
+
+		start_year = 7
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
 		}
 	}
 
@@ -199,13 +216,11 @@ technologies = {
 		enable_equipments = {
 			trebuchet_equipment_1
 		}
-
-		enable_equipment_modules = { 
-			ship_trebuchet_1
-		}
-
 		enable_subunits = {
 			trebuchet
+		}
+		sub_technologies = {
+			naval_trebuchet_1
 		}
 
 		#path = {
@@ -227,6 +242,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0
+		}
+	}
+
+	naval_trebuchet_1 = {
+
+		enable_equipment_modules = { 
+			ship_trebuchet_1
+		}
+		
+		research_cost = 0.2
+
+		start_year = 7
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
 		}
 	}
 

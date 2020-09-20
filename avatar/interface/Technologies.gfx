@@ -232,6 +232,23 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_early_fire_galley_medium"
+		texturefile = "gfx/interface/technologies/naval/firenation_junk_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_fire_galley_2_medium"
+		texturefile = "gfx/interface/technologies/naval/firenation_junk_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_fire_galley_3_medium"
+		texturefile = "gfx/interface/technologies/naval/firenation_junk_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_fire_galley_4_medium"
+		texturefile = "gfx/interface/technologies/naval/firenation_junk_4.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_early_fire_cruiser_medium"
 		texturefile = "gfx/interface/technologies/naval/firenation_cruiser_1.dds"
 	}

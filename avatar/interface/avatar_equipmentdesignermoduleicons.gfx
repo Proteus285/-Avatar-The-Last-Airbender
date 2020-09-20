@@ -42,11 +42,42 @@ spriteTypes = {
 	}
 
 
-######## Crew icons
+######## Storage icons
 
 	spriteType = {
 		name = "GFX_EMI_supplies"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_supplies.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_storage_room"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_storage.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_storage_room_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_storage_1.dds"
+	}
+
+######## Outlook icons
+
+	spriteType = {
+		name = "GFX_EMI_bridge"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_bridge.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_lookout_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_bridge_1.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_lookout_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_bridge_2.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_lookout_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_bridge_3.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_lookout_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_bridge_4.dds"
 	}
 
 ######## Crew icons
@@ -67,6 +98,41 @@ spriteTypes = {
 		name = "GFX_EMI_ship_firebender_crew"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_firebender_crew.dds"
 	}
+	spriteType = {
+		name = "GFX_EMI_ship_firebender_crew_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_firebender_crew_1.dds"
+	}
+
+######## Engine icons
+
+	spriteType = {
+		name = "GFX_EMI_steam_engine"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_steam_engine_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_1.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_steam_engine_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_2.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_steam_engine_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_3.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_steam_engine_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_4.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_steam_engine_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_5.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_steam_engine_6"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/steam_engine_6.dds"
+	}
 
 ######## Weapon Icons
 
@@ -86,6 +152,24 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_EMI_ship_catapult_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_basic_catapult.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_ballista"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_ballista.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_ship_ballista_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_ballista_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_ship_archers"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_archers.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_ship_archers_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/ship_archers_1.dds"
 	}
 	
 	

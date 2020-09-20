@@ -7,8 +7,8 @@ equipment_modules = {
 #  # #  # #   # # #
  ##  #  # ###  # #
 
-	ship_firebender_crew = {
-		category = ship_crew
+	ship_firebender_crew_1 = {
+		category = ship_firebender_crew
 		
 		multiply_stats = {
 			lg_attack = 0.25
@@ -18,8 +18,8 @@ equipment_modules = {
 
 		dismantle_cost_ic = 700
 	}
-	ship_earthbender_crew = {
-		category = ship_crew
+	ship_earthbender_crew_1 = {
+		category = ship_earthbender_crew
 		
 		multiply_stats = {
 			lg_attack = 0.1
@@ -29,8 +29,8 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 700
 	}
-	ship_airbender_crew = {
-		category = ship_crew
+	ship_airbender_crew_1 = {
+		category = ship_airbender_crew
 		
 		multiply_stats = {
 			naval_speed = 0.25
@@ -42,8 +42,8 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 700
 	}
-	ship_waterbender_crew = {
-		category = ship_crew
+	ship_waterbender_crew_1 = {
+		category = ship_waterbender_crew
 		
 		multiply_stats = {
 			naval_speed = 0.15
@@ -63,7 +63,7 @@ equipment_modules = {
 #     # ### # #   #   #   ###
 
 	maintenance_crew_1 = {
-		category = maintenance_crew
+		category = ship_crew
 		
 		add_stats = {
 			build_cost_ic = 10
@@ -74,7 +74,7 @@ equipment_modules = {
 		dismantle_cost_ic = 700
 	}
 	maintenance_crew_2 = {
-		category = maintenance_crew
+		category = ship_crew
 		
 		
 		add_stats = {
@@ -86,7 +86,7 @@ equipment_modules = {
 		dismantle_cost_ic = 700
 	}
 	maintenance_crew_3 = {
-		category = maintenance_crew
+		category = ship_crew
 		
 		
 		add_stats = {
@@ -98,7 +98,7 @@ equipment_modules = {
 		dismantle_cost_ic = 700
 	}
 	maintenance_crew_4 = {
-		category = maintenance_crew
+		category = ship_crew
 		
 		
 		add_stats = {
@@ -110,7 +110,7 @@ equipment_modules = {
 		dismantle_cost_ic = 700
 	}
 	maintenance_crew_5 = {
-		category = maintenance_crew
+		category = ship_crew
 		
 		
 		add_stats = {
@@ -122,7 +122,7 @@ equipment_modules = {
 		dismantle_cost_ic = 700
 	}
 	maintenance_crew_6 = {
-		category = maintenance_crew
+		category = ship_crew
 		
 		
 		add_stats = {
@@ -1094,7 +1094,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = ship_catapult_1
+			module = ship_archers_1
 			convert_cost_ic = 45
 		}
 		build_cost_resources = {

@@ -97,6 +97,16 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//naval_techtree_bg.dds"
 		allwaystransparent = yes		
 	}
+	spriteType = {
+		name = "GFX_fire_naval_techtree_bg"
+		textureFile = "gfx//interface//techtree//fire_naval_techtree_bg.dds"
+		allwaystransparent = yes		
+	}
+	spriteType = {
+		name = "GFX_water_naval_techtree_bg"
+		textureFile = "gfx//interface//techtree//water_naval_techtree_bg.dds"
+		allwaystransparent = yes		
+	}
 
 	spriteType = {
 		name = "GFX_trade_interdiction_bg"
@@ -124,6 +134,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_power_bg"
 		textureFile = "gfx//interface//techtree//power_bg.dds"
+		allwaystransparent = yes		
+	}
+	spriteType = {
+		name = "GFX_power_2_bg"
+		textureFile = "gfx//interface//techtree//power_2_bg.dds"
 		allwaystransparent = yes		
 	}
 	spriteType = {

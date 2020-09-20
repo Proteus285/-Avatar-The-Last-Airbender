@@ -216,6 +216,9 @@ technologies = {
 			leads_to_tech = bow1
 			research_cost_coeff = 1
 		}
+		sub_technologies = {
+			naval_archers_1
+		}
 		
 		enable_equipments = {
 			bow_equipment_0
@@ -232,6 +235,25 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+
+	naval_archers_1 = {
+
+		enable_equipment_modules = { 
+			ship_archers_1
+		}
+		
+		research_cost = 0.2
+
+		start_year = 7
+		
+		ai_will_do = {
+			factor = 1
 		}
 		
 		categories = {
@@ -455,6 +477,9 @@ technologies = {
 		enable_equipments = {
 			bow_equipment_1
 		}
+		sub_technologies = {
+			naval_archers_2
+		}
 
 		research_cost = 1.5
 
@@ -463,6 +488,25 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+
+	naval_archers_2 = {
+
+		enable_equipment_modules = { 
+			ship_archers_2
+		}
+		
+		research_cost = 0.2
+
+		start_year = 7
+		
+		ai_will_do = {
+			factor = 1
 		}
 		
 		categories = {
@@ -686,7 +730,9 @@ technologies = {
 		enable_equipments = {
 			bow_equipment_2
 		}
-
+		sub_technologies = {
+			naval_archers_3
+		}
 		
 		research_cost = 1.5
 
@@ -695,6 +741,25 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 18 }
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+
+	naval_archers_3 = {
+
+		enable_equipment_modules = { 
+			ship_archers_3
+		}
+		
+		research_cost = 0.2
+
+		start_year = 7
+		
+		ai_will_do = {
+			factor = 1
 		}
 		
 		categories = {
@@ -918,6 +983,9 @@ technologies = {
 		enable_equipments = {
 			bow_equipment_3
 		}
+		sub_technologies = {
+			naval_archers_4
+		}
 
 		research_cost = 1.5
 
@@ -926,6 +994,25 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 26 }
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+
+	naval_archers_4 = {
+
+		enable_equipment_modules = { 
+			ship_archers_4
+		}
+		
+		research_cost = 0.2
+
+		start_year = 7
+		
+		ai_will_do = {
+			factor = 1
 		}
 		
 		categories = {
@@ -1146,6 +1233,9 @@ technologies = {
 		enable_equipments = {
 			bow_equipment_4
 		}
+		sub_technologies = {
+			naval_archers_5
+		}
 
 		research_cost = 1.5
 
@@ -1154,6 +1244,25 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 34 }
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+
+	naval_archers_5 = {
+
+		enable_equipment_modules = { 
+			ship_archers_5
+		}
+		
+		research_cost = 0.2
+
+		start_year = 7
+		
+		ai_will_do = {
+			factor = 1
 		}
 		
 		categories = {
@@ -1461,6 +1570,9 @@ technologies = {
 		enable_equipments = {
 			bow_equipment_1
 		}
+		sub_technologies = {
+			naval_archers_6
+		}
 		
 		research_cost = 1.5
 
@@ -1469,6 +1581,25 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 42 }
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+
+	naval_archers_6 = {
+
+		enable_equipment_modules = { 
+			ship_archers_6
+		}
+		
+		research_cost = 0.2
+
+		start_year = 7
+		
+		ai_will_do = {
+			factor = 1
 		}
 		
 		categories = {
@@ -1887,8 +2018,8 @@ technologies = {
 		enable_subunits = {
 			catapult_brigade
 		}
-		enable_equipment_modules = { 
-			ship_catapult_1
+		sub_technologies = {
+			naval_catapult_1
 		}
 
 		path = {
@@ -1916,6 +2047,25 @@ technologies = {
 			factor = 1
 		}
 	}
+
+	naval_catapult_1 = {
+
+		enable_equipment_modules = { 
+			ship_catapult_1
+		}
+		
+		research_cost = 0.2
+
+		start_year = 7
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
 	
 	ballista0 = {
 
@@ -1925,9 +2075,10 @@ technologies = {
 		enable_subunits = {
 			ballista
 		}
-		enable_equipment_modules = { 
-			ship_ballista_1
+		sub_technologies = {
+			naval_ballista_1
 		}
+
 
 		path = {
 			leads_to_tech = ballista1
@@ -1952,6 +2103,25 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+	}
+
+	naval_ballista_1 = {
+
+		enable_equipment_modules = { 
+			ship_ballista_1
+		}
+		
+		research_cost = 0.2
+
+		start_year = 7
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
 		}
 	}
 	

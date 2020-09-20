@@ -53,6 +53,10 @@ spriteTypes = {
 		name = "GFX_SD_tv_firenation_cruiser"
 		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/firenation_cruiser/topview_firenation_cruiser.dds"
 	}
+	spriteType = {
+		name = "GFX_SD_tv_firenation_frigate"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/firenation_frigate/topview_firenation_frigate.dds"
+	}
 	
 
 
