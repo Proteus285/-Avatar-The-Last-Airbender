@@ -67,10 +67,10 @@ equipments = {
 		manpower = 200
 	}
 	
-	watertribe_cannoe_hull_1 = {
+	watertribe_canoe_hull_1 = {
 		year = 1922
 		visual_level = 0
-		archetype = watertribe_cannoe_hull
+		archetype = watertribe_canoe_hull
 		priority = 1900
 		
 		
@@ -80,9 +80,9 @@ equipments = {
 	watertribe_canoe_hull_2 = {
 		year = 1936
 
-		archetype = watertribe_cannoe_hull
+		archetype = watertribe_canoe_hull
 		priority = 2500
-		parent = watertribe_cannoe_hull_1
+		parent = watertribe_canoe_hull_1
 		year = 1936
 		visual_level = 1
 		archetype = watertribe_raft_hull
@@ -134,9 +134,9 @@ equipments = {
 	watertribe_canoe_hull_3 = {
 		year = 1936
 
-		archetype = watertribe_cannoe_hull
+		archetype = watertribe_canoe_hull
 		priority = 2500
-		parent = watertribe_cannoe_hull_2
+		parent = watertribe_canoe_hull_2
 		module_slots = {
 			fixed_ship_crew_slot = inherit
 			fixed_ship_oars_slot = inherit
@@ -178,9 +178,9 @@ equipments = {
 	watertribe_canoe_hull_4 = {
 		year = 1940
 
-		archetype = watertribe_cannoe_hull
+		archetype = watertribe_canoe_hull
 		priority = 2500
-		parent = watertribe_cannoe_hull_3
+		parent = watertribe_canoe_hull_3
 		module_slots = {
 			fixed_ship_crew_slot = inherit
 			fixed_ship_oars_slot = inherit
@@ -223,9 +223,9 @@ equipments = {
 	watertribe_canoe_hull_5 = {
 		year = 1944
 
-		archetype = watertribe_cannoe_hull
+		archetype = watertribe_canoe_hull
 		priority = 2500
-		parent = watertribe_cannoe_hull_4
+		parent = watertribe_canoe_hull_4
 		module_slots = {
 			fixed_ship_armor_slot = {
 				required = yes
