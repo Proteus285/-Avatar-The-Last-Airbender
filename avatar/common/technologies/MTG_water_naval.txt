@@ -1,20 +1,20 @@
 technologies = {
 
-	canoe = {
+	canoe_tech_1 = {
 
 		enable_equipments = {
 			watertribe_canoe_hull_1
 		}
 		path = {
-			leads_to_tech = canoe_2
+			leads_to_tech = canoe_tech_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = oars_1
+			leads_to_tech = water_oars_tech_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = boarding_1
+			leads_to_tech = water_boarding_tech_1
 			research_cost_coeff = 1
 		}
 		
@@ -41,13 +41,13 @@ technologies = {
 		}
 	}
 	
-	canoe_2 = {
+	canoe_tech_2 = {
 
 		enable_equipments = {
 			watertribe_canoe_hull_2
 		}
 		path = {
-			leads_to_tech = canoe_3
+			leads_to_tech = canoe_tech_3
 			research_cost_coeff = 1
 		}
 		
@@ -74,13 +74,13 @@ technologies = {
 		}
 	}
 	
-	canoe_3 = {
+	canoe_tech_3 = {
 
 		enable_equipments = {
 			watertribe_canoe_hull_3
 		}
 		path = {
-			leads_to_tech = canoe_4
+			leads_to_tech = canoe_tech_4
 			research_cost_coeff = 1
 		}
 		
@@ -107,13 +107,13 @@ technologies = {
 		}
 	}
 	
-	canoe_4 = {
+	canoe_tech_4 = {
 
 		enable_equipments = {
 			watertribe_canoe_hull_4
 		}
 		path = {
-			leads_to_tech = canoe_5
+			leads_to_tech = canoe_tech_5
 			research_cost_coeff = 1
 		}
 		
@@ -140,7 +140,7 @@ technologies = {
 		}
 	}
 	
-	canoe_5 = {
+	canoe_tech_5 = {
 
 		enable_equipments = {
 			watertribe_canoe_hull_5
@@ -169,21 +169,21 @@ technologies = {
 		}
 	}
 	
-	raft = {
+	raft_tech_1 = {
 
 		enable_equipments = {
 			watertribe_raft_hull_1
 		}
 		path = {
-			leads_to_tech = raft_2
+			leads_to_tech = raft_tech_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = sails_1
+			leads_to_tech = water_sails_tech_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = maintenance_1
+			leads_to_tech = water_maintenance_tech_1
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -209,13 +209,13 @@ technologies = {
 		}
 	}
 	
-	raft_2 = {
+	raft_tech_2 = {
 
 		enable_equipments = {
 			watertribe_raft_hull_2
 		}
 		path = {
-			leads_to_tech = raft_3
+			leads_to_tech = raft_tech_3
 			research_cost_coeff = 1
 		}
 		
@@ -242,13 +242,13 @@ technologies = {
 		}
 	}
 	
-	raft_3 = {
+	raft_tech_3 = {
 
 		enable_equipments = {
 			watertribe_raft_hull_3
 		}
 		path = {
-			leads_to_tech = raft_4
+			leads_to_tech = raft_tech_4
 			research_cost_coeff = 1
 		}
 		
@@ -275,13 +275,13 @@ technologies = {
 		}
 	}
 	
-	raft_4 = {
+	raft_tech_4 = {
 
 		enable_equipments = {
 			watertribe_raft_hull_4
 		}
 		path = {
-			leads_to_tech = raft_5
+			leads_to_tech = raft_tech_5
 			research_cost_coeff = 1
 		}
 		
@@ -308,10 +308,10 @@ technologies = {
 		}
 	}
 	
-	raft_5 = {
+	raft_tech_5 = {
 
 		enable_equipments = {
-			watertribe_raft_5
+			watertribe_raft_hull_5
 		}
 
 		allow_branch = {
@@ -337,13 +337,13 @@ technologies = {
 		}
 	}
 	
-	oars_1 = {
+	water_oars_tech_1 = {
 
 		enable_equipment_modules = { 
 			oars_1
 		}
 		path = {
-			leads_to_tech = oars_2
+			leads_to_tech = water_oars_tech_2
 			research_cost_coeff = 1
 		}
 		
@@ -370,13 +370,13 @@ technologies = {
 		}
 	}
 	
-	oars_2 = {
+	water_oars_tech_2 = {
 
 		enable_equipment_modules = { 
 			oars_2
 		}
 		path = {
-			leads_to_tech = oars_3
+			leads_to_tech = water_oars_tech_3
 			research_cost_coeff = 1
 		}
 		
@@ -403,13 +403,13 @@ technologies = {
 		}
 	}
 	
-	oars_3 = {
+	water_oars_tech_3 = {
 
 		enable_equipment_modules = { 
 			oars_3
 		}
 		path = {
-			leads_to_tech = oars_4
+			leads_to_tech = water_oars_tech_4
 			research_cost_coeff = 1
 		}
 		
@@ -436,13 +436,13 @@ technologies = {
 		}
 	}
 	
-	oars_4 = {
+	water_oars_tech_4 = {
 
 		enable_equipment_modules = { 
 			oars_4
 		}
 		path = {
-			leads_to_tech = oars_5
+			leads_to_tech = water_oars_tech_5
 			research_cost_coeff = 1
 		}
 		
@@ -469,7 +469,7 @@ technologies = {
 		}
 	}
 	
-	oars_5 = {
+	water_oars_tech_5 = {
 
 		enable_equipment_modules = { 
 			oars_5
@@ -498,13 +498,13 @@ technologies = {
 		}
 	}
 	
-	boarding_1 = {
+	water_boarding_tech_1 = {
 
 		enable_equipment_modules = { 
 			boarding_crew_1
 		}
 		path = {
-			leads_to_tech = boarding_2
+			leads_to_tech = water_boarding_tech_2
 			research_cost_coeff = 1
 		}
 		
@@ -531,13 +531,13 @@ technologies = {
 		}
 	}
 	
-	boarding_2 = {
+	water_boarding_tech_2 = {
 
 		enable_equipment_modules = { 
 			boarding_crew_2
 		}
 		path = {
-			leads_to_tech = boarding_3
+			leads_to_tech = water_boarding_tech_3
 			research_cost_coeff = 1
 		}
 		
@@ -564,13 +564,13 @@ technologies = {
 		}
 	}
 	
-	boarding_3 = {
+	water_boarding_tech_3 = {
 
 		enable_equipment_modules = { 
 			boarding_crew_3
 		}
 		path = {
-			leads_to_tech = boarding_4
+			leads_to_tech = water_boarding_tech_4
 			research_cost_coeff = 1
 		}
 		
@@ -597,13 +597,13 @@ technologies = {
 		}
 	}
 	
-	boarding_4 = {
+	water_boarding_tech_4 = {
 
 		enable_equipment_modules = { 
 			boarding_crew_4
 		}
 		path = {
-			leads_to_tech = boarding_5
+			leads_to_tech = water_boarding_tech_5
 			research_cost_coeff = 1
 		}
 		
@@ -630,13 +630,13 @@ technologies = {
 		}
 	}
 	
-	boarding_5 = {
+	water_boarding_tech_5 = {
 
 		enable_equipment_modules = { 
 			boarding_crew_1
 		}
 		path = {
-			leads_to_tech = boarding_6
+			leads_to_tech = water_boarding_tech_6
 			research_cost_coeff = 1
 		}
 		
@@ -663,7 +663,7 @@ technologies = {
 		}
 	}
 	
-	boarding_6 = {
+	water_boarding_tech_6 = {
 
 		enable_equipment_modules = { 
 			boarding_crew_1
@@ -693,13 +693,13 @@ technologies = {
 	}
 
 	
-	maintenance_1 = {
+	water_maintenance_tech_1 = {
 
 		enable_equipment_modules = { 
 			maintenance_crew_1
 		}
 		path = {
-			leads_to_tech = maintenance_2
+			leads_to_tech = water_maintenance_tech_2
 			research_cost_coeff = 1
 		}
 		
@@ -726,13 +726,13 @@ technologies = {
 		}
 	}
 	
-	maintenance_2 = {
+	water_maintenance_tech_2 = {
 
 		enable_equipment_modules = { 
 			maintenance_crew_2
 		}
 		path = {
-			leads_to_tech = maintenance_3
+			leads_to_tech = water_maintenance_tech_3
 			research_cost_coeff = 1
 		}
 		
@@ -759,13 +759,13 @@ technologies = {
 		}
 	}
 	
-	maintenance_3 = {
+	water_maintenance_tech_3 = {
 
 		enable_equipment_modules = { 
 			maintenance_crew_3
 		}
 		path = {
-			leads_to_tech = maintenance_4
+			leads_to_tech = water_maintenance_tech_4
 			research_cost_coeff = 1
 		}
 		
@@ -792,13 +792,13 @@ technologies = {
 		}
 	}
 	
-	maintenance_4 = {
+	water_maintenance_tech_4 = {
 
 		enable_equipment_modules = { 
 			maintenance_crew_4
 		}
 		path = {
-			leads_to_tech = maintenance_5
+			leads_to_tech = water_maintenance_tech_5
 			research_cost_coeff = 1
 		}
 		
@@ -825,13 +825,13 @@ technologies = {
 		}
 	}
 	
-	maintenance_5 = {
+	water_maintenance_tech_5 = {
 
 		enable_equipment_modules = { 
 			maintenance_crew_5
 		}
 		path = {
-			leads_to_tech = maintenance_6
+			leads_to_tech = water_maintenance_tech_6
 			research_cost_coeff = 1
 		}
 		
@@ -858,7 +858,7 @@ technologies = {
 		}
 	}
 	
-	maintenance_6 = {
+	water_maintenance_tech_6 = {
 
 		enable_equipment_modules = { 
 			maintenance_crew_6
@@ -887,13 +887,13 @@ technologies = {
 		}
 	}
 	
-	sails_1 = {
+	water_sails_tech_1 = {
 
 		enable_equipment_modules = { 
 			sails_1
 		}
 		path = {
-			leads_to_tech = sails_2
+			leads_to_tech = water_sails_tech_2
 			research_cost_coeff = 1
 		}
 		
@@ -920,13 +920,13 @@ technologies = {
 		}
 	}
 	
-	sails_2 = {
+	water_sails_tech_2 = {
 
 		enable_equipment_modules = { 
 			sails_2
 		}
 		path = {
-			leads_to_tech = sails_3
+			leads_to_tech = water_sails_tech_3
 			research_cost_coeff = 1
 		}
 		
@@ -953,13 +953,13 @@ technologies = {
 		}
 	}
 	
-	sails_3 = {
+	water_sails_tech_3 = {
 
 		enable_equipment_modules = { 
 			sails_3
 		}
 		path = {
-			leads_to_tech = sails_4
+			leads_to_tech = water_sails_tech_4
 			research_cost_coeff = 1
 		}
 		
@@ -986,13 +986,13 @@ technologies = {
 		}
 	}
 	
-	sails_4 = {
+	water_sails_tech_4 = {
 
 		enable_equipment_modules = { 
 			sails_4
 		}
 		path = {
-			leads_to_tech = sails_5
+			leads_to_tech = water_sails_tech_5
 			research_cost_coeff = 1
 		}
 		
@@ -1019,7 +1019,7 @@ technologies = {
 		}
 	}
 	
-	sails_5 = {
+	water_sails_tech_5 = {
 
 		enable_equipment_modules = { 
 			sails_5
@@ -1048,21 +1048,21 @@ technologies = {
 		}
 	}
 	
-	cutter_ship = {
+	cutter_ship_tech_1 = {
 
 		enable_equipments = {
 			watertribe_cutter_hull_1
 		}
 		path = {
-			leads_to_tech = cutter_ship_2
+			leads_to_tech = cutter_ship_tech_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = light_armor_plates_1
+			leads_to_tech = water_light_armor_tech_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = crows_nest_1
+			leads_to_tech = water_crows_nest_tech_1
 			research_cost_coeff = 1
 		}
 		
@@ -1089,17 +1089,17 @@ technologies = {
 		}
 	}
 	
-	cutter_ship_2 = {
+	cutter_ship_tech_2 = {
 
 		enable_equipments = {
 			watertribe_cutter_hull_2
 		}
 		path = {
-			leads_to_tech = cutter_ship_3
+			leads_to_tech = cutter_ship_tech_3
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = water_warship_1
+			leads_to_tech = water_warship_tech_1
 			research_cost_coeff = 1
 		}
 		
@@ -1126,13 +1126,13 @@ technologies = {
 		}
 	}
 	
-	cutter_ship_3 = {
+	cutter_ship_tech_3 = {
 
 		enable_equipments = {
 			watertribe_cutter_hull_3
 		}
 		path = {
-			leads_to_tech = cutter_ship_4
+			leads_to_tech = cutter_ship_tech_4
 			research_cost_coeff = 1
 		}
 		
@@ -1159,13 +1159,13 @@ technologies = {
 		}
 	}
 	
-	cutter_ship_4 = {
+	cutter_ship_tech_4 = {
 
 		enable_equipments = {
 			watertribe_cutter_hull_4
 		}
 		path = {
-			leads_to_tech = cutter_ship_5
+			leads_to_tech = cutter_ship_tech_5
 			research_cost_coeff = 1
 		}
 		
@@ -1192,13 +1192,13 @@ technologies = {
 		}
 	}
 	
-	cutter_ship_5 = {
+	cutter_ship_tech_5 = {
 
 		enable_equipments = {
 			watertribe_cutter_hull_5
 		}
 		path = {
-			leads_to_tech = cutter_ship_6
+			leads_to_tech = cutter_ship_tech_6
 			research_cost_coeff = 1
 		}
 		
@@ -1225,14 +1225,10 @@ technologies = {
 		}
 	}
 	
-	cutter_ship_6 = {
+	cutter_ship_tech_6 = {
 
 		enable_equipments = {
 			watertribe_cutter_hull_6
-		}
-		path = {
-			leads_to_tech = cutter_ship
-			research_cost_coeff = 1
 		}
 		
 		allow_branch = {
@@ -1258,13 +1254,13 @@ technologies = {
 		}
 	}
 
-	crows_nest_1 = {
+	water_crows_nest_tech_1 = {
 
 		enable_equipment_modules = { 
 			crows_nest_1
 		}
 		path = {
-			leads_to_tech = crows_nest_2
+			leads_to_tech = water_crows_nest_tech_2
 			research_cost_coeff = 1
 		}
 		
@@ -1291,13 +1287,13 @@ technologies = {
 		}
 	}
 	
-	crows_nest_2 = {
+	water_crows_nest_tech_2 = {
 
 		enable_equipment_modules = { 
 			crows_nest_2
 		}
 		path = {
-			leads_to_tech = crows_nest_3
+			leads_to_tech = water_crows_nest_tech_3
 			research_cost_coeff = 1
 		}
 		
@@ -1324,13 +1320,13 @@ technologies = {
 		}
 	}
 	
-	crows_nest_3 = {
+	water_crows_nest_tech_3 = {
 
 		enable_equipment_modules = { 
 			crows_nest_3
 		}
 		path = {
-			leads_to_tech = crows_nest_4
+			leads_to_tech = water_crows_nest_tech_4
 			research_cost_coeff = 1
 		}
 		
@@ -1357,13 +1353,13 @@ technologies = {
 		}
 	}
 	
-	crows_nest_4 = {
+	water_crows_nest_tech_4 = {
 
 		enable_equipment_modules = { 
 			crows_nest_4
 		}
 		path = {
-			leads_to_tech = crows_nest_5
+			leads_to_tech = water_crows_nest_tech_5
 			research_cost_coeff = 1
 		}
 		
@@ -1390,7 +1386,7 @@ technologies = {
 		}
 	}
 	
-	crows_nest_5 = {
+	water_crows_nest_tech_5 = {
 
 		enable_equipment_modules = { 
 			crows_nest_5
@@ -1419,17 +1415,17 @@ technologies = {
 		}
 	}
 
-	light_armor_plates_1 = {
+	water_light_armor_tech_1 = {
 
 		enable_equipment_modules = { 
 			light_armor_plates_1
 		}
 		path = {
-			leads_to_tech = light_armor_plates_2
+			leads_to_tech = water_light_armor_tech_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = medium_armor_plates_1
+			leads_to_tech = water_medium_armor_tech_1
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -1455,13 +1451,13 @@ technologies = {
 		}
 	}
 	
-	light_armor_plates_2 = {
+	water_light_armor_tech_2 = {
 
 		enable_equipment_modules = { 
 			light_armor_plates_2
 		}
 		path = {
-			leads_to_tech = light_armor_plates_3
+			leads_to_tech = water_light_armor_tech_3
 			research_cost_coeff = 1
 		}
 		
@@ -1488,13 +1484,13 @@ technologies = {
 		}
 	}
 	
-	light_armor_plates_3 = {
+	water_light_armor_tech_3 = {
 
 		enable_equipment_modules = { 
 			light_armor_plates_3
 		}
 		path = {
-			leads_to_tech = light_armor_plates_4
+			leads_to_tech = water_light_armor_tech_4
 			research_cost_coeff = 1
 		}
 		
@@ -1521,13 +1517,13 @@ technologies = {
 		}
 	}
 	
-	light_armor_plates_4 = {
+	water_light_armor_tech_4 = {
 
 		enable_equipment_modules = { 
 			light_armor_plates_4
 		}
 		path = {
-			leads_to_tech = light_armor_plates_5
+			leads_to_tech = water_light_armor_tech_5
 			research_cost_coeff = 1
 		}
 		
@@ -1554,13 +1550,13 @@ technologies = {
 		}
 	}
 	
-	light_armor_plates_5 = {
+	water_light_armor_tech_5 = {
 
 		enable_equipment_modules = { 
 			light_armor_plates_5
 		}
 		path = {
-			leads_to_tech = light_armor_plates_6
+			leads_to_tech = water_light_armor_tech_6
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -1585,7 +1581,7 @@ technologies = {
 			dd_tech
 		}
 	}
-	light_armor_plates_6 = {
+	water_light_armor_tech_6 = {
 
 		enable_equipment_modules = { 
 			light_armor_plates_6
@@ -1614,17 +1610,17 @@ technologies = {
 		}
 	}
 	
-	medium_armor_plates_1 = {
+	water_medium_armor_tech_1 = {
 
 		enable_equipment_modules = { 
 			medium_armor_plates_1
 		}
 		path = {
-			leads_to_tech = medium_armor_plates_2
+			leads_to_tech = water_medium_armor_tech_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = heavy_armor_plates_1
+			leads_to_tech = water_heavy_armor_tech_1
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -1650,13 +1646,13 @@ technologies = {
 		}
 	}
 	
-	medium_armor_plates_2 = {
+	water_medium_armor_tech_2 = {
 
 		enable_equipment_modules = { 
 			medium_armor_plates_2
 		}
 		path = {
-			leads_to_tech = medium_armor_plates_3
+			leads_to_tech = water_medium_armor_tech_3
 			research_cost_coeff = 1
 		}
 		
@@ -1683,13 +1679,13 @@ technologies = {
 		}
 	}
 	
-	medium_armor_plates_3 = {
+	water_medium_armor_tech_3 = {
 
 		enable_equipment_modules = { 
 			medium_armor_plates_3
 		}
 		path = {
-			leads_to_tech = medium_armor_plates_4
+			leads_to_tech = water_medium_armor_tech_4
 			research_cost_coeff = 1
 		}
 		
@@ -1716,13 +1712,13 @@ technologies = {
 		}
 	}
 	
-	medium_armor_plates_4 = {
+	water_medium_armor_tech_4 = {
 
 		enable_equipment_modules = { 
 			medium_armor_plates_4
 		}
 		path = {
-			leads_to_tech = medium_armor_plates_5
+			leads_to_tech = water_medium_armor_tech_5
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -1748,7 +1744,7 @@ technologies = {
 		}
 	}
 	
-	medium_armor_plates_5 = {
+	water_medium_armor_tech_5 = {
 
 		enable_equipment_modules = { 
 			medium_armor_plates_5
@@ -1777,13 +1773,13 @@ technologies = {
 		}
 	}
 	
-	heavy_armor_plates_1 = {
+	water_heavy_armor_tech_1 = {
 
 		enable_equipment_modules = { 
 			heavy_armor_plates_1
 		}
 		path = {
-			leads_to_tech = heavy_armor_plates_2
+			leads_to_tech = water_heavy_armor_tech_2
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -1809,13 +1805,13 @@ technologies = {
 		}
 	}
 	
-	heavy_armor_plates_2 = {
+	water_heavy_armor_tech_2 = {
 
 		enable_equipment_modules = { 
 			heavy_armor_plates_2
 		}
 		path = {
-			leads_to_tech = heavy_armor_plates_3
+			leads_to_tech = water_heavy_armor_tech_3
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -1841,13 +1837,13 @@ technologies = {
 		}
 	}
 	
-	heavy_armor_plates_3 = {
+	water_heavy_armor_tech_3 = {
 
 		enable_equipment_modules = { 
 			heavy_armor_plates_3
 		}
 		path = {
-			leads_to_tech = heavy_armor_plates_4
+			leads_to_tech = water_heavy_armor_tech_4
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -1873,7 +1869,7 @@ technologies = {
 		}
 	}
 	
-	heavy_armor_plates_4 = {
+	water_heavy_armor_tech_4 = {
 
 		enable_equipment_modules = { 
 			heavy_armor_plates_4
@@ -1902,21 +1898,21 @@ technologies = {
 		}
 	}
 
-	water_convoy = {
+	water_convoy_tech_1 = {
 
 		enable_equipments = {
 			convoy_1
 		}
 		path = {
-			leads_to_tech = water_convoy_2
+			leads_to_tech = water_convoy_tech_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = supplies_1
+			leads_to_tech = water_supplies_tech_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = mines_1
+			leads_to_tech = water_mine_tech_1
 			research_cost_coeff = 1
 		}
 		
@@ -1938,7 +1934,7 @@ technologies = {
 			dd_tech
 		}
 	}
-	water_convoy_2 = {
+	water_convoy_tech_2 = {
 
 		enable_equipments = {
 			convoy_2
@@ -1963,13 +1959,13 @@ technologies = {
 		}
 	}
 	
-	water_warship_1 = {
+	water_warship_tech_1 = {
 
 		enable_equipments = {
 			watertribe_warship_hull_1
 		}
 		path = {
-			leads_to_tech = water_warship_2
+			leads_to_tech = water_warship_tech_2
 			research_cost_coeff = 1
 		}
 		
@@ -1996,13 +1992,13 @@ technologies = {
 		}
 	}
 	
-	water_warship_2 = {
+	water_warship_tech_2 = {
 
 		enable_equipments = {
 			watertribe_warship_hull_2
 		}
 		path = {
-			leads_to_tech = water_warship_3
+			leads_to_tech = water_warship_tech_3
 			research_cost_coeff = 1
 		}
 		
@@ -2029,13 +2025,13 @@ technologies = {
 		}
 	}
 	
-	water_warship_3 = {
+	water_warship_tech_3 = {
 
 		enable_equipments = {
 			watertribe_warship_hull_3
 		}
 		path = {
-			leads_to_tech = water_warship_4
+			leads_to_tech = water_warship_tech_4
 			research_cost_coeff = 1
 		}
 		
@@ -2062,7 +2058,7 @@ technologies = {
 		}
 	}
 	
-	water_warship_4 = {
+	water_warship_tech_4 = {
 
 		enable_equipments = {
 			watertribe_warship_hull_4
@@ -2091,13 +2087,13 @@ technologies = {
 		}
 	}
 	
-	supplies_1 = {
+	water_supplies_tech_1 = {
 
 		enable_equipment_modules = { 
 			supplies_1
 		}
 		path = {
-			leads_to_tech = supplies_2
+			leads_to_tech = water_supplies_tech_2
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -2123,13 +2119,13 @@ technologies = {
 		}
 	}
 	
-	supplies_2 = {
+	water_supplies_tech_2 = {
 
 		enable_equipment_modules = { 
 			supplies_2
 		}
 		path = {
-			leads_to_tech = supplies_3
+			leads_to_tech = water_supplies_tech_3
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -2155,13 +2151,13 @@ technologies = {
 		}
 	}
 	
-	supplies_3 = {
+	water_supplies_tech_3 = {
 
 		enable_equipment_modules = { 
 			supplies_3
 		}
 		path = {
-			leads_to_tech = supplies_4
+			leads_to_tech = water_supplies_tech_4
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -2187,13 +2183,13 @@ technologies = {
 		}
 	}
 	
-	supplies_4 = {
+	water_supplies_tech_4 = {
 
 		enable_equipment_modules = { 
 			supplies_4
 		}
 		path = {
-			leads_to_tech = supplies_5
+			leads_to_tech = water_supplies_tech_5
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -2219,13 +2215,13 @@ technologies = {
 		}
 	}
 	
-	supplies_5 = {
+	water_supplies_tech_5 = {
 
 		enable_equipment_modules = { 
 			supplies_5
 		}
 		path = {
-			leads_to_tech = supplies_6
+			leads_to_tech = water_supplies_tech_6
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -2251,7 +2247,7 @@ technologies = {
 		}
 	}
 	
-	supplies_6 = {
+	water_supplies_tech_6 = {
 
 		enable_equipment_modules = { 
 			supplies_6
@@ -2279,13 +2275,13 @@ technologies = {
 		}
 	}
 	
-	mines_1 = {
+	water_mine_tech_1 = {
 
 		enable_equipment_modules = { 
 			mine_layer_1
 		}
 		path = {
-			leads_to_tech = mines_2
+			leads_to_tech = water_mine_tech_2
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -2311,13 +2307,13 @@ technologies = {
 		}
 	}
 	
-	mines_2 = {
+	water_mine_tech_2 = {
 
 		enable_equipment_modules = { 
 			mine_layer_2
 		}
 		path = {
-			leads_to_tech = mines_3
+			leads_to_tech = water_mine_tech_3
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -2343,13 +2339,13 @@ technologies = {
 		}
 	}
 	
-	mines_3 = {
+	water_mine_tech_3 = {
 
 		enable_equipment_modules = { 
 			mine_layer_3
 		}
 		path = {
-			leads_to_tech = mines_4
+			leads_to_tech = water_mine_tech_4
 			research_cost_coeff = 1
 		}
 		allow_branch = {
@@ -2375,7 +2371,7 @@ technologies = {
 		}
 	}
 	
-	mines_4 = {
+	water_mine_tech_4 = {
 
 		enable_equipment_modules = { 
 			mine_layer_4

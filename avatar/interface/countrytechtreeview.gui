@@ -2510,28 +2510,28 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "galley_1_tree"
+				name = "galley_tech_1_tree"
 				position = { x = 200 y = 120}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			gridboxtype = {
-				name = "barque_1_tree"
+				name = "barque_tech_1_tree"
 				position = { x = 550 y = 120}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			gridboxtype = {
-				name = "junk_1_tree"
+				name = "junk_tech_1_tree"
 				position = { x = 900 y = 120}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			gridboxtype = {
-				name = "convoy_tree"
+				name = "convoy_tech_1_tree"
 				position = { x = 1500 y = 120}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -3644,7 +3644,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "naval_year18"
-					position = { x = 50 y = 2380 }
+					position = { x = 50 y = 2520 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -4026,7 +4026,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "naval_year18"
-					position = { x = 50 y = 2380 }
+					position = { x = 50 y = 2520 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -4224,28 +4224,28 @@ guiTypes = {
 				}
 			}
 			gridboxtype = {
-				name = "canoe_tree"
+				name = "canoe_tech_1_tree"
 				position = { x = 200 y = 120}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			gridboxtype = {
-				name = "raft_tree"
+				name = "raft_tech_1_tree"
 				position = { x = 550 y = 120}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			gridboxtype = {
-				name = "cutter_ship_tree"
+				name = "cutter_ship_tech_1_tree"
 				position = { x = 900 y = 120}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			gridboxtype = {
-				name = "water_convoy_tree"
+				name = "water_convoy_tech_1_tree"
 				position = { x = 1500 y = 120}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
