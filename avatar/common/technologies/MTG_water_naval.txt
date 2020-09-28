@@ -1058,7 +1058,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = armor_1
+			leads_to_tech = light_armor_plates_1
 			research_cost_coeff = 1
 		}
 		path = {
@@ -1096,6 +1096,10 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = cutter_ship_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = water_warship_1
 			research_cost_coeff = 1
 		}
 		
@@ -1254,4 +1258,1021 @@ technologies = {
 		}
 	}
 
+	crows_nest_1 = {
+
+		enable_equipment_modules = { 
+			crows_nest_1
+		}
+		path = {
+			leads_to_tech = crows_nest_2
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = -1 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	crows_nest_2 = {
+
+		enable_equipment_modules = { 
+			crows_nest_2
+		}
+		path = {
+			leads_to_tech = crows_nest_3
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = -1 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	crows_nest_3 = {
+
+		enable_equipment_modules = { 
+			crows_nest_3
+		}
+		path = {
+			leads_to_tech = crows_nest_4
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = -1 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	crows_nest_4 = {
+
+		enable_equipment_modules = { 
+			crows_nest_4
+		}
+		path = {
+			leads_to_tech = crows_nest_5
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = -1 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	crows_nest_5 = {
+
+		enable_equipment_modules = { 
+			crows_nest_5
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = -1 y = 28 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+	light_armor_plates_1 = {
+
+		enable_equipment_modules = { 
+			light_armor_plates_1
+		}
+		path = {
+			leads_to_tech = light_armor_plates_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = medium_armor_plates_1
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 1 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	light_armor_plates_2 = {
+
+		enable_equipment_modules = { 
+			light_armor_plates_2
+		}
+		path = {
+			leads_to_tech = light_armor_plates_3
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 1 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	light_armor_plates_3 = {
+
+		enable_equipment_modules = { 
+			light_armor_plates_3
+		}
+		path = {
+			leads_to_tech = light_armor_plates_4
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 1 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	light_armor_plates_4 = {
+
+		enable_equipment_modules = { 
+			light_armor_plates_4
+		}
+		path = {
+			leads_to_tech = light_armor_plates_5
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 1 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	light_armor_plates_5 = {
+
+		enable_equipment_modules = { 
+			light_armor_plates_5
+		}
+		path = {
+			leads_to_tech = light_armor_plates_6
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 1 y = 30 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	light_armor_plates_6 = {
+
+		enable_equipment_modules = { 
+			light_armor_plates_6
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 1 y = 34 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	medium_armor_plates_1 = {
+
+		enable_equipment_modules = { 
+			medium_armor_plates_1
+		}
+		path = {
+			leads_to_tech = medium_armor_plates_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavy_armor_plates_1
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 2 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	medium_armor_plates_2 = {
+
+		enable_equipment_modules = { 
+			medium_armor_plates_2
+		}
+		path = {
+			leads_to_tech = medium_armor_plates_3
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 2 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	medium_armor_plates_3 = {
+
+		enable_equipment_modules = { 
+			medium_armor_plates_3
+		}
+		path = {
+			leads_to_tech = medium_armor_plates_4
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 2 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	medium_armor_plates_4 = {
+
+		enable_equipment_modules = { 
+			medium_armor_plates_4
+		}
+		path = {
+			leads_to_tech = medium_armor_plates_5
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 2 y = 30 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	medium_armor_plates_5 = {
+
+		enable_equipment_modules = { 
+			medium_armor_plates_5
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 2 y = 34 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	heavy_armor_plates_1 = {
+
+		enable_equipment_modules = { 
+			heavy_armor_plates_1
+		}
+		path = {
+			leads_to_tech = heavy_armor_plates_2
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 3 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	heavy_armor_plates_2 = {
+
+		enable_equipment_modules = { 
+			heavy_armor_plates_2
+		}
+		path = {
+			leads_to_tech = heavy_armor_plates_3
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 3 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	heavy_armor_plates_3 = {
+
+		enable_equipment_modules = { 
+			heavy_armor_plates_3
+		}
+		path = {
+			leads_to_tech = heavy_armor_plates_4
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 3 y = 34 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	heavy_armor_plates_4 = {
+
+		enable_equipment_modules = { 
+			heavy_armor_plates_4
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 3 y = 34 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+	water_convoy = {
+
+		enable_equipments = {
+			convoy_1
+		}
+		path = {
+			leads_to_tech = water_convoy_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = supplies_1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	water_convoy_2 = {
+
+		enable_equipments = {
+			convoy_2
+		}
+		
+		research_cost = 1.5
+
+		start_year = 30
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 0 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	water_warship_1 = {
+
+		enable_equipments = {
+			watertribe_warship_hull_1
+		}
+		path = {
+			leads_to_tech = water_warship_2
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 15
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 4 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	water_warship_2 = {
+
+		enable_equipments = {
+			watertribe_warship_hull_2
+		}
+		path = {
+			leads_to_tech = water_warship_3
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 15
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 4 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	water_warship_3 = {
+
+		enable_equipments = {
+			watertribe_warship_hull_3
+		}
+		path = {
+			leads_to_tech = water_warship_4
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 15
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 4 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	water_warship_4 = {
+
+		enable_equipments = {
+			watertribe_warship_hull_4
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 15
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 4 y = 28 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	supplies_1 = {
+
+		enable_equipment_modules = { 
+			supplies_1
+		}
+		path = {
+			leads_to_tech = supplies_2
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = -2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	supplies_2 = {
+
+		enable_equipment_modules = { 
+			supplies_2
+		}
+		path = {
+			leads_to_tech = supplies_3
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = -2 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	supplies_3 = {
+
+		enable_equipment_modules = { 
+			supplies_3
+		}
+		path = {
+			leads_to_tech = supplies_4
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = -2 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	supplies_4 = {
+
+		enable_equipment_modules = { 
+			supplies_4
+		}
+		path = {
+			leads_to_tech = supplies_5
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = -2 y = 20 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	supplies_5 = {
+
+		enable_equipment_modules = { 
+			supplies_5
+		}
+		path = {
+			leads_to_tech = supplies_6
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = -2 y = 26 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	supplies_6 = {
+
+		enable_equipment_modules = { 
+			supplies_6
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = -2 y = 32 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
 }
