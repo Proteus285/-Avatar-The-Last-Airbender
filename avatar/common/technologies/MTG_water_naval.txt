@@ -1860,7 +1860,7 @@ technologies = {
 		
 		folder = {
 			name = watermtgnavalfolder
-			position = { x = 3 y = 34 }
+			position = { x = 3 y = 30 }
 		}
 		
 		ai_will_do = {
@@ -1913,6 +1913,10 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = supplies_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mines_1
 			research_cost_coeff = 1
 		}
 		
@@ -2263,6 +2267,130 @@ technologies = {
 		folder = {
 			name = watermtgnavalfolder
 			position = { x = -2 y = 32 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	mines_1 = {
+
+		enable_equipment_modules = { 
+			mine_layer_1
+		}
+		path = {
+			leads_to_tech = mines_2
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 2 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	mines_2 = {
+
+		enable_equipment_modules = { 
+			mine_layer_2
+		}
+		path = {
+			leads_to_tech = mines_3
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 2 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	mines_3 = {
+
+		enable_equipment_modules = { 
+			mine_layer_3
+		}
+		path = {
+			leads_to_tech = mines_4
+			research_cost_coeff = 1
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 2 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	mines_4 = {
+
+		enable_equipment_modules = { 
+			mine_layer_4
+		}
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 10
+		
+		folder = {
+			name = watermtgnavalfolder
+			position = { x = 2 y = 32 }
 		}
 		
 		ai_will_do = {
