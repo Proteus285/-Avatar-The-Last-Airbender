@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			3101 10 
 		}
-		12.4.23 = {
+		12.1.1 = {
 			owner = GDD
 			controller = GDD
 			add_core_of = GDD

@@ -15,7 +15,7 @@ state={
 		victory_points = { 9322 5 }
 		victory_points = { 9319 5 }
 
-		12.4.23 = {
+		12.1.1 = {
 			owner = KYI
 			controller = KYI
 			add_core_of = KYI

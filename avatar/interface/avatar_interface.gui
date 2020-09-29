@@ -484,7 +484,7 @@ guiTypes = {
 			spriteType = "GFX_topbar_calendar"
 			position = { x=-220 y=38 }
 			Orientation = "UPPER_RIGHT"
-			shortcut = "s"
+			#shortcut = "n"
 			clicksound = click_default
 
 			pdx_tooltip = "DATE_TOOLTIP"

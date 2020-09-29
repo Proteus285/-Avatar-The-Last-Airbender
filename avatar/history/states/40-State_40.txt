@@ -14,7 +14,7 @@ state={
 	
 		victory_points = { 6105 10 }
 	
-		12.4.23 = {
+		12.1.1 = {
 			owner = LAM
 			controller = LAM
 			add_core_of = LAM

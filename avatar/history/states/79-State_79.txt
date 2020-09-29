@@ -12,7 +12,7 @@ state={
 	
 		victory_points = { 96 5 }
 	
-		12.4.23 = {
+		12.1.1 = {
 			owner = MER
 			controller = MER
 			add_core_of = MER

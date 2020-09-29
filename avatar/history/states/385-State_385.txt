@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			2154 10 
 		}
-		12.4.23 = {
+		12.1.1 = {
 			owner = ZIN
 			controller = ZIN
 			add_core_of = ZIN

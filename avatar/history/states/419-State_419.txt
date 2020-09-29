@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			5597 30 
 		}
-		12.4.23 = {
+		12.1.1 = {
 			owner = ISL
 			controller = ISL
 			add_core_of = ISL

@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			5592 15 
 		}
-		12.4.23 = {
+		12.1.1 = {
 			owner = OMS
 			controller = OMS
 			add_core_of = OMS

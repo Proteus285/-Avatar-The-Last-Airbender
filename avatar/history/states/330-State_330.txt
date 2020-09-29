@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			7960 16 
 		}
-		12.4.23 = {
+		12.1.1 = {
 			owner = FIR
 			controller = FIR
 			add_core_of = FIR

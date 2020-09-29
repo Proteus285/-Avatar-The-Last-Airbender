@@ -385,24 +385,24 @@ guiTypes = {
 			}			
 		}
 
-		containerWindowType = {
-			name = "legitimacy_container"
-			position = { x = 179 y = 48 }
-			size = { width = 330 height = 50 }
-			clipping = no
-						
-			background = {
-				name = "Background"		
-				spriteType ="GFX_legitimacy_bg"
-			}
-			
-			buttonType = {
-				name = "increase_legitimacy"
-				position = { x = 0 y = 12 }
-				spriteType = "GFX_FIR_low_legitimacy"
-				clicksound = click_default
-			}		
-		}
+		#containerWindowType = {
+		#	name = "legitimacy_container"
+		#	position = { x = 179 y = 48 }
+		#	size = { width = 330 height = 50 }
+		#	clipping = no
+		#				
+		#	background = {
+		#		name = "Background"		
+		#		spriteType ="GFX_legitimacy_bg"
+		#	}
+		#	
+		#	buttonType = {
+		#		name = "increase_legitimacy"
+		#		position = { x = 0 y = 12 }
+		#		spriteType = "GFX_FIR_low_legitimacy"
+		#		clicksound = click_default
+		#	}		
+		#}
 
 		containerWindowType = {
 			name = "national_spirit"

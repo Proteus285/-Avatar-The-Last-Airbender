@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			3723 25 
 		}
-		12.4.23 = {
+		12.1.1 = {
 			owner = NIX
 			controller = NIX
 			add_core_of = NIX

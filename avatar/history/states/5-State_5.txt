@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			4714 5 
 		}
-		12.4.23 = {
+		12.1.1 = {
 			owner = NWT
 			controller = NWT
 			add_core_of = NWT

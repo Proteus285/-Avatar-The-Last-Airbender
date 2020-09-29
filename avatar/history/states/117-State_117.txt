@@ -16,7 +16,7 @@ state={
 		victory_points = { 8691 10 }
 		victory_points = { 8663 5 }
 	
-		12.4.23 = {
+		12.1.1 = {
 			owner = SWA
 			controller = SWA
 			add_core_of = SWA

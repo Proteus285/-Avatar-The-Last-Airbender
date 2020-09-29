@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			6807 70 
 		}
-		12.4.23 = {
+		12.1.1 = {
 			owner = YUE
 			controller = YUE
 			add_core_of = YUE

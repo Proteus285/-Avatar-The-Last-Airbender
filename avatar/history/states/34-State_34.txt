@@ -14,7 +14,7 @@ state={
 	
 		victory_points = { 6075 20 }
 	
-		12.4.23 = {
+		12.1.1 = {
 			owner = NAT
 			controller = NAT
 			add_core_of = NAT

@@ -13,7 +13,7 @@ state={
 	
 		victory_points = { 4327 30 }
 	
-		12.4.23 = {
+		12.1.1 = {
 			owner = MAK
 			controller = MAK
 			add_core_of = MAK

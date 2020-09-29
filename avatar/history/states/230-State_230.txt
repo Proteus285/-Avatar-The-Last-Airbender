@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			7247 10 
 		}
-		12.4.23 = {
+		12.1.1 = {
 			owner = WUL
 			controller = WUL
 			add_core_of = WUL

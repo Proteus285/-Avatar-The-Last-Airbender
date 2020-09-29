@@ -13,7 +13,7 @@ state={
 	
 		victory_points = { 1823 5 }
 	
-		12.4.23 = {
+		12.1.1 = {
 			owner = NCB
 			controller = NCB
 			add_core_of = NCB

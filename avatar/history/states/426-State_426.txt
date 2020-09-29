@@ -13,7 +13,7 @@ state={
 
 		victory_points = { 3524 25 }
 
-		12.4.23 = {
+		12.1.1 = {
 			owner = CHN
 			controller = CHN
 			add_core_of = CHN

@@ -15,7 +15,7 @@ state={
 	
 		victory_points = { 7618 40 }
 	
-		12.4.23 = {
+		12.1.1 = {
 			owner = SNW
 			controller = SNW
 			add_core_of = SNW

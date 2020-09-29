@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			4295 5 
 		}
-		12.4.23 = {
+		12.1.1 = {
 			owner = HEB
 			controller = HEB
 			add_core_of = HEB

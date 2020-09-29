@@ -12,7 +12,7 @@ state={
 	
 		victory_points = { 6810 5 }
 	
-		12.4.23 = {
+		12.1.1 = {
 			owner = EAR
 			controller = EAR
 			add_core_of = EAR

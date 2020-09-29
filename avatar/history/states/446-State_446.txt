@@ -4,7 +4,7 @@ state={
 	name="STATE_446"
 
 	history={
-		12.4.23 = {
+		12.1.1 = {
 			owner = GAR
 			controller = GAR
 			add_core_of = GAR

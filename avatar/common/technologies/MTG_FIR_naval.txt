@@ -305,6 +305,34 @@ technologies = {
 			dd_tech
 		}
 	}
+	cruiser_armor_1 = {
+
+		enable_equipment_modules = { 
+			medium_armor_plates_1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 20
+		
+		folder = {
+			name = firemtgnavalfolder
+			position = { x = 2 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
 	cruiser_update_1 = {
 
 		firenation_cruiser = {
@@ -312,6 +340,11 @@ technologies = {
 		}
 		firenation_heavy_cruiser = {
 			max_organisation = 5			
+		}
+
+		path = {
+			leads_to_tech = cruiser_escort_eff_1
+			research_cost_coeff = 1
 		}
 		
 		allow_branch = {
@@ -336,11 +369,9 @@ technologies = {
 			dd_tech
 		}
 	}
-	cruiser_armor_1 = {
+	cruiser_escort_eff_1 = {
 
-		enable_equipment_modules = { 
-			medium_armor_plates_1
-		}
+		convoy_escort_efficiency = 0.05
 		
 		allow_branch = {
 			has_dlc = "Man the Guns"
@@ -348,11 +379,11 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 20
+		start_year = 22
 		
 		folder = {
 			name = firemtgnavalfolder
-			position = { x = 2 y = 4 }
+			position = { x = 6 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -870,7 +901,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = invasion_capacity_1
+			leads_to_tech = fire_invasion_capacity_1
 			research_cost_coeff = 1
 		}
 		path = {
@@ -900,9 +931,14 @@ technologies = {
 			dd_tech
 		}
 	}
-	invasion_capacity_1 = {
+	fire_invasion_capacity_1 = {
 
 		naval_invasion_capacity = 20
+
+		path = {
+			leads_to_tech = fire_invasion_defence_1
+			research_cost_coeff = 1
+		}
 		
 		allow_branch = {
 			has_dlc = "Man the Guns"
@@ -926,10 +962,41 @@ technologies = {
 			dd_tech
 		}
 	}
+	fire_invasion_defence_1 = {
+
+		amphibious_invasion_defence = 0.1
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 15
+		
+		folder = {
+			name = firemtgnavalfolder
+			position = { x = -2 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
 	frigate_armor_1 = {
 
 		enable_equipment_modules = { 
 			light_armor_plates_1
+		}
+
+		path = {
+			leads_to_tech = frigate_strenght_1
+			research_cost_coeff = 1
 		}
 		
 		allow_branch = {
@@ -943,6 +1010,34 @@ technologies = {
 		folder = {
 			name = firemtgnavalfolder
 			position = { x = -6 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	frigate_strenght_1 = {
+
+		firenation_frigate = {
+			max_organisation = 5
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 15
+		
+		folder = {
+			name = firemtgnavalfolder
+			position = { x = -6 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -1212,7 +1307,7 @@ technologies = {
 		
 		folder = {
 			name = firemtgnavalfolder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -1244,7 +1339,7 @@ technologies = {
 		
 		folder = {
 			name = firemtgnavalfolder
-			position = { x = 0 y = 14 }
+			position = { x = 0 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -1272,7 +1367,7 @@ technologies = {
 		
 		folder = {
 			name = firemtgnavalfolder
-			position = { x = 0 y = 24 }
+			position = { x = 0 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -1337,7 +1432,7 @@ technologies = {
 		
 		folder = {
 			name = firemtgnavalfolder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -1369,7 +1464,7 @@ technologies = {
 		
 		folder = {
 			name = firemtgnavalfolder
-			position = { x = 0 y = 16 }
+			position = { x = 0 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -1397,7 +1492,7 @@ technologies = {
 		
 		folder = {
 			name = firemtgnavalfolder
-			position = { x = 0 y = 20 }
+			position = { x = 0 y = 6 }
 		}
 		
 		ai_will_do = {

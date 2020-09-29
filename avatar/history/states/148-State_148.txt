@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		12.4.23 = {
+		12.1.1 = {
 			owner = WAT
 			controller = WAT
 			add_core_of = WAT

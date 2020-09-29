@@ -10,21 +10,21 @@ guiTypes = {
 		buttonType = {
 			name = "icon"
 			spriteType = "GFX_global_alert_icons"	
-			position = { x = 40 y = 0 }
+			position = { x = 40 y = -8 }
 			oversound = ui_menu_over
 		}
 
 		iconType = {
 			name ="red_alert_glow"
 			spriteType = "GFX_red_alert_glow"	
-			position = { x =40 y = 0 }
+			position = { x =40 y = -8 }
 			alwaystransparent = yes
 		}			
 
 		iconType = {
 			name ="yellow_alert_glow"
 			spriteType = "GFX_yellow_alert_glow"	
-			position = { x =40 y = 0 }
+			position = { x =40 y = -8 }
 			alwaystransparent = yes
 		}		
 		

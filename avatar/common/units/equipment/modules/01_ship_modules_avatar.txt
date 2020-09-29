@@ -1,18 +1,23 @@
 equipment_modules = {
 
 
- ##  ###  ### #   #
-#  # #  # #   #   #
-#    ###  ##  # # #
-#  # #  # #   # # #
- ##  #  # ###  # #
+###  ### #   # ###  ### ###      ##  ###  ### #   #
+#  # #   ##  # #  # #   #  #    #  # #  # #   #   #
+###  ##  # # # #  # ##  ###     #    ###  ##  # # #
+#  # #   #  ## #  # #   #  #    #  # #  # #   # # #
+###  ### #   # ###  ### #  #     ##  #  # ###  # #
 
 	ship_firebender_crew_1 = {
 		category = ship_firebender_crew
+
+		add_stats = {
+			lg_attack = 2
+			build_cost_ic = 120	
+		}
 		
 		multiply_stats = {
-			lg_attack = 0.25
-			hg_attack = 0.05
+			lg_attack = 0.05
+			hg_attack = 0.25
 			torpedo_attack = 0.1
 		}
 
@@ -44,23 +49,27 @@ equipment_modules = {
 	}
 	ship_waterbender_crew_1 = {
 		category = ship_waterbender_crew
+
+		add_stats = {
+			lg_attack = 2
+			hg_attack = 4
+			build_cost_ic = 120	
+		}
 		
 		multiply_stats = {
 			naval_speed = 0.15
 			naval_range = 0.15
-			lg_attack = 0.2
-			hg_attack = 0.2
 			torpedo_attack = 0.2
 		}
 		
 		dismantle_cost_ic = 700
 	}
 
-#     # ### # #   # ##### ###
-##   ## #   # ##  #   #   #
-# # # # ##  # # # #   #   ##
-#  #  # #   # #  ##   #   #
-#     # ### # #   #   #   ###
+ ##   ###   ###  #     #
+#  #  #  #  #    #     #
+#     ###   ##   #  #  #
+#  #  #  #  #    #  #  #
+ ##   #  #  ###   ## ## 
 
 	maintenance_crew_1 = {
 		category = ship_crew
@@ -1585,6 +1594,172 @@ equipment_modules = {
 	}
 
 
+
+	ship_heavy_ballista_1 = {
+		category = ship_heavy_ballista
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = anti_air
+		
+		add_stats = {
+			hg_attack = 2
+			anti_air_attack = 1
+			build_cost_ic = 300
+		}
+		build_cost_resources = {
+			aluminium = 1
+		}
+		multiply_stats = {
+			anti_air_attack = 0.1
+			naval_speed = -0.01
+		}
+
+		can_convert_from = {
+			module_category = ship_ballista
+			convert_cost_ic = 60
+		}
+
+		can_convert_from = {
+			module_category = ship_heavy_ballista
+			convert_cost_ic = 60
+		}
+	}
+	ship_heavy_ballista_2 = {
+		category = ship_heavy_ballista
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = anti_air
+		
+		add_stats = {
+			hg_attack = 4
+			anti_air_attack = 4
+			build_cost_ic = 350
+		}
+		build_cost_resources = {
+			aluminium = 1
+		}
+		multiply_stats = {
+			anti_air_attack = 0.1
+			naval_speed = -0.02
+		}
+
+		can_convert_from = {
+			module_category = ship_ballista
+			convert_cost_ic = 60
+		}
+		can_convert_from = {
+			module_category = ship_heavy_ballista
+			convert_cost_ic = 60
+		}
+	}
+	ship_heavy_ballista_3 = {
+		category = ship_heavy_ballista
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = anti_air
+		
+		add_stats = {
+			hg_attack = 6
+			anti_air_attack = 8
+			build_cost_ic = 400
+		}
+		build_cost_resources = {
+			aluminium = 1
+		}
+		multiply_stats = {
+			anti_air_attack = 0.1
+			naval_speed = -0.03
+		}
+
+		can_convert_from = {
+			module_category = ship_ballista
+			convert_cost_ic = 60
+		}
+		can_convert_from = {
+			module_category = ship_heavy_ballista
+			convert_cost_ic = 60
+		}
+	}
+	ship_heavy_ballista_4 = {
+		category = ship_heavy_ballista
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = anti_air
+		
+		add_stats = {
+			hg_attack = 8
+			anti_air_attack = 11
+			build_cost_ic = 500
+		}
+		build_cost_resources = {
+			aluminium = 1
+		}
+		multiply_stats = {
+			anti_air_attack = 0.1
+			naval_speed = -0.04
+		}
+
+		can_convert_from = {
+			module_category = ship_ballista
+			convert_cost_ic = 60
+		}
+		can_convert_from = {
+			module_category = ship_heavy_ballista
+			convert_cost_ic = 60
+		}
+	}
+	ship_heavy_ballista_5 = {
+		category = ship_heavy_ballista
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = anti_air
+		
+		add_stats = {
+			hg_attack = 10
+			anti_air_attack = 14
+			build_cost_ic = 550
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		multiply_stats = {
+			anti_air_attack = 0.1
+			naval_speed = -0.05
+		}
+
+		can_convert_from = {
+			module_category = ship_ballista
+			convert_cost_ic = 60
+		}
+		can_convert_from = {
+			module_category = ship_heavy_ballista
+			convert_cost_ic = 60
+		}
+	}
+	ship_heavy_ballista_6 = {
+		category = ship_heavy_ballista
+		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = anti_air
+		
+		add_stats = {
+			hg_attack = 12
+			anti_air_attack = 17
+			build_cost_ic = 600
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		multiply_stats = {
+			anti_air_attack = 0.1
+			naval_speed = -0.06
+		}
+
+		can_convert_from = {
+			module_category = ship_ballista
+			convert_cost_ic = 60
+		}
+		can_convert_from = {
+			module_category = ship_heavy_ballista
+			convert_cost_ic = 60
+		}
+	}
+
+
  ##  #  # ### ###      ##  ### ###  
 #  # ## #  #   #      #  #  #  #  # 
 #### # ##  #   #      ####  #  ###  
@@ -1752,7 +1927,7 @@ equipment_modules = {
 			naval_speed = -0.01			
 		}
 		build_cost_resources = {
-			chromium = 1
+			aluminium = 1
 		}
 	}
 
@@ -1786,7 +1961,7 @@ equipment_modules = {
 			naval_speed = -0.01			
 		}
 		build_cost_resources = {
-			aluminium = 1
+			iron = 1
 		}
 	}
 	
@@ -1803,7 +1978,7 @@ equipment_modules = {
 			naval_speed = -0.01			
 		}
 		build_cost_resources = {
-			steel = 1
+			iron = 1
 		}
 	}
 	
@@ -1857,7 +2032,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 2500
 		build_cost_resources = {
-			chromium = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 4
@@ -1874,7 +2049,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 3000
 		build_cost_resources = {
-			chromium = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 6
@@ -1891,7 +2066,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 3500
 		build_cost_resources = {
-			aluminium = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 8
@@ -1908,7 +2083,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 4000
 		build_cost_resources = {
-			aluminium = 1
+			steel = 1
 		}
 		add_stats = {
 			armor_value = 10
@@ -2208,6 +2383,7 @@ equipment_modules = {
 		dismantle_cost_ic = 2500
 		build_cost_resources = {
 			chromium = 1
+			aluminium = 1
 		}
 		add_stats = {
 			armor_value = 4
@@ -2225,6 +2401,7 @@ equipment_modules = {
 		dismantle_cost_ic = 3000
 		build_cost_resources = {
 			chromium = 1
+			aluminium = 1
 		}
 		add_stats = {
 			armor_value = 6
@@ -2241,6 +2418,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 3500
 		build_cost_resources = {
+			chromium = 1
 			aluminium = 1
 		}
 		add_stats = {
@@ -2259,6 +2437,7 @@ equipment_modules = {
 		dismantle_cost_ic = 4000
 		build_cost_resources = {
 			aluminium = 1
+			chromium = 1
 		}
 		add_stats = {
 			armor_value = 10
@@ -2275,7 +2454,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 4500
 		build_cost_resources = {
-			steel = 1
+			aluminium = 2
 		}
 		add_stats = {
 			armor_value = 12
@@ -2292,7 +2471,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 5000
 		build_cost_resources = {
-			steel = 1
+			aluminium = 2
 		}
 		add_stats = {
 			armor_value = 14
@@ -2309,7 +2488,7 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			chromium = 2
+			aluminium = 2
 		}
 		add_stats = {
 			armor_value = 6
@@ -2327,7 +2506,7 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			chromium = 2
+			aluminium = 2
 		}
 		add_stats = {
 			armor_value = 9
@@ -2345,8 +2524,8 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			aluminium = 1
-			chromium = 1
+			aluminium = 2
+			iron = 1
 		}
 		add_stats = {
 			armor_value = 12
@@ -2364,8 +2543,8 @@ equipment_modules = {
 			max_strength = 0.05
 		}
 		build_cost_resources = {
-			aluminium = 1
-			chromium = 1
+			aluminium = 2
+			iron = 1
 		}
 		add_stats = {
 			armor_value = 15
@@ -2436,7 +2615,7 @@ equipment_modules = {
 		gfx = ship_mine_layer
 	
 		add_stats = {
-			mines_planting = 1
+			mines_planting = 1.2
 			build_cost_ic = 200
 		}
 		multiply_stats = {
@@ -2449,7 +2628,7 @@ equipment_modules = {
 		gfx = ship_mine_layer
 		
 		add_stats = {
-			mines_planting = 1
+			mines_planting = 1.4
 			build_cost_ic = 300
 		}
 		multiply_stats = {
@@ -2462,7 +2641,7 @@ equipment_modules = {
 		gfx = ship_mine_layer
 		
 		add_stats = {
-			mines_planting = 1
+			mines_planting = 1.6
 			build_cost_ic = 400
 		}
 		multiply_stats = {

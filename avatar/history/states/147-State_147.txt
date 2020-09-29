@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			736 5 
 		}
-		12.4.23 = {
+		12.1.1 = {
 			owner = TAK
 			controller = TAK
 			add_core_of = TAK

@@ -10,7 +10,7 @@ state={
 		victory_points = {
 			5351 10 
 		}
-		12.4.23 = {
+		12.1.1 = {
 			owner = SWT
 			controller = SWT
 			add_core_of = SWT
