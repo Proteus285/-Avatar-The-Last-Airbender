@@ -56,13 +56,13 @@ guiTypes = {
 	
 	positionType = {
 		name = "alerticon_offset"
-		position = { x = 46 y = 44 }
+		position = { x = 48 y = 44 }
 	}
 
 	# This one is used to figure out when we nead to break and start adding icons on the next row (only x is used)
 	positionType = {
 		name = "alerticon_gridwidth"
-		position = { x = 940 y = 0 } 
+		position = { x = 1070 y = 0 } 
 	}
 	
 	containerWindowType = {
