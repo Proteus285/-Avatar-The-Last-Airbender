@@ -10,6 +10,10 @@ bookmarks = {
 		default_country = "FIR"
 		default = yes
 
+		"---"={
+			history = "OTHER_THE_HUNDRED_YEARS_WAR_DESC"
+		}
+
 		"FIR"={
 			minor = yes
 			history = "FIR_THE_HUNDRED_YEARS_WAR_DESC"

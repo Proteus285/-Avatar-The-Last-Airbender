@@ -49,7 +49,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "sort_date_button"
-			spriteType = "GFX_sort_button_100x29_2"
+			spriteType = "GFX_sort_button_date"
 			buttonFont = "hoi_16mbs"
 			clicksound = click_default
 			position = { x = 40 y = 87 }
@@ -58,7 +58,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "sort_country_button"
-			spriteType = "GFX_sort_button_100x29_2"
+			spriteType = "GFX_sort_button_country"
 			buttonFont = "hoi_16mbs"
 			clicksound = click_default
 			position = { x = 149 y = 87 }
@@ -67,7 +67,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "sort_value_button"
-			spriteType = "GFX_sort_button_100x29_2"
+			spriteType = "GFX_sort_button_tension"
 			buttonFont = "hoi_16mbs"
 			clicksound = click_default
 			position = { x = 258 y = 87 }
@@ -76,7 +76,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "show_wars_button"
-			spriteType = "GFX_sort_button_100x29_2"
+			spriteType = "GFX_sort_button_war"
 			buttonFont = "hoi_16mbs"
 			clicksound = click_default
 			position = { x = 385 y = 87 }
@@ -85,9 +85,9 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "tension_entries_wnd"
-			position = {x=13 y=126}
+			position = {x=17 y=126}
 			orientation = upper_left
-			size = {width=500 height=343}
+			size = {width=500 height=80%}
 			margin = {top=6 left=0 bottom=7 right=14}
 			verticalScrollbar = "right_vertical_slider"		
 

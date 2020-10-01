@@ -47,6 +47,28 @@ spriteTypes = {
 		noOfFrames = 2		
 	}
 
+
+	spriteType = {
+		name = "GFX_sort_button_date"
+		textureFile = "gfx/interface/sort_button_date.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_sort_button_country"
+		textureFile = "gfx/interface/sort_button_country.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_sort_button_tension"
+		textureFile = "gfx/interface/sort_button_tension.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_sort_button_war"
+		textureFile = "gfx/interface/sort_button_war.dds"
+		noOfFrames = 2
+	}
+
 	spriteType = {
 		name = "GFX_war_exhaustion"
 		texturefile = "gfx/interface/topbar/war_weariness.dds"
