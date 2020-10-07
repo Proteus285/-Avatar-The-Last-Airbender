@@ -12,9 +12,9 @@ state={
 			6218 5 
 		}
 		12.1.1 = {
-			owner = GAR
-			controller = GAR
-			add_core_of = GAR
+			owner = NIX
+			controller = NIX
+			add_core_of = NIX
 			buildings = {
 				infrastructure = 2
 				arms_factory = 0
@@ -23,18 +23,18 @@ state={
 
 		}
 		52.1.1 = {
-			owner = GAR
-			controller = GAR
+			owner = NIX
+			controller = NIX
 
 		}
 		105.2.4 = {
-			owner = GAR
-			controller = GAR
+			owner = NIX
+			controller = NIX
 
 		}
 		111.10.30 = {
-			owner = GAR
-			controller = GAR
+			owner = NIX
+			controller = NIX
 
 		}
 

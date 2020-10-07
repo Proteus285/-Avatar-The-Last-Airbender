@@ -10,9 +10,9 @@ state={
 
 	history={
 		12.1.1 = {
-			owner = ZIN
-			controller = ZIN
-			add_core_of = ZIN
+			owner = GAR
+			controller = GAR
+			add_core_of = GAR
 			buildings = {
 				industrial_complex = 1
 				infrastructure = 2
@@ -20,18 +20,18 @@ state={
 
 		}
 		52.1.1 = {
-			owner = ZIN
-			controller = ZIN
+			owner = GAR
+			controller = GAR
 
 		}
 		105.2.4 = {
-			owner = ZIN
-			controller = ZIN
+			owner = GAR
+			controller = GAR
 
 		}
 		111.10.30 = {
-			owner = ZIN
-			controller = ZIN
+			owner = GAR
+			controller = GAR
 
 		}
 

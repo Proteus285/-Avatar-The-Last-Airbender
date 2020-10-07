@@ -13,9 +13,9 @@ state={
 		victory_points = { 5251 4 }
 	
 		12.1.1 = {
-			owner = YII
-			controller = YII
-			add_core_of = YII
+			owner = ZIN
+			controller = ZIN
+			add_core_of = ZIN
 
 			buildings = {
 				infrastructure = 2
@@ -24,18 +24,18 @@ state={
 		}
 
 		52.1.1 = {
-			owner = YII
-			controller = YII
+			owner = ZIN
+			controller = ZIN
 		}
 
 		105.2.4 = {
-			owner = YII
-			controller = YII
+			owner = ZIN
+			controller = ZIN
 		}
 
 		111.10.30 = {
-			owner = YII
-			controller = YII
+			owner = ZIN
+			controller = ZIN
 		}
 	}
 
