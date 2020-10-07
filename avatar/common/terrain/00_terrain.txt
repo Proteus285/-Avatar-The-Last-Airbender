@@ -39,9 +39,9 @@ categories =  {
 		match_value = 0.5
 		sound_type = plains
 
-		units = {
-			attack = 0.3
-		}
+		#units = {
+		#	attack = 0.3
+		#}
 
 		enemy_army_bonus_air_superiority_factor = 0.25
 		
@@ -81,7 +81,7 @@ categories =  {
 	mountain = {
 		color = { 157 192 208 }
 		movement_cost = 4.0
-		attrition = 0.3
+		attrition = 0.1
 		combat_width = -0.66
 		ai_terrain_importance_factor = 10.0
 		match_value = 10
@@ -98,7 +98,7 @@ categories =  {
 	high_mountain = {
 		color = { 257 292 268 }
 		movement_cost = 8.0
-		attrition = 0.3
+		attrition = 0.2
 		combat_width = -0.66
 		ai_terrain_importance_factor = 10.0
 		match_value = 10
@@ -131,7 +131,7 @@ categories =  {
 	jungle = {
 		color = { 127 191 0 }
 		movement_cost = 3.0
-		attrition = 0.3
+		attrition = 0.2
 		combat_width = -0.25
 		ai_terrain_importance_factor = 6.0
 		match_value = 6
@@ -180,7 +180,7 @@ categories =  {
 	marsh = {
 		color = { 76 96 35 }
 		movement_cost = 2.0
-		attrition = 0.5
+		attrition = 0.3
 		combat_width = -0.25
 		ai_terrain_importance_factor = 8.0
 		match_value = 8
@@ -197,7 +197,7 @@ categories =  {
 	desert = {
 		color = { 255 27 0 }
 		movement_cost = 3.0
-		attrition = 0.5
+		attrition = 0.2
 		ai_terrain_importance_factor = 8.0
 		match_value = 8
 		sound_type = desert
@@ -265,33 +265,45 @@ categories =  {
 		is_water = yes
 		sound_type = sea
 
-		battle_cruiser = {
+		watertribe_canoe = {
 			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
+				attack = 0.5
+				movement = 0.25
+				defence = 0.5
 			}
-			navy_fuel_consumption_factor = 0.2
+			navy_visibility = -0.5
+			positioning = 0.15
+			naval_mine_hit_chance = -0.25
 		}
-		battleship = {
+		river_boat = {
 			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
+				attack = 0.5
+				movement = 0.5
+				defence = 0.5
 			}
-			navy_fuel_consumption_factor = 0.2
+			navy_visibility = -0.5
+			positioning = 0.15
+			naval_mine_hit_chance = -0.25
 		}
-		heavy_cruiser = {
+		ferry = {
 			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
+				attack = 0.5
+				movement = 0.25
+				defence = 0.5
 			}
-			navy_fuel_consumption_factor = 0.2
+			navy_visibility = -0.5
+			positioning = 0.15
+			naval_mine_hit_chance = -0.25
 		}
-		navy_visibility = -0.2
+
 		positioning = -0.15
 		navy_visibility = 1.0
+		naval_mine_hit_chance = 0.5
+		units = {
+			attack = -0.25
+			movement = -0.5
+			defence = -0.25
+		}
 	}
 
 	water_great_lake = {
@@ -301,43 +313,55 @@ categories =  {
 		is_water = yes
 		sound_type = sea
 
-		submarine = {
-			navy_visibility = 0.5
+		watertribe_submarine = {
+			navy_visibility = 0.3
 		}
-		battle_cruiser = {
+		firenation_cruiser = {
 			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
+				attack = 0.2
+				movement = 0.2
 			}
-			navy_fuel_consumption_factor = 0.2
 		}
-		battleship = {
+		firenation_heavy_cruiser = {
 			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
+				attack = 0.2
+				movement = 0.2
 			}
-			navy_fuel_consumption_factor = 0.2
 		}
-		heavy_cruiser = {
+		galley = {
 			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
+				attack = 0.2
+				defence = 0.2
 			}
-			navy_fuel_consumption_factor = 0.2
 		}
-		carrier = {
+		junk = {
 			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
+				attack = 0.2
+				defence = 0.2
 			}
-			navy_fuel_consumption_factor = 0.2
 		}
-		navy_visibility = -0.2
-		positioning = -0.15
+		heavy_junk = {
+			units = {
+				attack = 0.2
+				defence = 0.2
+			}
+		}
+		watertribe_cutter_ship = {
+			units = {
+				attack = 0.2
+				movement = 0.1
+				defence = 0.1
+			}
+		}
+		watertribe_cutter_flagship = {
+			units = {
+				attack = 0.2
+				movement = 0.1
+				defence = 0.1
+			}
+		}
+
+		navy_visibility = 0.2
 	}
 
 	water_fjords = {
@@ -423,7 +447,7 @@ categories =  {
 		is_water = yes
 		sound_type = sea
 		
-		navy_fuel_consumption_factor = 2.0
+		navy_fuel_consumption_factor = 5.0
 		naval_mine_hit_chance = -0.75
 		units = {
 			movement = -1.0

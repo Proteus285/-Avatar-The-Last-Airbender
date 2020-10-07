@@ -121,65 +121,6 @@ FIR_conquest_category = {
 }
 
 
-FIR_officer_school_category = {
-
-	land_department = = {
-
-		icon = generic_construction
-
-		cost = 50
-		fire_only_once = yes
-
-		days_remove = 200
-
-		available = {
-			
-		}
-
-		visible = {
-			original_tag = FIR
-			#has_completed_focus = FIR_form_military_schools
-		}
-
-		modifier = {
-			civilian_factory_use = 2
-		}
-
-		complete_effect = {
-			
-		}
-	}
-
-	naval_department = = {
-
-		icon = generic_construction
-
-		cost = 50
-		fire_only_once = yes
-
-		days_remove = 200
-
-		available = {
-			
-		}
-
-		visible = {
-			original_tag = FIR
-			#has_completed_focus = FIR_form_military_schools
-		}
-
-		modifier = {
-			civilian_factory_use = 2
-		}
-
-		complete_effect = {
-			
-		}
-	}
-	
-}
-
-
 FIR_civil_decision_category = {
 	
 	increase_war_support = {
@@ -517,19 +458,128 @@ FIR_colonies_category = {
 
 
 
-FIR_air_genocide_category = {
+air_genocide_category = {
+
+	arrival_of_the_great_comet = {
+
+		allowed = {
+			TAG = FIR
+		}
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+        days_mission_timeout = 250
+        is_good = yes
+
+		timeout_effect = {
+			if = {
+				limit = {
+					has_global_flag = genocide_active
+				}
+				declare_war_on = {
+					target = EAT
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = WAT
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = NAT
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = SAT
+					type = annex_everything
+				}
+				FIR = {
+					activate_mission = eastern_temple
+					activate_mission = western_temple
+					activate_mission = northern_temple
+					activate_mission = southern_temple
+				}
+
+				EAT = {
+					country_event = { id = eastern.1 days = 1 }
+				}
+				WAT = {
+					country_event = { id = western.1 days = 1 }
+				}
+				NAT = {
+					country_event = { id = northern.1 days = 1 }
+				}
+				SAT = {
+					country_event = { id = southern.1 days = 1 }
+				}
+				load_oob = "northern_firebender_army"
+				load_oob = "southern_firebender_army"
+				load_oob = "western_firebender_army"
+				load_oob = "eastern_firebender_army"
+				if = {
+					limit = {
+						check_variable = { genocide_preparation > 3 }
+					}
+					load_oob = "northern_firebender_army_extra"
+					load_oob = "southern_firebender_army_extra"
+					load_oob = "western_firebender_army_extra"
+					load_oob = "eastern_firebender_army_extra"
+				}
+				if = {
+					limit = {
+						check_variable = { genocide_preparation > 2 }
+					}
+					load_oob = "northern_firebender_army_extra"
+					load_oob = "southern_firebender_army_extra"
+					load_oob = "western_firebender_army_extra"
+					load_oob = "eastern_firebender_army_extra"
+				}
+				if = {
+					limit = {
+						check_variable = { genocide_preparation > 1 }
+					}
+					load_oob = "northern_firebender_army_extra"
+					load_oob = "southern_firebender_army_extra"
+					load_oob = "western_firebender_army_extra"
+					load_oob = "eastern_firebender_army_extra"
+				}
+				if = {
+					limit = {
+						check_variable = { genocide_preparation > 0 }
+					}
+					load_oob = "northern_firebender_army_extra"
+					load_oob = "southern_firebender_army_extra"
+					load_oob = "western_firebender_army_extra"
+					load_oob = "eastern_firebender_army_extra"
+				}
+			}
+		}
+
+        fire_only_once = yes
+        ai_will_do = {
+			factor = 100
+		}
+	}
 
 	commence_the_genocide = {
 
 		available = {
-			NOT = {
-				has_global_flag = genocide_active
-				has_global_flag = sozins_comet_first
+			hidden_trigger = {
+				NOT = {
+					has_global_flag = genocide_active
+					has_global_flag = sozins_comet_first
+				}
 			}
         }
 
 		visible = {
-			
+			hidden_trigger = {
+				NOT = {
+					has_global_flag = genocide_active
+					has_global_flag = sozins_comet_first
+				}
+			}
 		}
 
 		cost = 0
@@ -549,14 +599,21 @@ FIR_air_genocide_category = {
 	spare_the_air_nomads = {
 
 		available = {
-			NOT = {
-				has_global_flag = sozins_comet_first
+			hidden_trigger = {
+				NOT = {
+					has_global_flag = sozins_comet_first
+				}
+				has_global_flag = genocide_active
 			}
-			has_global_flag = genocide_active
         }
 
 		visible = {
-			
+			hidden_trigger = {
+				NOT = {
+					has_global_flag = sozins_comet_first
+				}
+				has_global_flag = genocide_active
+			}
 		}
 
 		cost = 0

@@ -2,11 +2,14 @@ on_actions = {
 
 	on_startup = {
 		effect = {
-			if = {
-				limit = {
-					has_start_date < 13.01.01
+			every_country = {
+				if = {
+					limit = {
+						has_start_date < 13.01.01
+					}
+					set_variable = { calendar_month = 1 }
+					set_variable = { calendar_year = 12 }
 				}
-				set_global_flag = april
 			}
 		}
 	}
@@ -15,87 +18,22 @@ on_actions = {
 		effect = {
             if = {
 				limit = {
-					has_global_flag = january
+					NOT = {
+						check_variable = { calendar_month = 12 }
+					}
 				}
-				clr_global_flag = january
-				set_global_flag = february
-			}
-			if = {
-				limit = {
-					has_global_flag = february
+				add_to_variable = {
+				    var = calendar_month
+				    value = 1
 				}
-				clr_global_flag = february
-				set_global_flag = march
-			}
-			if = {
-				limit = {
-					has_global_flag = march
+
+				else = {
+					set_variable = { calendar_month = 1 }
+					add_to_variable = {
+					    var = calendar_year
+					    value = 1
+					}
 				}
-				clr_global_flag = march
-				set_global_flag = april
-			}
-			if = {
-				limit = {
-					has_global_flag = april
-				}
-				clr_global_flag = april
-				set_global_flag = may
-			}
-			if = {
-				limit = {
-					has_global_flag = may
-				}
-				clr_global_flag = may
-				set_global_flag = june
-			}
-			if = {
-				limit = {
-					has_global_flag = june
-				}
-				clr_global_flag = june
-				set_global_flag = july
-			}
-			if = {
-				limit = {
-					has_global_flag = july
-				}
-				clr_global_flag = july
-				set_global_flag = august
-			}
-			if = {
-				limit = {
-					has_global_flag = august
-				}
-				clr_global_flag = august
-				set_global_flag = september
-			}
-			if = {
-				limit = {
-					has_global_flag = september
-				}
-				clr_global_flag = september
-				set_global_flag = oktober
-			}
-			if = {
-				limit = {
-					has_global_flag = oktober
-				}
-				clr_global_flag = oktober
-				set_global_flag = november
-			}
-			if = {
-				limit = {
-					has_global_flag = november
-				}
-				clr_global_flag = november
-				set_global_flag = december
-			}
-			if = {
-				limit = {
-					has_global_flag = december
-				}
-				clr_global_flag = december
-				set_global_flag = january
 			}
 		}
 	}

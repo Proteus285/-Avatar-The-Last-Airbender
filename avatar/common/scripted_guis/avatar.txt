@@ -47,7 +47,23 @@ scripted_gui = {
 				has_global_flag = avatar_aang
 			}
 
-			avatar_iceberg_visible = {
+			avatar_air_home_visible = {
+				has_global_flag = avatar_born_air
+			}
+			avatar_water_home_visible = {
+				has_global_flag = avatar_born_water
+			}
+			avatar_fire_home_visible = {
+				has_global_flag = avatar_born_fire
+			}
+			avatar_earth_home_visible = {
+				has_global_flag = avatar_born_earth
+			}
+
+			avatar_loc_sat_visible = {
+				has_global_flag = avatar_sat
+			}
+			avatar_loc_iceberg_visible = {
 				has_global_flag = avatar_iceberg
 			}
 

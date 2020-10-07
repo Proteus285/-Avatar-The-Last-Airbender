@@ -63,16 +63,25 @@ guiTypes = {
 		position = { x=0 y =600 }
 		show_position = { x=0 y =1 }
 		animation_type = decelerated
-		animation_time = 4000					
+		animation_time = 1000					
 		size = { width = 256 height = 768}
 		Orientation = lower_left
 
 		ButtonType = {
 			name = "atla_fundings"
-			position = { x = 0 y = -297 }
+			position = { x = 0 y = -171 }
 			quadTextureSprite ="GFX_fundings"
 			clicksound = time_up
 			pdx_tooltip = "MENU_ATLA_FUNDINGS"
+			web_link = "https://liberapay.com/HoI4-Avatar-Mod"
+		}
+
+		ButtonType = {
+			name = "atla_guide"
+			position = { x = 240 y = -171 }
+			quadTextureSprite ="GFX_guide"
+			clicksound = time_up
+			pdx_tooltip = "MENU_ATLA_GUIDE"
 			web_link = "https://liberapay.com/HoI4-Avatar-Mod"
 		}
 	}		

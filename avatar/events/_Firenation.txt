@@ -409,7 +409,7 @@ country_event = {
 	}
 }
 
-Sozin Dies :´(
+#Sozin Dies :´(
 country_event = {
 	id = firenation.11
 	hidden = yes
