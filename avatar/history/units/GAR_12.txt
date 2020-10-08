@@ -65,7 +65,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 5605
+		location = 9247
 		division_template = "Earthbender Brigade"
 		start_experience_factor = 0.1
 	}
@@ -75,7 +75,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 4490
+		location = 1530
 		division_template = "Earthbender Brigade"
 		start_experience_factor = 0.1
 	}
@@ -84,7 +84,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 6218
+		location = 9184
 		division_template = "Earthbender Brigade"
 		start_experience_factor = 0.1
 	}
@@ -93,7 +93,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 1013
+		location = 1211
 		division_template = "Earthbender Brigade"
 		start_experience_factor = 0.1
 	}
@@ -102,7 +102,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 5605
+		location = 9251
 		division_template = "Town Guard"
 		start_experience_factor = 0.2
 	}
@@ -111,7 +111,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 2083
+		location = 9251
 		division_template = "Archer Brigade"
 		start_experience_factor = 0.1
 	}
@@ -120,7 +120,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 6238
+		location = 9251
 		division_template = "Archer Brigade"
 		start_experience_factor = 0.1
 	}
@@ -129,7 +129,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 1359
+		location = 2154
 		division_template = "Archer Brigade"
 		start_experience_factor = 0.1
 	}
@@ -138,7 +138,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 6264
+		location = 2154
 		division_template = "Archer Brigade"
 		start_experience_factor = 0.1
 	}
@@ -147,7 +147,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 2825
+		location = 2154
 		division_template = "Infantry Banner"
 		start_experience_factor = 0.3
 	}

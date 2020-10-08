@@ -28,7 +28,7 @@ units = {
 	}
 	division= {	
 		name = "Temple Keepers"
-		location = 188
+		location = 1886
 		division_template = "Airbender Squad"
 		start_experience_factor = 0.4
 	}
