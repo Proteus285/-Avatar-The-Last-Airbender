@@ -9,16 +9,15 @@ state={
 
 	history={
 		victory_points = {
-			7007 50 
+			7007 35 
 		}
 		12.1.1 = {
 			owner = MAK
 			controller = MAK
 			add_core_of = MAK
 			buildings = {
-				arms_factory = 2
-				industrial_complex = 1
-				infrastructure = 6
+				arms_factory = 1
+				infrastructure = 5
 
 			}
 
@@ -44,7 +43,7 @@ state={
 	provinces={
 		215 1649 3494 3508 4012 4607 4638 5381 6911 6996 7007 7054 7067 7081 
 	}
-	manpower=50500
+	manpower=40500
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=city
 }

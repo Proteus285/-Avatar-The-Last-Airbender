@@ -8,9 +8,9 @@ state={
 
 	history={
 		12.1.1 = {
-			owner = WUL
-			controller = WUL
-			add_core_of = WUL
+			owner = XIN
+			controller = XIN
+			add_core_of = XIN
 			buildings = {
 				infrastructure = 4
 				arms_factory = 1
@@ -19,18 +19,18 @@ state={
 
 		}
 		52.1.1 = {
-			owner = WUL
-			controller = WUL
+			owner = XIN
+			controller = XIN
 
 		}
 		105.2.4 = {
-			owner = WUL
-			controller = WUL
+			owner = XIN
+			controller = XIN
 
 		}
 		111.10.30 = {
-			owner = WUL
-			controller = WUL
+			owner = XIN
+			controller = XIN
 
 		}
 

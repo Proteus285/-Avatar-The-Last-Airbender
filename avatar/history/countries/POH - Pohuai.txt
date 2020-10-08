@@ -1,4 +1,4 @@
-capital = 155
+capital = 90
 
 OOB = "POH_12"
 

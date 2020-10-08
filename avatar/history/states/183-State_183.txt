@@ -9,37 +9,38 @@ state={
 
 	history={
 		12.1.1 = {
-			owner = OMS
-			controller = OMS
-			add_core_of = OMS
+			owner = ZIN
+			controller = ZIN
+			add_core_of = ZIN
 			buildings = {
-				infrastructure = 2
+				infrastructure = 3
+				arms_factory = 1
 
 			}
 
 		}
 		52.1.1 = {
-			owner = OMS
-			controller = OMS
+			owner = ZIN
+			controller = ZIN
 
 		}
 		105.2.4 = {
-			owner = OMS
-			controller = OMS
+			owner = ZIN
+			controller = ZIN
 
 		}
 		111.10.30 = {
-			owner = OMS
-			controller = OMS
+			owner = ZIN
+			controller = ZIN
 
 		}
 
 	}
 
 	provinces={
-		1088 1667 1826 2251 2888 3159 3523 3640 5083 5198 5616 8532 8533 8571 8573 8608 8618 8621 8634 8639 8644 
+		379 438 698 1221 2164 3943 4244 4580 4734 5132 5234 9005 9044 9056 9071 9085 9091 
 	}
-	manpower=12700
+	manpower=28700
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }
