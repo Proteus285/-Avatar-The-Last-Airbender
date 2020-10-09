@@ -1,19 +1,24 @@
 ﻿l_english:
- pacifism:0 "Pacifist"
- pacifism_noun:0 "Pacifism"
- pacifism_desc:0 "Peacfull Regime"
- democratica:0 "Democratic"
- democratica_noun:0 "Democracy"
- democratica_desc:0 "Democratic Regime"
+ pacifism:0 "Nomadic"
+ pacifism_noun:0 "Nomadism"
+ pacifism_desc:0 "Nomadic People"
+
+ democratica:0 "Internationalist"
+ democratica_noun:0 "Internationalism"
+ democratica_desc:0 "Neutral Regime"
+
  imperialism:0 "Imperialist"
  imperialism_noun:0 "Imperialism"
  imperialism_desc:0 "Totalitarian Regime"
+
  monarchism:0 "Monarchist"
  monarchism_noun:0 "Monarchism"
  monarchism_desc:0 "Authoritarian Regime"
+
  tribalism:0 "Tribalist"
  tribalism_noun:0 "Tribalism"
- tribalism_desc:0 "Peacfull Regime"
+ tribalism_desc:0 "Communal Regime"
+
 
  absolute_pacifism:0 "Absolute Pacifism"
  absolute_pacifism_desc:0 "1"

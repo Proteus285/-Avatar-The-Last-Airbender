@@ -1837,6 +1837,72 @@ technologies = {
 		}
 	}
 
+	fire_galley_3 = {
+
+		enable_equipments = {
+			galley_hull_3
+		}
+		path = {
+			leads_to_tech = fire_galley_4
+			research_cost_coeff = 1
+		}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 20
+		
+		folder = {
+			name = firemtgnavalfolder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+	fire_galley_4 = {
+
+		enable_equipments = {
+			galley_hull_2
+		}
+		#path = {
+		#	leads_to_tech = fire_galley_3
+		#	research_cost_coeff = 1
+		#}
+		
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		
+		research_cost = 1.5
+
+		start_year = 20
+		
+		folder = {
+			name = firemtgnavalfolder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
 
 	early_convoy = {
 

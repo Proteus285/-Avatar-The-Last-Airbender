@@ -133,5 +133,18 @@ spriteTypes = {
 	}
 
 
+
+###################################################
+# galley
+###################################################
+
+
+
+	spriteType = {
+		name = "GFX_SM_galley_main_sail"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/galley/module_blueprint_galley_sail.dds"
+	}
+
+
 }
 	

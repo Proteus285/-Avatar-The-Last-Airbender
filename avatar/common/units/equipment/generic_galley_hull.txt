@@ -24,7 +24,7 @@ equipments = {
 			}
 			fixed_ship_mast_slot = {
 				required = no
-				allowed_module_categories = { crows_nest }
+				allowed_module_categories = { crows_nest sails }
 			}
 			fixed_ship_oars_slot = {
 				required = yes

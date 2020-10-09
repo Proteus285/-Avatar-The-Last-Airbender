@@ -29,7 +29,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 1 1 1 }
+		color = { 227 168 45 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -77,6 +77,9 @@ ideologies = {
 			
 			constitutional_monarchy = {
 			}
+
+			elective_monarchy = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -87,7 +90,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 0 140 10 }
+		color = { 3 99 10 }
 		
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -138,7 +141,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 180 16 16 }
+		color = { 158 0 0 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -175,6 +178,15 @@ ideologies = {
 			comunism = {
 			}
 
+			elective_chiefdom = {
+			}
+
+			theocratic_chiefdom = {
+			}
+
+			martial_chiefdom = {
+			}
+
 		}
 
 		dynamic_faction_names = {
@@ -185,7 +197,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 206 144 10 }
+		color = { 17 88 174 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -231,6 +243,21 @@ ideologies = {
 			
 			liberalisma = {
 			}
+
+			democracy = {
+			}
+
+			anarchism = {
+			}
+
+			sovereign_monarchy = {
+			}
+
+			theocracy = {
+			}
+
+			despotism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -241,7 +268,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 8 146 201 }
+		color = { 182 182 182 }
 		
 		rules = {
 			can_create_collaboration_government = no
